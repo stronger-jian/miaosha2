@@ -1,0 +1,5 @@
+10:40:05.956 [pool-3-thread-1] DEBUG o.s.s.d.r.RedisSessionExpirationPolicy - Cleaning up sessions expiring at Sat Jan 25 10:40:00 CST 2020
+10:40:05.961 [pool-2-thread-1] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+10:40:05.979 [pool-2-thread-1] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@555779c2] was not registered for synchronization because synchronization is not active
+10:40:05.980 [pool-3-thread-1] DEBUG o.s.d.r.core.RedisConnectionUtils - Opening RedisConnection
+10:40:05.980 [pool-2-thread-1] DEBUG o.s.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource

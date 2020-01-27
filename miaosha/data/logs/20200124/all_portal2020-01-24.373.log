@@ -1,0 +1,8 @@
+22:26:20.716 [http-nio-8090-exec-1] DEBUG c.m.d.S.insertSelective - ==>  Preparing: insert into stock_log ( stock_log_id, item_id, amount, status ) values ( ?, ?, ?, ? ) 
+22:26:20.720 [http-nio-8090-exec-1] DEBUG c.m.d.S.insertSelective - ==> Parameters: d8e64e2a1d4f45939dfa298939afadea(String), 2(Integer), 1(Integer), 1(Integer)
+22:26:20.723 [http-nio-8090-exec-1] DEBUG c.m.d.S.insertSelective - <==    Updates: 1
+22:26:20.723 [http-nio-8090-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@506aa906]
+22:26:20.723 [http-nio-8090-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@506aa906]
+22:26:20.724 [http-nio-8090-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@506aa906]
+22:26:20.724 [http-nio-8090-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@506aa906]
+22:26:20.724 [http-nio-8090-exec-1] DEBUG o.s.j.d.DataSourceTransactionManager - Initiating transaction commit

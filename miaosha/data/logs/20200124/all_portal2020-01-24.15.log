@@ -1,0 +1,16 @@
+12:44:09.781 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'user'
+12:44:09.789 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mqConsumer'
+12:44:09.792 [main] DEBUG o.s.c.e.PropertySourcesPropertyResolver - Found key 'mq.nameserver.addr' in PropertySource 'configurationProperties' with value of type String
+12:44:09.792 [main] DEBUG o.s.c.e.PropertySourcesPropertyResolver - Found key 'mq.nameserver.addr' in PropertySource 'environmentProperties' with value of type String
+12:44:09.793 [main] DEBUG o.s.c.e.PropertySourcesPropertyResolver - Found key 'mq.topicname' in PropertySource 'configurationProperties' with value of type String
+12:44:09.794 [main] DEBUG o.s.c.e.PropertySourcesPropertyResolver - Found key 'mq.topicname' in PropertySource 'environmentProperties' with value of type String
+12:44:09.952 [NettyClientWorkerThread_1] DEBUG i.n.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@40f58c35
+12:44:10.218 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.session.data.redis.config.annotation.web.http.RedisHttpSessionConfiguration$SessionCleanupConfiguration'
+12:44:10.223 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'org.springframework.session.data.redis.config.annotation.web.http.RedisHttpSessionConfiguration$SessionCleanupConfiguration' via constructor to bean named 'org.springframework.session.data.redis.config.annotation.web.http.RedisHttpSessionConfiguration'
+12:44:10.223 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'org.springframework.session.data.redis.config.annotation.web.http.RedisHttpSessionConfiguration$SessionCleanupConfiguration' via constructor to bean named 'sessionRepository'
+12:44:10.224 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'springSessionRedisMessageListenerContainer'
+12:44:10.225 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'springSessionRedisMessageListenerContainer' via factory method to bean named 'sessionRepository'
+12:44:10.234 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'enableRedisKeyspaceNotificationsInitializer'
+12:44:10.237 [main] DEBUG io.lettuce.core.RedisClient - Trying to get a Redis connection for: RedisURI [host='127.0.0.1', port=6379]
+12:44:10.357 [main] DEBUG i.l.c.r.DefaultEventLoopGroupProvider - Allocating executor io.netty.channel.nio.NioEventLoopGroup
+12:44:10.357 [main] DEBUG i.l.c.r.DefaultEventLoopGroupProvider - Creating executor io.netty.channel.nio.NioEventLoopGroup

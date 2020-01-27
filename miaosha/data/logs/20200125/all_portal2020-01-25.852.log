@@ -1,0 +1,4 @@
+11:49:46.751 [http-nio-8090-exec-9] DEBUG c.m.d.I.selectByPrimaryKey - ==> Parameters: 2(Integer)
+11:49:46.760 [http-nio-8090-exec-9] DEBUG c.m.d.I.selectByPrimaryKey - <==      Total: 1
+11:49:46.761 [http-nio-8090-exec-9] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7bc0aa5e]
+11:49:46.762 [http-nio-8090-exec-9] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7bc0aa5e] from current transaction

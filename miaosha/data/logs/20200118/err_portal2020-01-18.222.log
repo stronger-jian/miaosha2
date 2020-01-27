@@ -1,0 +1,4 @@
+16:09:57.685 [http-nio-8090-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.miaoshaproject.controller.OrderController#createOrder(Integer, Integer, Integer)
+16:09:57.689 [http-nio-8090-exec-3] DEBUG o.s.d.r.core.RedisConnectionUtils - Opening RedisConnection
+16:09:57.690 [http-nio-8090-exec-3] DEBUG o.s.d.r.core.RedisConnectionUtils - Closing Redis Connection.
+16:09:57.690 [http-nio-8090-exec-3] DEBUG o.s.j.d.DataSourceTransactionManager - Creating new transaction with name [com.miaoshaproject.service.Impl.OrderServiceImpl.createOrder]: PROPAGATION_REQUIRES_NEW,ISOLATION_DEFAULT

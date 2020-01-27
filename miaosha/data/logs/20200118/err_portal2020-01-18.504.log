@@ -1,0 +1,14 @@
+20:19:39.074 [http-nio-8090-exec-6] DEBUG o.s.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+20:19:39.077 [http-nio-8090-exec-6] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@289e913f] will not be managed by Spring
+20:19:39.077 [http-nio-8090-exec-6] DEBUG c.m.d.U.selectByUserId - ==>  Preparing: select id, encrpt_password, user_id from user_password where user_id = ? 
+20:19:39.077 [http-nio-8090-exec-6] DEBUG c.m.d.U.selectByUserId - ==> Parameters: 8(Integer)
+20:19:39.081 [http-nio-8090-exec-6] DEBUG c.m.d.U.selectByUserId - <==      Total: 1
+20:19:39.082 [http-nio-8090-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@64feb87f]
+20:19:39.082 [http-nio-8090-exec-6] DEBUG o.s.d.r.core.RedisConnectionUtils - Opening RedisConnection
+20:19:39.083 [http-nio-8090-exec-6] DEBUG o.s.d.r.core.RedisConnectionUtils - Closing Redis Connection.
+20:19:39.083 [http-nio-8090-exec-6] DEBUG o.s.d.r.core.RedisConnectionUtils - Opening RedisConnection
+20:19:39.083 [http-nio-8090-exec-6] DEBUG o.s.d.r.core.RedisConnectionUtils - Closing Redis Connection.
+20:19:39.084 [http-nio-8090-exec-6] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+20:19:39.084 [http-nio-8090-exec-6] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [com.miaoshaproject.response.CommonReturnType@de7366b]
+20:19:39.084 [http-nio-8090-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+20:19:39.084 [http-nio-8090-exec-6] DEBUG o.s.s.w.h.S.SESSION_LOGGER - No session found by id: Caching result for getSession(false) for this HttpServletRequest.

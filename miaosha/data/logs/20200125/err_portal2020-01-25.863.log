@@ -1,0 +1,4 @@
+11:49:56.475 [http-nio-8090-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+11:49:56.480 [http-nio-8090-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [com.miaoshaproject.response.CommonReturnType@2fe506d0]
+11:49:56.481 [http-nio-8090-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+11:49:56.481 [http-nio-8090-exec-1] DEBUG o.s.s.w.h.S.SESSION_LOGGER - No session found by id: Caching result for getSession(false) for this HttpServletRequest.

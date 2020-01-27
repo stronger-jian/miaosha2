@@ -1,0 +1,32 @@
+21:01:08.190 [http-nio-8090-exec-8] DEBUG c.m.dao.PromoDOMapper.selectByItemId - ==>  Preparing: select id, promo_name, start_time, end_time, item_id, promo_item_price from promo where item_id = ? 
+21:01:08.195 [http-nio-8090-exec-8] DEBUG c.m.dao.PromoDOMapper.selectByItemId - ==> Parameters: 2(Integer)
+21:01:08.196 [http-nio-8090-exec-8] DEBUG c.m.dao.PromoDOMapper.selectByItemId - <==      Total: 1
+21:01:08.197 [http-nio-8090-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@38ee94a3]
+21:01:08.197 [http-nio-8090-exec-8] DEBUG o.s.d.r.core.RedisConnectionUtils - Opening RedisConnection
+21:01:08.198 [http-nio-8090-exec-8] DEBUG o.s.d.r.core.RedisConnectionUtils - Closing Redis Connection.
+21:01:08.198 [http-nio-8090-exec-8] DEBUG o.s.d.r.core.RedisConnectionUtils - Opening RedisConnection
+21:01:08.198 [http-nio-8090-exec-8] DEBUG o.s.d.r.core.RedisConnectionUtils - Closing Redis Connection.
+21:01:08.199 [http-nio-8090-exec-8] DEBUG o.s.d.r.core.RedisConnectionUtils - Opening RedisConnection
+21:01:08.199 [http-nio-8090-exec-8] DEBUG o.s.d.r.core.RedisConnectionUtils - Closing Redis Connection.
+21:01:08.199 [http-nio-8090-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@38ee94a3] from current transaction
+21:01:08.199 [http-nio-8090-exec-8] DEBUG c.m.d.U.selectByPrimaryKey - ==>  Preparing: select id, name, gender, age, telphone, register_mode, third_party_id from user_info where id = ? 
+21:01:08.200 [http-nio-8090-exec-8] DEBUG c.m.d.U.selectByPrimaryKey - ==> Parameters: 8(Integer)
+21:01:08.201 [http-nio-8090-exec-8] DEBUG c.m.d.U.selectByPrimaryKey - <==      Total: 1
+21:01:08.201 [http-nio-8090-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@38ee94a3]
+21:01:08.201 [http-nio-8090-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@38ee94a3] from current transaction
+21:01:08.201 [http-nio-8090-exec-8] DEBUG c.m.d.U.selectByUserId - ==>  Preparing: select id, encrpt_password, user_id from user_password where user_id = ? 
+21:01:08.201 [http-nio-8090-exec-8] DEBUG c.m.d.U.selectByUserId - ==> Parameters: 8(Integer)
+21:01:08.202 [http-nio-8090-exec-8] DEBUG c.m.d.U.selectByUserId - <==      Total: 1
+21:01:08.202 [http-nio-8090-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@38ee94a3]
+21:01:08.202 [http-nio-8090-exec-8] DEBUG o.s.d.r.core.RedisConnectionUtils - Opening RedisConnection
+21:01:08.203 [http-nio-8090-exec-8] DEBUG o.s.d.r.core.RedisConnectionUtils - Closing Redis Connection.
+21:01:08.203 [http-nio-8090-exec-8] DEBUG o.s.d.r.core.RedisConnectionUtils - Opening RedisConnection
+21:01:08.204 [http-nio-8090-exec-8] DEBUG o.s.d.r.core.RedisConnectionUtils - Closing Redis Connection.
+21:01:08.204 [http-nio-8090-exec-8] DEBUG o.s.j.d.DataSourceTransactionManager - Participating in existing transaction
+21:01:08.205 [http-nio-8090-exec-8] DEBUG o.s.d.r.core.RedisConnectionUtils - Opening RedisConnection
+21:01:08.205 [http-nio-8090-exec-8] DEBUG o.s.d.r.core.RedisConnectionUtils - Closing Redis Connection.
+21:01:08.210 [http-nio-8090-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@38ee94a3] from current transaction
+21:01:08.210 [http-nio-8090-exec-8] DEBUG c.m.d.SequenceDoMapper.selectByName - ==>  Preparing: select name, current_value, step from sequence_info where name = ? for update 
+21:01:08.210 [http-nio-8090-exec-8] DEBUG c.m.d.SequenceDoMapper.selectByName - ==> Parameters: order_info(String)
+21:01:08.211 [http-nio-8090-exec-8] DEBUG c.m.d.SequenceDoMapper.selectByName - <==      Total: 1
+21:01:08.212 [http-nio-8090-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@38ee94a3]

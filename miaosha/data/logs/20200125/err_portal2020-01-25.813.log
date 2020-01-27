@@ -1,0 +1,4 @@
+11:49:16.464 [http-nio-8090-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+11:49:16.476 [http-nio-8090-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+11:49:16.476 [http-nio-8090-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 12 ms
+11:49:16.491 [http-nio-8090-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - GET "/item/publishpromo?id=1", parameters={masked}

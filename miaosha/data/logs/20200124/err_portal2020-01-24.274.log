@@ -1,0 +1,16 @@
+21:00:47.015 [http-nio-8090-exec-2] DEBUG c.m.d.P.selectByPrimaryKey - <==      Total: 1
+21:00:47.015 [pool-2-thread-1] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@60105520]
+21:00:47.019 [http-nio-8090-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@41b4835c]
+21:00:47.024 [http-nio-8090-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+21:00:47.024 [http-nio-8090-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@54e001b2] was not registered for synchronization because synchronization is not active
+21:00:47.024 [http-nio-8090-exec-2] DEBUG o.s.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+21:00:47.024 [http-nio-8090-exec-2] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@324a6a12] will not be managed by Spring
+21:00:47.024 [http-nio-8090-exec-2] DEBUG c.m.d.I.selectByPrimaryKey - ==>  Preparing: select id, title, price, description, sales, img_url from item where id = ? 
+21:00:47.024 [http-nio-8090-exec-2] DEBUG c.m.d.I.selectByPrimaryKey - ==> Parameters: 2(Integer)
+21:00:47.025 [http-nio-8090-exec-2] DEBUG c.m.d.I.selectByPrimaryKey - <==      Total: 1
+21:00:47.026 [http-nio-8090-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@54e001b2]
+21:00:47.026 [http-nio-8090-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+21:00:47.026 [http-nio-8090-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@add531f] was not registered for synchronization because synchronization is not active
+21:00:47.026 [http-nio-8090-exec-2] DEBUG o.s.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+21:00:47.026 [http-nio-8090-exec-2] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@324a6a12] will not be managed by Spring
+21:00:47.026 [http-nio-8090-exec-2] DEBUG c.m.d.I.selectByItemId - ==>  Preparing: select id, stock, item_id from item_stock where item_id = ? 

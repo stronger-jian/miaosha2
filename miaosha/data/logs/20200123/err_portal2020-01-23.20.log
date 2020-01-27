@@ -1,0 +1,20 @@
+15:18:31.663 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker' via constructor to bean named 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties'
+15:18:31.673 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker' via constructor to bean named 'org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@3a5ecce3'
+15:18:31.686 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'sqlSessionFactory' via factory method to bean named 'dataSource'
+15:18:31.705 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+15:18:32.212 [main] DEBUG o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [C:\Users\Lijian\Desktop\miaosha\target\classes\mapping\ItemDOMapper.xml]'
+15:18:32.244 [main] DEBUG o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [C:\Users\Lijian\Desktop\miaosha\target\classes\mapping\ItemStockDOMapper.xml]'
+15:18:32.295 [main] DEBUG o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [C:\Users\Lijian\Desktop\miaosha\target\classes\mapping\OrderInfoDOMapper.xml]'
+15:18:32.326 [main] DEBUG o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [C:\Users\Lijian\Desktop\miaosha\target\classes\mapping\PromoDOMapper.xml]'
+15:18:32.357 [main] DEBUG o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [C:\Users\Lijian\Desktop\miaosha\target\classes\mapping\SequenceDoMapper.xml]'
+15:18:32.385 [main] DEBUG o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [C:\Users\Lijian\Desktop\miaosha\target\classes\mapping\UserDOMapper.xml]'
+15:18:32.415 [main] DEBUG o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [C:\Users\Lijian\Desktop\miaosha\target\classes\mapping\UserPasswordDOMapper.xml]'
+15:18:32.422 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'sqlSessionTemplate'
+15:18:32.422 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'sqlSessionTemplate' via factory method to bean named 'sqlSessionFactory'
+15:18:32.443 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'redisConfig'
+15:18:32.444 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'globalExceptionHandler'
+15:18:32.448 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'item'
+15:18:32.452 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'itemServiceImpl'
+15:18:32.456 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mqProducer'
+15:18:32.463 [main] DEBUG o.s.c.e.PropertySourcesPropertyResolver - Found key 'mq.nameserver.addr' in PropertySource 'configurationProperties' with value of type String
+15:18:32.463 [main] DEBUG o.s.c.e.PropertySourcesPropertyResolver - Found key 'mq.nameserver.addr' in PropertySource 'environmentProperties' with value of type String

@@ -1,0 +1,8 @@
+22:09:13.732 [http-nio-8090-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 11 ms
+22:09:13.763 [http-nio-8090-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - GET "/item/publishpromo?id=1", parameters={masked}
+22:09:13.764 [http-nio-8090-exec-2] DEBUG o.s.s.w.h.S.SESSION_LOGGER - No session found by id: Caching result for getSession(false) for this HttpServletRequest.
+22:09:13.772 [http-nio-8090-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.miaoshaproject.controller.ItemController#publishpromo(Integer)
+22:09:13.798 [http-nio-8090-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+22:09:13.804 [http-nio-8090-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@43aabaea] was not registered for synchronization because synchronization is not active
+22:09:13.813 [http-nio-8090-exec-2] DEBUG o.s.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+22:09:13.909 [http-nio-8090-exec-2] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited

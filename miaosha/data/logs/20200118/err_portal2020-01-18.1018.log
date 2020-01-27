@@ -1,0 +1,4 @@
+22:43:47.022 [pool-2-thread-1] DEBUG o.s.d.r.core.RedisConnectionUtils - Opening RedisConnection
+22:43:47.027 [http-nio-8090-exec-3] DEBUG o.s.s.w.h.S.SESSION_LOGGER - No session found by id: Caching result for getSession(false) for this HttpServletRequest.
+22:43:47.026 [http-nio-8090-exec-2] DEBUG o.s.j.d.DataSourceTransactionManager - Rolling back JDBC transaction on Connection [com.mysql.jdbc.JDBC4Connection@73495b0c]
+22:43:47.033 [pool-2-thread-1] DEBUG o.s.d.r.core.RedisConnectionUtils - Closing Redis Connection.

@@ -1,0 +1,3 @@
+22:08:41.608 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+22:08:41.612 [main] DEBUG o.s.web.context.ContextLoader - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+22:08:41.612 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4030 ms

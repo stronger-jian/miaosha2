@@ -1,0 +1,2 @@
+18:44:00.001 [pool-2-thread-1] DEBUG o.s.s.d.r.RedisSessionExpirationPolicy - Cleaning up sessions expiring at Mon Jan 20 18:44:00 CST 2020
+18:44:00.006 [pool-2-thread-1] DEBUG o.s.d.r.core.RedisConnectionUtils - Opening RedisConnection

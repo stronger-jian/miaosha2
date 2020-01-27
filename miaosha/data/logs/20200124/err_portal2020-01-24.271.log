@@ -1,0 +1,4 @@
+21:00:46.795 [pool-2-thread-1] DEBUG o.s.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+21:00:46.835 [pool-2-thread-1] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+21:00:46.838 [http-nio-8090-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+21:00:46.839 [http-nio-8090-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'

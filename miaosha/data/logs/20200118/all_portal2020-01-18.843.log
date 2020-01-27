@@ -1,0 +1,8 @@
+22:09:25.168 [http-nio-8090-exec-2] DEBUG o.s.d.r.core.RedisConnectionUtils - Closing Redis Connection.
+22:09:25.177 [http-nio-8090-exec-2] DEBUG o.s.j.d.DataSourceTransactionManager - Creating new transaction with name [com.miaoshaproject.service.Impl.OrderServiceImpl.createOrder]: PROPAGATION_REQUIRES_NEW,ISOLATION_DEFAULT
+22:09:25.177 [http-nio-8090-exec-2] DEBUG o.s.j.d.DataSourceTransactionManager - Acquired Connection [com.mysql.jdbc.JDBC4Connection@5af47924] for JDBC transaction
+22:09:25.179 [http-nio-8090-exec-2] DEBUG o.s.j.d.DataSourceTransactionManager - Switching JDBC Connection [com.mysql.jdbc.JDBC4Connection@5af47924] to manual commit
+22:09:25.185 [http-nio-8090-exec-2] DEBUG o.s.d.r.core.RedisConnectionUtils - Opening RedisConnection
+22:09:25.188 [http-nio-8090-exec-2] DEBUG o.s.d.r.core.RedisConnectionUtils - Closing Redis Connection.
+22:09:25.188 [http-nio-8090-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+22:09:25.188 [http-nio-8090-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1064b41]

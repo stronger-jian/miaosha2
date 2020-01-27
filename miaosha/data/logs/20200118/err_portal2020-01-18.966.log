@@ -1,0 +1,12 @@
+22:37:27.225 [http-nio-8090-exec-4] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [com.miaoshaproject.response.CommonReturnType@25f22fde]
+22:37:27.233 [http-nio-8090-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+22:37:27.233 [http-nio-8090-exec-4] DEBUG o.s.s.w.h.S.SESSION_LOGGER - No session found by id: Caching result for getSession(false) for this HttpServletRequest.
+22:37:27.253 [http-nio-8090-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - GET "/favicon.ico", parameters={}
+22:37:27.254 [http-nio-8090-exec-5] DEBUG o.s.s.w.h.S.SESSION_LOGGER - No session found by id: Caching result for getSession(false) for this HttpServletRequest.
+22:37:27.257 [http-nio-8090-exec-5] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /favicon.ico
+22:37:27.258 [http-nio-8090-exec-5] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Using @ExceptionHandler com.miaoshaproject.controller.GlobalExceptionHandler#doError(HttpServletRequest, HttpServletResponse, Exception)
+22:37:27.260 [http-nio-8090-exec-5] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json;q=0.8', given [image/webp, image/apng, image/*, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]
+22:37:27.260 [http-nio-8090-exec-5] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [com.miaoshaproject.response.CommonReturnType@341a52c]
+22:37:27.278 [http-nio-8090-exec-5] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.NoHandlerFoundException: No handler found for GET /favicon.ico]
+22:37:27.279 [http-nio-8090-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+22:37:27.279 [http-nio-8090-exec-5] DEBUG o.s.s.w.h.S.SESSION_LOGGER - No session found by id: Caching result for getSession(false) for this HttpServletRequest.

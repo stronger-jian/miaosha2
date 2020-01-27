@@ -1,0 +1,4 @@
+22:34:03.976 [http-nio-8090-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.miaoshaproject.controller.ItemController#get(Integer)
+22:34:04.002 [http-nio-8090-exec-4] DEBUG o.s.d.r.core.RedisConnectionUtils - Opening RedisConnection
+22:34:04.005 [http-nio-8090-exec-4] DEBUG o.s.d.r.core.RedisConnectionUtils - Closing Redis Connection.
+22:34:04.007 [http-nio-8090-exec-4] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession

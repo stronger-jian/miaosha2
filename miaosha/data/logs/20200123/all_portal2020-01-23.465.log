@@ -1,0 +1,1 @@
+21:59:42.915 [SpringContextShutdownHook] DEBUG o.s.d.r.l.RedisMessageListenerContainer - Stopped RedisMessageListenerContainer

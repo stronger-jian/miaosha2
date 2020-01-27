@@ -1,0 +1,16 @@
+22:34:35.903 [http-nio-8090-exec-5] DEBUG c.m.d.S.updateByPrimaryKeySelective - ==> Parameters: 19(Integer), 1(Integer), order_info(String)
+22:34:35.912 [http-nio-8090-exec-5] DEBUG c.m.d.S.updateByPrimaryKeySelective - <==    Updates: 1
+22:34:35.912 [http-nio-8090-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@12f12f80]
+22:34:35.913 [http-nio-8090-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@12f12f80] from current transaction
+22:34:35.914 [http-nio-8090-exec-5] DEBUG c.m.d.O.insertSelective - ==>  Preparing: insert into order_info ( id, user_id, item_id, promo_id, item_price, amount, order_price ) values ( ?, ?, ?, ?, ?, ?, ? ) 
+22:34:35.914 [http-nio-8090-exec-5] DEBUG c.m.d.O.insertSelective - ==> Parameters: 202001181800(String), 8(Integer), 2(Integer), 1(Integer), 222.00(BigDecimal), 1(Integer), 222.00(BigDecimal)
+22:34:35.915 [http-nio-8090-exec-5] DEBUG c.m.d.O.insertSelective - <==    Updates: 1
+22:34:35.916 [http-nio-8090-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@12f12f80]
+22:34:35.916 [http-nio-8090-exec-5] DEBUG o.s.j.d.DataSourceTransactionManager - Participating in existing transaction
+22:34:35.916 [http-nio-8090-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@12f12f80] from current transaction
+22:34:35.916 [http-nio-8090-exec-5] DEBUG c.m.dao.ItemDOMapper.increaseSales - ==>  Preparing: update item set sales = sales+? where id = ? 
+22:34:35.916 [http-nio-8090-exec-5] DEBUG c.m.dao.ItemDOMapper.increaseSales - ==> Parameters: 1(Integer), 2(Integer)
+22:34:35.917 [http-nio-8090-exec-5] DEBUG c.m.dao.ItemDOMapper.increaseSales - <==    Updates: 1
+22:34:35.917 [http-nio-8090-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@12f12f80]
+22:34:35.917 [http-nio-8090-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@12f12f80]
+22:34:35.917 [http-nio-8090-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@12f12f80]

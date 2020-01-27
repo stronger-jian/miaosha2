@@ -1,0 +1,16 @@
+15:18:30.938 [main] DEBUG i.n.u.i.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+15:18:30.965 [main] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+15:18:30.965 [main] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
+15:18:31.006 [main] DEBUG i.n.util.internal.PlatformDependent - Platform: Windows
+15:18:31.009 [main] DEBUG i.n.util.internal.PlatformDependent0 - -Dio.netty.noUnsafe: false
+15:18:31.009 [main] DEBUG i.n.util.internal.PlatformDependent0 - Java version: 8
+15:18:31.011 [main] DEBUG i.n.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+15:18:31.013 [main] DEBUG i.n.util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+15:18:31.015 [main] DEBUG i.n.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+15:18:31.016 [main] DEBUG i.n.util.internal.PlatformDependent0 - direct buffer constructor: available
+15:18:31.017 [main] DEBUG i.n.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: available, true
+15:18:31.018 [main] DEBUG i.n.util.internal.PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+15:18:31.018 [main] DEBUG i.n.util.internal.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): available
+15:18:31.018 [main] DEBUG i.n.util.internal.PlatformDependent - sun.misc.Unsafe: available
+15:18:31.020 [main] DEBUG i.n.util.internal.PlatformDependent - -Dio.netty.tmpdir: C:\Users\Lijian\AppData\Local\Temp (java.io.tmpdir)
+15:18:31.021 [main] DEBUG i.n.util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)

@@ -1,0 +1,1 @@
+22:08:47.141 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.session.data.redis.config.annotation.web.http.RedisHttpSessionConfiguration$SessionCleanupConfiguration'

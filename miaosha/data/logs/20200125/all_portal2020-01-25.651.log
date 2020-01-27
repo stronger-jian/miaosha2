@@ -1,0 +1,9 @@
+11:38:50.381 [http-nio-8090-exec-3] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [com.miaoshaproject.response.CommonReturnType@3ad17387]
+11:38:50.381 [pool-2-thread-1] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@15a72c60] will not be managed by Spring
+11:38:50.386 [pool-2-thread-1] DEBUG c.m.d.S.selectByPrimaryKey - ==>  Preparing: select stock_log_id, item_id, amount, status from stock_log where stock_log_id = ? 
+11:38:50.387 [pool-2-thread-1] DEBUG c.m.d.S.selectByPrimaryKey - ==> Parameters: 3afbce8dc76342aba4bf0d84808483e2(String)
+11:38:50.387 [http-nio-8090-exec-3] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [com.miaoshaproject.error.BusinessException]
+11:38:50.387 [http-nio-8090-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+11:38:50.387 [http-nio-8090-exec-3] DEBUG o.s.s.w.h.S.SESSION_LOGGER - No session found by id: Caching result for getSession(false) for this HttpServletRequest.
+11:38:50.388 [pool-2-thread-1] DEBUG c.m.d.S.selectByPrimaryKey - <==      Total: 1
+11:38:50.388 [pool-2-thread-1] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@272b6585]

@@ -1,0 +1,5 @@
+16:04:10.215 [http-nio-8090-exec-5] DEBUG o.s.d.r.core.RedisConnectionUtils - Opening RedisConnection
+16:04:10.219 [http-nio-8090-exec-5] DEBUG o.s.d.r.core.RedisConnectionUtils - Closing Redis Connection.
+16:04:10.219 [http-nio-8090-exec-5] DEBUG o.s.j.d.DataSourceTransactionManager - Participating in existing transaction
+16:04:10.219 [http-nio-8090-exec-5] DEBUG o.s.d.r.core.RedisConnectionUtils - Opening RedisConnection
+16:04:10.220 [http-nio-8090-exec-5] DEBUG o.s.d.r.core.RedisConnectionUtils - Closing Redis Connection.

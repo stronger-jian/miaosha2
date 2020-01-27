@@ -1,0 +1,4 @@
+16:20:11.363 [http-nio-8090-exec-3] DEBUG c.m.d.P.selectByPrimaryKey - ==> Parameters: 1(Integer)
+16:20:11.367 [http-nio-8090-exec-3] DEBUG c.m.d.P.selectByPrimaryKey - <==      Total: 1
+16:20:11.367 [http-nio-8090-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@703c6508]
+16:20:11.368 [http-nio-8090-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession

@@ -1,0 +1,8 @@
+10:29:20.406 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'itemStockDOMapper'
+10:29:20.414 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'promoServiceImpl'
+10:29:20.415 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'promoDOMapper'
+10:29:20.419 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'cacheServiceImpl'
+10:29:20.447 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'order'
+10:29:20.456 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'user'
+10:29:20.458 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mqConsumer'
+10:29:20.461 [main] DEBUG o.s.c.e.PropertySourcesPropertyResolver - Found key 'mq.nameserver.addr' in PropertySource 'configurationProperties' with value of type String

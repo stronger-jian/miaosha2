@@ -1,0 +1,6 @@
+16:20:31.848 [http-nio-8090-exec-1] DEBUG o.s.d.r.core.RedisConnectionUtils - Opening RedisConnection
+16:20:31.852 [http-nio-8090-exec-1] DEBUG o.s.d.r.core.RedisConnectionUtils - Closing Redis Connection.
+16:20:31.852 [http-nio-8090-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@432b1c5b]
+16:20:31.852 [http-nio-8090-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@432b1c5b]
+16:20:31.852 [http-nio-8090-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@432b1c5b]
+16:20:31.852 [http-nio-8090-exec-1] DEBUG o.s.j.d.DataSourceTransactionManager - Initiating transaction commit

@@ -1,0 +1,11 @@
+22:24:13.025 [http-nio-8090-exec-2] DEBUG o.s.j.d.DataSourceTransactionManager - Participating in existing transaction
+22:24:13.030 [http-nio-8090-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@343f159e] from current transaction
+22:24:13.031 [http-nio-8090-exec-2] DEBUG c.m.dao.ItemDOMapper.increaseSales - ==>  Preparing: update item set sales = sales+? where id = ? 
+22:24:13.031 [http-nio-8090-exec-2] DEBUG c.m.dao.ItemDOMapper.increaseSales - ==> Parameters: 1(Integer), 2(Integer)
+22:24:13.032 [http-nio-8090-exec-2] DEBUG c.m.dao.ItemDOMapper.increaseSales - <==    Updates: 1
+22:24:13.033 [http-nio-8090-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@343f159e]
+22:24:13.033 [http-nio-8090-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@343f159e]
+22:24:13.033 [http-nio-8090-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@343f159e]
+22:24:13.034 [http-nio-8090-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@343f159e]
+22:24:13.034 [http-nio-8090-exec-2] DEBUG o.s.j.d.DataSourceTransactionManager - Initiating transaction commit
+22:24:13.034 [http-nio-8090-exec-2] DEBUG o.s.j.d.DataSourceTransactionManager - Committing JDBC transaction on Connection [com.mysql.jdbc.JDBC4Connection@43fda471]

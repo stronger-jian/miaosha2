@@ -1,0 +1,1 @@
+16:16:38.265 [http-nio-8090-exec-9] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.miaoshaproject.controller.ItemController#publishpromo(Integer)

@@ -1,0 +1,16 @@
+21:01:08.035 [http-nio-8090-exec-8] DEBUG o.s.j.d.DataSourceTransactionManager - Switching JDBC Connection [com.mysql.jdbc.JDBC4Connection@324a6a12] to manual commit
+21:01:08.040 [http-nio-8090-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+21:01:08.040 [http-nio-8090-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@39f4fee]
+21:01:08.057 [http-nio-8090-exec-8] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@324a6a12] will be managed by Spring
+21:01:08.057 [http-nio-8090-exec-8] DEBUG c.m.d.S.insertSelective - ==>  Preparing: insert into stock_log ( stock_log_id, item_id, amount, status ) values ( ?, ?, ?, ? ) 
+21:01:08.058 [http-nio-8090-exec-8] DEBUG c.m.d.S.insertSelective - ==> Parameters: cded45119a774ee1af8c358f9ce33d24(String), 2(Integer), 1(Integer), 1(Integer)
+21:01:08.060 [http-nio-8090-exec-8] DEBUG c.m.d.S.insertSelective - <==    Updates: 1
+21:01:08.060 [http-nio-8090-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@39f4fee]
+21:01:08.061 [http-nio-8090-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@39f4fee]
+21:01:08.061 [http-nio-8090-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@39f4fee]
+21:01:08.061 [http-nio-8090-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@39f4fee]
+21:01:08.061 [http-nio-8090-exec-8] DEBUG o.s.j.d.DataSourceTransactionManager - Initiating transaction commit
+21:01:08.061 [http-nio-8090-exec-8] DEBUG o.s.j.d.DataSourceTransactionManager - Committing JDBC transaction on Connection [com.mysql.jdbc.JDBC4Connection@324a6a12]
+21:01:08.063 [http-nio-8090-exec-8] DEBUG o.s.j.d.DataSourceTransactionManager - Releasing JDBC Connection [com.mysql.jdbc.JDBC4Connection@324a6a12] after transaction
+21:01:08.179 [http-nio-8090-exec-8] DEBUG o.s.j.d.DataSourceTransactionManager - Creating new transaction with name [com.miaoshaproject.service.Impl.OrderServiceImpl.createOrder]: PROPAGATION_REQUIRES_NEW,ISOLATION_DEFAULT
+21:01:08.179 [http-nio-8090-exec-8] DEBUG o.s.j.d.DataSourceTransactionManager - Acquired Connection [com.mysql.jdbc.JDBC4Connection@324a6a12] for JDBC transaction

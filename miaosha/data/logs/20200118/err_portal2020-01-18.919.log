@@ -1,0 +1,9 @@
+22:34:05.126 [http-nio-8090-exec-5] DEBUG c.m.d.U.selectByUserId - <==      Total: 1
+22:34:05.132 [http-nio-8090-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@12f12f80]
+22:34:05.133 [http-nio-8090-exec-5] DEBUG o.s.d.r.core.RedisConnectionUtils - Opening RedisConnection
+22:34:05.135 [http-nio-8090-exec-5] DEBUG o.s.d.r.core.RedisConnectionUtils - Closing Redis Connection.
+22:34:05.135 [http-nio-8090-exec-5] DEBUG o.s.d.r.core.RedisConnectionUtils - Opening RedisConnection
+22:34:05.138 [http-nio-8090-exec-5] DEBUG o.s.d.r.core.RedisConnectionUtils - Closing Redis Connection.
+22:34:05.138 [http-nio-8090-exec-5] DEBUG o.s.j.d.DataSourceTransactionManager - Participating in existing transaction
+22:34:05.139 [http-nio-8090-exec-5] DEBUG o.s.d.r.core.RedisConnectionUtils - Opening RedisConnection
+22:34:05.140 [http-nio-8090-exec-5] DEBUG o.s.d.r.core.RedisConnectionUtils - Closing Redis Connection.

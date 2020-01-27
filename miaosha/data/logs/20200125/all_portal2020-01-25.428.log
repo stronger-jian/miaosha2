@@ -1,0 +1,8 @@
+11:21:57.648 [http-nio-8090-exec-9] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@377c5cd5] was not registered for synchronization because synchronization is not active
+11:21:57.652 [http-nio-8090-exec-9] DEBUG o.s.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+11:21:57.652 [http-nio-8090-exec-9] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@6ac8c624] will not be managed by Spring
+11:21:57.652 [http-nio-8090-exec-9] DEBUG c.m.d.U.selectByUserId - ==>  Preparing: select id, encrpt_password, user_id from user_password where user_id = ? 
+11:21:57.652 [http-nio-8090-exec-9] DEBUG c.m.d.U.selectByUserId - ==> Parameters: 8(Integer)
+11:21:57.653 [http-nio-8090-exec-9] DEBUG c.m.d.U.selectByUserId - <==      Total: 1
+11:21:57.653 [http-nio-8090-exec-9] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@377c5cd5]
+11:21:57.653 [http-nio-8090-exec-9] DEBUG o.s.d.r.core.RedisConnectionUtils - Opening RedisConnection

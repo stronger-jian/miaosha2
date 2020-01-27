@@ -1,0 +1,4 @@
+11:37:44.387 [http-nio-8090-exec-1] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@6ac8c624] will not be managed by Spring
+11:37:44.391 [http-nio-8090-exec-1] DEBUG c.m.d.U.selectByPrimaryKey - ==>  Preparing: select id, name, gender, age, telphone, register_mode, third_party_id from user_info where id = ? 
+11:37:44.391 [http-nio-8090-exec-1] DEBUG c.m.d.U.selectByPrimaryKey - ==> Parameters: 8(Integer)
+11:37:44.392 [http-nio-8090-exec-1] DEBUG c.m.d.U.selectByPrimaryKey - <==      Total: 1

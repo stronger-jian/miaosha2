@@ -1,0 +1,16 @@
+11:49:16.492 [http-nio-8090-exec-1] DEBUG o.s.s.w.h.S.SESSION_LOGGER - No session found by id: Caching result for getSession(false) for this HttpServletRequest.
+11:49:16.499 [http-nio-8090-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.miaoshaproject.controller.ItemController#publishpromo(Integer)
+11:49:16.520 [http-nio-8090-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+11:49:16.523 [http-nio-8090-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@72447abc] was not registered for synchronization because synchronization is not active
+11:49:16.531 [http-nio-8090-exec-1] DEBUG o.s.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+11:49:16.569 [http-nio-8090-exec-1] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+11:49:16.716 [http-nio-8090-exec-1] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@275a148c] will not be managed by Spring
+11:49:16.719 [http-nio-8090-exec-1] DEBUG c.m.d.P.selectByPrimaryKey - ==>  Preparing: select id, promo_name, start_time, end_time, item_id, promo_item_price from promo where id = ? 
+11:49:16.732 [http-nio-8090-exec-1] DEBUG c.m.d.P.selectByPrimaryKey - ==> Parameters: 1(Integer)
+11:49:16.744 [http-nio-8090-exec-1] DEBUG c.m.d.P.selectByPrimaryKey - <==      Total: 1
+11:49:16.745 [http-nio-8090-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@72447abc]
+11:49:16.751 [http-nio-8090-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+11:49:16.751 [http-nio-8090-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5a9147be] was not registered for synchronization because synchronization is not active
+11:49:16.751 [http-nio-8090-exec-1] DEBUG o.s.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+11:49:16.751 [http-nio-8090-exec-1] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@275a148c] will not be managed by Spring
+11:49:16.751 [http-nio-8090-exec-1] DEBUG c.m.d.I.selectByPrimaryKey - ==>  Preparing: select id, title, price, description, sales, img_url from item where id = ? 

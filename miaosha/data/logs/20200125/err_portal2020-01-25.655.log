@@ -1,0 +1,4 @@
+11:39:02.134 [http-nio-8090-exec-5] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.miaoshaproject.controller.ItemController#publishpromo(Integer)
+11:39:02.138 [http-nio-8090-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+11:39:02.138 [http-nio-8090-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@26f550a6] was not registered for synchronization because synchronization is not active
+11:39:02.138 [http-nio-8090-exec-5] DEBUG o.s.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource

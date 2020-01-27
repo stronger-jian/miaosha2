@@ -1,0 +1,16 @@
+11:31:29.535 [pool-2-thread-1] DEBUG o.s.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+11:31:29.536 [http-nio-8090-exec-2] DEBUG o.s.d.r.core.RedisConnectionUtils - Opening RedisConnection
+11:31:29.542 [pool-2-thread-1] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@6ac8c624] will not be managed by Spring
+11:31:29.542 [pool-2-thread-1] DEBUG c.m.d.S.selectByPrimaryKey - ==>  Preparing: select stock_log_id, item_id, amount, status from stock_log where stock_log_id = ? 
+11:31:29.542 [pool-2-thread-1] DEBUG c.m.d.S.selectByPrimaryKey - ==> Parameters: 78c2d51e1bc34478b5f47a4411ab1b06(String)
+11:31:29.542 [http-nio-8090-exec-2] DEBUG o.s.d.r.core.RedisConnectionUtils - Closing Redis Connection.
+11:31:29.543 [http-nio-8090-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+11:31:29.543 [http-nio-8090-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@491de75a] was not registered for synchronization because synchronization is not active
+11:31:29.543 [http-nio-8090-exec-2] DEBUG o.s.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+11:31:29.543 [pool-2-thread-1] DEBUG c.m.d.S.selectByPrimaryKey - <==      Total: 1
+11:31:29.543 [pool-2-thread-1] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3856a9e]
+11:31:29.543 [http-nio-8090-exec-2] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@6ac8c624] will not be managed by Spring
+11:31:29.543 [http-nio-8090-exec-2] DEBUG c.m.d.I.selectByPrimaryKey - ==>  Preparing: select id, title, price, description, sales, img_url from item where id = ? 
+11:31:29.543 [http-nio-8090-exec-2] DEBUG c.m.d.I.selectByPrimaryKey - ==> Parameters: 2(Integer)
+11:31:29.544 [http-nio-8090-exec-2] DEBUG c.m.d.I.selectByPrimaryKey - <==      Total: 1
+11:31:29.544 [http-nio-8090-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@491de75a]

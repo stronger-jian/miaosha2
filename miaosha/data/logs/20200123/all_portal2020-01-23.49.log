@@ -1,0 +1,8 @@
+15:22:16.579 [http-nio-8090-exec-2] DEBUG o.s.s.w.h.S.SESSION_LOGGER - No session found by id: Caching result for getSession(false) for this HttpServletRequest.
+15:22:16.594 [http-nio-8090-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.miaoshaproject.controller.ItemController#publishpromo(Integer)
+15:22:16.632 [http-nio-8090-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+15:22:16.643 [http-nio-8090-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6844e3ea] was not registered for synchronization because synchronization is not active
+15:22:16.658 [http-nio-8090-exec-2] DEBUG o.s.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+15:22:17.003 [http-nio-8090-exec-2] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+15:22:17.258 [http-nio-8090-exec-2] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@14fa1078] will not be managed by Spring
+15:22:17.262 [http-nio-8090-exec-2] DEBUG c.m.d.P.selectByPrimaryKey - ==>  Preparing: select id, promo_name, start_time, end_time, item_id, promo_item_price from promo where id = ? 

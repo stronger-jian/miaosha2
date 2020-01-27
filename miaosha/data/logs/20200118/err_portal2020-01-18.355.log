@@ -1,0 +1,16 @@
+16:19:10.292 [http-nio-8090-exec-10] DEBUG o.s.d.r.core.RedisConnectionUtils - Closing Redis Connection.
+16:19:10.295 [http-nio-8090-exec-10] DEBUG o.s.d.r.core.RedisConnectionUtils - Opening RedisConnection
+16:19:10.296 [http-nio-8090-exec-10] DEBUG o.s.d.r.core.RedisConnectionUtils - Closing Redis Connection.
+16:19:10.296 [http-nio-8090-exec-10] DEBUG o.s.d.r.core.RedisConnectionUtils - Opening RedisConnection
+16:19:10.297 [http-nio-8090-exec-10] DEBUG o.s.d.r.core.RedisConnectionUtils - Closing Redis Connection.
+16:19:10.297 [http-nio-8090-exec-10] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ead41dc] from current transaction
+16:19:10.297 [http-nio-8090-exec-10] DEBUG c.m.d.U.selectByPrimaryKey - ==>  Preparing: select id, name, gender, age, telphone, register_mode, third_party_id from user_info where id = ? 
+16:19:10.297 [http-nio-8090-exec-10] DEBUG c.m.d.U.selectByPrimaryKey - ==> Parameters: 8(Integer)
+16:19:10.298 [http-nio-8090-exec-10] DEBUG c.m.d.U.selectByPrimaryKey - <==      Total: 1
+16:19:10.298 [http-nio-8090-exec-10] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ead41dc]
+16:19:10.298 [http-nio-8090-exec-10] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ead41dc] from current transaction
+16:19:10.298 [http-nio-8090-exec-10] DEBUG c.m.d.U.selectByUserId - ==>  Preparing: select id, encrpt_password, user_id from user_password where user_id = ? 
+16:19:10.298 [http-nio-8090-exec-10] DEBUG c.m.d.U.selectByUserId - ==> Parameters: 8(Integer)
+16:19:10.299 [http-nio-8090-exec-10] DEBUG c.m.d.U.selectByUserId - <==      Total: 1
+16:19:10.299 [http-nio-8090-exec-10] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ead41dc]
+16:19:10.299 [http-nio-8090-exec-10] DEBUG o.s.d.r.core.RedisConnectionUtils - Opening RedisConnection

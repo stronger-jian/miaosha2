@@ -1,0 +1,4 @@
+22:45:05.691 [pool-2-thread-1] DEBUG o.s.d.r.core.RedisConnectionUtils - Opening RedisConnection
+22:45:20.766 [http-nio-8090-exec-6] DEBUG o.s.j.d.DataSourceTransactionManager - Initiating transaction rollback
+22:45:20.782 [pool-2-thread-1] DEBUG o.s.d.r.core.RedisConnectionUtils - Closing Redis Connection.
+22:45:20.789 [http-nio-8090-exec-6] DEBUG o.s.j.d.DataSourceTransactionManager - Rolling back JDBC transaction on Connection [com.mysql.jdbc.JDBC4Connection@73495b0c]

@@ -1,0 +1,31 @@
+22:21:29.346 [main] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+22:21:29.352 [main] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+22:21:29.352 [main] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+22:21:29.353 [main] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+22:21:29.356 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'itemDOMapper'
+22:21:29.359 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'itemStockDOMapper'
+22:21:29.363 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'promoServiceImpl'
+22:21:29.364 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'promoDOMapper'
+22:21:29.398 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'redisTemplate'
+22:21:29.399 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'redisTemplate' via factory method to bean named 'redisConnectionFactory'
+22:21:29.427 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'cacheServiceImpl'
+22:21:29.483 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'order'
+22:21:29.485 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'orderServiceImpl'
+22:21:29.487 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'userServiceImpl'
+22:21:29.489 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'userPasswordDOMapper'
+22:21:29.498 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'orderInfoDOMapper'
+22:21:29.500 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'sequenceDoMapper'
+22:21:29.539 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'user'
+22:21:29.541 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mqConsumer'
+22:21:29.546 [main] DEBUG o.s.c.e.PropertySourcesPropertyResolver - Found key 'mq.nameserver.addr' in PropertySource 'configurationProperties' with value of type String
+22:21:29.546 [main] DEBUG o.s.c.e.PropertySourcesPropertyResolver - Found key 'mq.nameserver.addr' in PropertySource 'environmentProperties' with value of type String
+22:21:29.547 [main] DEBUG o.s.c.e.PropertySourcesPropertyResolver - Found key 'mq.topicname' in PropertySource 'configurationProperties' with value of type String
+22:21:29.547 [main] DEBUG o.s.c.e.PropertySourcesPropertyResolver - Found key 'mq.topicname' in PropertySource 'environmentProperties' with value of type String
+22:21:29.799 [NettyClientWorkerThread_1] DEBUG i.n.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@57a57452
+22:21:30.016 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.session.data.redis.config.annotation.web.http.RedisHttpSessionConfiguration$SessionCleanupConfiguration'
+22:21:30.021 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'org.springframework.session.data.redis.config.annotation.web.http.RedisHttpSessionConfiguration$SessionCleanupConfiguration' via constructor to bean named 'org.springframework.session.data.redis.config.annotation.web.http.RedisHttpSessionConfiguration'
+22:21:30.022 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'org.springframework.session.data.redis.config.annotation.web.http.RedisHttpSessionConfiguration$SessionCleanupConfiguration' via constructor to bean named 'sessionRepository'
+22:21:30.023 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'springSessionRedisMessageListenerContainer'
+22:21:30.024 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'springSessionRedisMessageListenerContainer' via factory method to bean named 'sessionRepository'
+22:21:30.034 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'enableRedisKeyspaceNotificationsInitializer'
+22:21:30.038 [main] DEBUG io.lettuce.core.RedisClient - Trying to get a Redis connection for: RedisURI [host='127.0.0.1', port=6379]

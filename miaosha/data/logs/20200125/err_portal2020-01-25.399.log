@@ -1,0 +1,4 @@
+11:20:01.062 [pool-3-thread-1] DEBUG o.s.d.r.core.RedisConnectionUtils - Closing Redis Connection.
+11:20:01.062 [http-nio-8090-exec-1] DEBUG o.s.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+11:20:01.067 [pool-3-thread-1] DEBUG o.s.d.r.core.RedisConnectionUtils - Opening RedisConnection
+11:20:01.068 [http-nio-8090-exec-1] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@6ac8c624] will not be managed by Spring

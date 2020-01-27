@@ -1,0 +1,4 @@
+11:49:46.741 [http-nio-8090-exec-9] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+11:49:46.747 [http-nio-8090-exec-9] DEBUG org.mybatis.spring.SqlSessionUtils - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7bc0aa5e]
+11:49:46.748 [http-nio-8090-exec-9] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@7c169d37] will be managed by Spring
+11:49:46.749 [http-nio-8090-exec-9] DEBUG c.m.d.I.selectByPrimaryKey - ==>  Preparing: select id, title, price, description, sales, img_url from item where id = ? 

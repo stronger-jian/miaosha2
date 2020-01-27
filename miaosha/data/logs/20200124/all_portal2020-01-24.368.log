@@ -1,0 +1,19 @@
+22:26:13.967 [http-nio-8090-exec-9] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+22:26:13.974 [http-nio-8090-exec-9] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3263e98a] was not registered for synchronization because synchronization is not active
+22:26:13.974 [http-nio-8090-exec-9] DEBUG o.s.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+22:26:13.974 [http-nio-8090-exec-9] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@66fb1ed3] will not be managed by Spring
+22:26:13.975 [http-nio-8090-exec-9] DEBUG c.m.d.I.selectByItemId - ==>  Preparing: select id, stock, item_id from item_stock where item_id = ? 
+22:26:13.976 [http-nio-8090-exec-9] DEBUG c.m.d.I.selectByItemId - ==> Parameters: 1(Integer)
+22:26:13.977 [http-nio-8090-exec-9] DEBUG c.m.d.I.selectByItemId - <==      Total: 1
+22:26:13.977 [http-nio-8090-exec-9] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3263e98a]
+22:26:13.978 [http-nio-8090-exec-9] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+22:26:13.978 [http-nio-8090-exec-9] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [com.miaoshaproject.response.CommonReturnType@790dc9ca]
+22:26:13.984 [http-nio-8090-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+22:26:13.984 [http-nio-8090-exec-9] DEBUG o.s.s.w.h.S.SESSION_LOGGER - No session found by id: Caching result for getSession(false) for this HttpServletRequest.
+22:26:14.637 [http-nio-8090-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - GET "/item/get?id=2", parameters={masked}
+22:26:14.637 [http-nio-8090-exec-10] DEBUG o.s.s.w.h.S.SESSION_LOGGER - No session found by id: Caching result for getSession(false) for this HttpServletRequest.
+22:26:14.638 [http-nio-8090-exec-10] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.miaoshaproject.controller.ItemController#get(Integer)
+22:26:14.640 [http-nio-8090-exec-10] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+22:26:14.640 [http-nio-8090-exec-10] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [com.miaoshaproject.response.CommonReturnType@4b97f551]
+22:26:14.641 [http-nio-8090-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+22:26:14.641 [http-nio-8090-exec-10] DEBUG o.s.s.w.h.S.SESSION_LOGGER - No session found by id: Caching result for getSession(false) for this HttpServletRequest.

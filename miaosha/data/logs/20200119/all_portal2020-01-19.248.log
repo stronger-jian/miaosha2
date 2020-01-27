@@ -1,0 +1,1 @@
+22:21:30.202 [main] DEBUG i.l.c.r.DefaultEventLoopGroupProvider - Allocating executor io.netty.channel.nio.NioEventLoopGroup

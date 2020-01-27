@@ -1,0 +1,5 @@
+11:49:43.811 [http-nio-8090-exec-9] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5e90523]
+11:49:43.815 [http-nio-8090-exec-9] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5e90523]
+11:49:43.816 [http-nio-8090-exec-9] DEBUG o.s.j.d.DataSourceTransactionManager - Initiating transaction commit
+11:49:43.817 [http-nio-8090-exec-9] DEBUG o.s.j.d.DataSourceTransactionManager - Committing JDBC transaction on Connection [com.mysql.jdbc.JDBC4Connection@7c169d37]
+11:49:43.819 [http-nio-8090-exec-9] DEBUG o.s.j.d.DataSourceTransactionManager - Releasing JDBC Connection [com.mysql.jdbc.JDBC4Connection@7c169d37] after transaction

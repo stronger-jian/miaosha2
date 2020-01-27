@@ -1,0 +1,4 @@
+15:18:26.646 [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Ignored because not a concrete top-level class: file [C:\Users\Lijian\Desktop\miaosha\target\classes\com\miaoshaproject\dao\ItemDOMapper.class]
+15:18:26.661 [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Ignored because not a concrete top-level class: file [C:\Users\Lijian\Desktop\miaosha\target\classes\com\miaoshaproject\dao\ItemStockDOMapper.class]
+15:18:26.661 [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Ignored because not a concrete top-level class: file [C:\Users\Lijian\Desktop\miaosha\target\classes\com\miaoshaproject\dao\OrderInfoDOMapper.class]
+15:18:26.668 [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Ignored because not a concrete top-level class: file [C:\Users\Lijian\Desktop\miaosha\target\classes\com\miaoshaproject\dao\PromoDOMapper.class]

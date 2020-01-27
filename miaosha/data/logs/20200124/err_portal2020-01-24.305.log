@@ -1,0 +1,8 @@
+21:01:42.997 [pool-2-thread-1] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@9c5e2f5] will not be managed by Spring
+21:01:43.366 [ConsumeMessageThread_1] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+21:01:43.366 [ConsumeMessageThread_2] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+21:01:42.998 [http-nio-8090-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+21:01:43.367 [pool-2-thread-1] DEBUG c.m.d.S.selectByPrimaryKey - ==>  Preparing: select stock_log_id, item_id, amount, status from stock_log where stock_log_id = ? 
+21:01:43.367 [ConsumeMessageThread_1] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4a8a1a59] was not registered for synchronization because synchronization is not active
+21:01:43.367 [ConsumeMessageThread_2] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5709d33d] was not registered for synchronization because synchronization is not active
+21:01:43.367 [http-nio-8090-exec-8] DEBUG o.s.s.w.h.S.SESSION_LOGGER - No session found by id: Caching result for getSession(false) for this HttpServletRequest.

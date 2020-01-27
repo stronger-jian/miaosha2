@@ -1,0 +1,16 @@
+11:39:39.354 [pool-2-thread-1] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@277910c] was not registered for synchronization because synchronization is not active
+11:39:39.989 [http-nio-8090-exec-3] DEBUG o.s.d.r.core.RedisConnectionUtils - Opening RedisConnection
+11:39:39.993 [pool-2-thread-1] DEBUG o.s.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+11:39:39.993 [pool-2-thread-1] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@15a72c60] will not be managed by Spring
+11:39:39.994 [pool-2-thread-1] DEBUG c.m.d.S.selectByPrimaryKey - ==>  Preparing: select stock_log_id, item_id, amount, status from stock_log where stock_log_id = ? 
+11:39:39.994 [http-nio-8090-exec-3] DEBUG o.s.d.r.core.RedisConnectionUtils - Closing Redis Connection.
+11:39:39.994 [http-nio-8090-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+11:39:39.994 [http-nio-8090-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4426bc1e] was not registered for synchronization because synchronization is not active
+11:39:39.994 [pool-2-thread-1] DEBUG c.m.d.S.selectByPrimaryKey - ==> Parameters: 3afbce8dc76342aba4bf0d84808483e2(String)
+11:39:39.994 [http-nio-8090-exec-3] DEBUG o.s.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+11:39:39.994 [http-nio-8090-exec-3] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@6ac8c624] will not be managed by Spring
+11:39:39.994 [http-nio-8090-exec-3] DEBUG c.m.d.I.selectByPrimaryKey - ==>  Preparing: select id, title, price, description, sales, img_url from item where id = ? 
+11:39:39.994 [http-nio-8090-exec-3] DEBUG c.m.d.I.selectByPrimaryKey - ==> Parameters: 2(Integer)
+11:39:39.995 [pool-2-thread-1] DEBUG c.m.d.S.selectByPrimaryKey - <==      Total: 1
+11:39:39.995 [http-nio-8090-exec-3] DEBUG c.m.d.I.selectByPrimaryKey - <==      Total: 1
+11:39:39.995 [pool-2-thread-1] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@277910c]

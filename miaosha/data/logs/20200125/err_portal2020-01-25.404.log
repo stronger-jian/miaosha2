@@ -1,0 +1,2 @@
+11:20:54.457 [pool-2-thread-1] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+11:20:54.479 [http-nio-8090-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]

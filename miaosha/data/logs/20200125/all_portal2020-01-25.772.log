@@ -1,0 +1,2 @@
+11:45:18.025 [pool-3-thread-1] DEBUG o.s.s.d.r.RedisSessionExpirationPolicy - Cleaning up sessions expiring at Sat Jan 25 11:45:00 CST 2020
+11:45:18.036 [pool-2-thread-1] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@15a72c60] will not be managed by Spring

@@ -1,0 +1,4 @@
+20:55:00.809 [http-nio-8090-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+20:55:00.832 [http-nio-8090-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - GET "/item/publishpromo?id=1", parameters={masked}
+20:55:00.834 [http-nio-8090-exec-2] DEBUG o.s.s.w.h.S.SESSION_LOGGER - No session found by id: Caching result for getSession(false) for this HttpServletRequest.
+20:55:00.837 [http-nio-8090-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.miaoshaproject.controller.ItemController#publishpromo(Integer)

@@ -1,0 +1,9 @@
+11:31:45.518 [http-nio-8090-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1ca3d3d8]
+11:31:45.522 [http-nio-8090-exec-6] DEBUG o.s.d.r.core.RedisConnectionUtils - Opening RedisConnection
+11:31:45.522 [http-nio-8090-exec-6] DEBUG o.s.d.r.core.RedisConnectionUtils - Closing Redis Connection.
+11:31:45.523 [http-nio-8090-exec-6] DEBUG o.s.d.r.core.RedisConnectionUtils - Opening RedisConnection
+11:31:45.523 [http-nio-8090-exec-6] DEBUG o.s.d.r.core.RedisConnectionUtils - Closing Redis Connection.
+11:31:45.524 [http-nio-8090-exec-6] DEBUG o.s.d.r.core.RedisConnectionUtils - Opening RedisConnection
+11:31:45.524 [http-nio-8090-exec-6] DEBUG o.s.d.r.core.RedisConnectionUtils - Closing Redis Connection.
+11:31:45.524 [http-nio-8090-exec-6] DEBUG o.s.d.r.core.RedisConnectionUtils - Opening RedisConnection
+11:31:45.525 [http-nio-8090-exec-6] DEBUG o.s.d.r.core.RedisConnectionUtils - Closing Redis Connection.

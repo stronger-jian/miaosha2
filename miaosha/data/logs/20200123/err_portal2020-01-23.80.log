@@ -1,0 +1,2 @@
+15:25:00.006 [pool-3-thread-1] DEBUG o.s.d.r.core.RedisConnectionUtils - Opening RedisConnection
+15:25:00.013 [pool-3-thread-1] DEBUG o.s.d.r.core.RedisConnectionUtils - Closing Redis Connection.

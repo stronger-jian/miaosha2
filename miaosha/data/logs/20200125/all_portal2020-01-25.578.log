@@ -1,0 +1,4 @@
+11:34:12.431 [http-nio-8090-exec-10] DEBUG o.s.s.w.h.S.SESSION_LOGGER - No session found by id: Caching result for getSession(false) for this HttpServletRequest.
+11:34:12.445 [http-nio-8090-exec-10] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.miaoshaproject.controller.OrderController#generatetoken(Integer, Integer)
+11:34:12.446 [http-nio-8090-exec-10] DEBUG o.s.d.r.core.RedisConnectionUtils - Opening RedisConnection
+11:34:12.447 [http-nio-8090-exec-10] DEBUG o.s.d.r.core.RedisConnectionUtils - Closing Redis Connection.

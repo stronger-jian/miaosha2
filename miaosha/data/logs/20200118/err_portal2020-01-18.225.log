@@ -1,0 +1,16 @@
+16:09:57.701 [http-nio-8090-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4d2455d] from current transaction
+16:09:57.705 [http-nio-8090-exec-3] DEBUG c.m.dao.PromoDOMapper.selectByItemId - ==>  Preparing: select id, promo_name, start_time, end_time, item_id, promo_item_price from promo where item_id = ? 
+16:09:57.705 [http-nio-8090-exec-3] DEBUG c.m.dao.PromoDOMapper.selectByItemId - ==> Parameters: 2(Integer)
+16:09:57.706 [http-nio-8090-exec-3] DEBUG c.m.dao.PromoDOMapper.selectByItemId - <==      Total: 1
+16:09:57.706 [http-nio-8090-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4d2455d]
+16:09:57.707 [http-nio-8090-exec-3] DEBUG o.s.d.r.core.RedisConnectionUtils - Opening RedisConnection
+16:09:57.708 [http-nio-8090-exec-3] DEBUG o.s.d.r.core.RedisConnectionUtils - Closing Redis Connection.
+16:09:57.708 [http-nio-8090-exec-3] DEBUG o.s.d.r.core.RedisConnectionUtils - Opening RedisConnection
+16:09:57.709 [http-nio-8090-exec-3] DEBUG o.s.d.r.core.RedisConnectionUtils - Closing Redis Connection.
+16:09:57.709 [http-nio-8090-exec-3] DEBUG o.s.d.r.core.RedisConnectionUtils - Opening RedisConnection
+16:09:57.709 [http-nio-8090-exec-3] DEBUG o.s.d.r.core.RedisConnectionUtils - Closing Redis Connection.
+16:09:57.709 [http-nio-8090-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4d2455d] from current transaction
+16:09:57.709 [http-nio-8090-exec-3] DEBUG c.m.d.U.selectByPrimaryKey - ==>  Preparing: select id, name, gender, age, telphone, register_mode, third_party_id from user_info where id = ? 
+16:09:57.710 [http-nio-8090-exec-3] DEBUG c.m.d.U.selectByPrimaryKey - ==> Parameters: 8(Integer)
+16:09:57.710 [http-nio-8090-exec-3] DEBUG c.m.d.U.selectByPrimaryKey - <==      Total: 1
+16:09:57.710 [http-nio-8090-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4d2455d]

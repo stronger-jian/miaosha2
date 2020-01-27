@@ -1,0 +1,16 @@
+15:22:46.157 [http-nio-8090-exec-8] DEBUG o.s.d.r.core.RedisConnectionUtils - Opening RedisConnection
+15:22:46.163 [http-nio-8090-exec-8] DEBUG o.s.d.r.core.RedisConnectionUtils - Closing Redis Connection.
+15:22:46.164 [http-nio-8090-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4ad28101] from current transaction
+15:22:46.167 [http-nio-8090-exec-8] DEBUG c.m.d.U.selectByPrimaryKey - ==>  Preparing: select id, name, gender, age, telphone, register_mode, third_party_id from user_info where id = ? 
+15:22:46.174 [http-nio-8090-exec-8] DEBUG c.m.d.U.selectByPrimaryKey - ==> Parameters: 8(Integer)
+15:22:46.188 [http-nio-8090-exec-8] DEBUG c.m.d.U.selectByPrimaryKey - <==      Total: 1
+15:22:46.197 [http-nio-8090-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4ad28101]
+15:22:46.197 [http-nio-8090-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4ad28101] from current transaction
+15:22:46.199 [http-nio-8090-exec-8] DEBUG c.m.d.U.selectByUserId - ==>  Preparing: select id, encrpt_password, user_id from user_password where user_id = ? 
+15:22:46.200 [http-nio-8090-exec-8] DEBUG c.m.d.U.selectByUserId - ==> Parameters: 8(Integer)
+15:22:46.203 [http-nio-8090-exec-8] DEBUG c.m.d.U.selectByUserId - <==      Total: 1
+15:22:46.204 [http-nio-8090-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4ad28101]
+15:22:46.205 [http-nio-8090-exec-8] DEBUG o.s.d.r.core.RedisConnectionUtils - Opening RedisConnection
+15:22:46.207 [http-nio-8090-exec-8] DEBUG o.s.d.r.core.RedisConnectionUtils - Closing Redis Connection.
+15:22:46.208 [http-nio-8090-exec-8] DEBUG o.s.d.r.core.RedisConnectionUtils - Opening RedisConnection
+15:22:46.209 [http-nio-8090-exec-8] DEBUG o.s.d.r.core.RedisConnectionUtils - Closing Redis Connection.

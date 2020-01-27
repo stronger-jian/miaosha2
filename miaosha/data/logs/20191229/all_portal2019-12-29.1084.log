@@ -1,0 +1,1 @@
+14:49:00.031 [lettuce-nioEventLoop-4-1] DEBUG i.l.core.protocol.RedisStateMachine - Decode AsyncCommand [type=DEL, output=IntegerOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]

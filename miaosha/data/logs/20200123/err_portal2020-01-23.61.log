@@ -1,0 +1,5 @@
+15:22:31.343 [http-nio-8090-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - POST "/order/createorder?token=0f314be605d0466daaab8f21270749c8", parameters={masked}
+15:22:31.349 [http-nio-8090-exec-8] DEBUG o.s.s.w.h.S.SESSION_LOGGER - No session found by id: Caching result for getSession(false) for this HttpServletRequest.
+15:22:31.349 [http-nio-8090-exec-8] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.miaoshaproject.controller.OrderController#createOrder(Integer, Integer, Integer)
+15:22:31.351 [http-nio-8090-exec-8] DEBUG o.s.d.r.core.RedisConnectionUtils - Opening RedisConnection
+15:22:31.408 [http-nio-8090-exec-8] DEBUG o.s.d.r.core.RedisConnectionUtils - Closing Redis Connection.

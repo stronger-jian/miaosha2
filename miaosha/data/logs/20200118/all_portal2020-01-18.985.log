@@ -1,0 +1,16 @@
+22:37:39.726 [http-nio-8090-exec-10] DEBUG c.m.d.I.selectByItemId - ==> Parameters: 2(Integer)
+22:37:39.731 [http-nio-8090-exec-10] DEBUG c.m.d.I.selectByItemId - <==      Total: 1
+22:37:39.732 [http-nio-8090-exec-10] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@56d340db]
+22:37:39.732 [http-nio-8090-exec-10] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@56d340db] from current transaction
+22:37:39.732 [http-nio-8090-exec-10] DEBUG c.m.dao.PromoDOMapper.selectByItemId - ==>  Preparing: select id, promo_name, start_time, end_time, item_id, promo_item_price from promo where item_id = ? 
+22:37:39.733 [http-nio-8090-exec-10] DEBUG c.m.dao.PromoDOMapper.selectByItemId - ==> Parameters: 2(Integer)
+22:37:39.734 [http-nio-8090-exec-10] DEBUG c.m.dao.PromoDOMapper.selectByItemId - <==      Total: 1
+22:37:39.735 [http-nio-8090-exec-10] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@56d340db]
+22:37:39.735 [http-nio-8090-exec-10] DEBUG o.s.d.r.core.RedisConnectionUtils - Opening RedisConnection
+22:37:39.736 [http-nio-8090-exec-10] DEBUG o.s.d.r.core.RedisConnectionUtils - Closing Redis Connection.
+22:37:39.736 [http-nio-8090-exec-10] DEBUG o.s.d.r.core.RedisConnectionUtils - Opening RedisConnection
+22:37:39.736 [http-nio-8090-exec-10] DEBUG o.s.d.r.core.RedisConnectionUtils - Closing Redis Connection.
+22:37:39.736 [http-nio-8090-exec-10] DEBUG o.s.d.r.core.RedisConnectionUtils - Opening RedisConnection
+22:37:39.737 [http-nio-8090-exec-10] DEBUG o.s.d.r.core.RedisConnectionUtils - Closing Redis Connection.
+22:37:39.737 [http-nio-8090-exec-10] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@56d340db] from current transaction
+22:37:39.737 [http-nio-8090-exec-10] DEBUG c.m.d.U.selectByPrimaryKey - ==>  Preparing: select id, name, gender, age, telphone, register_mode, third_party_id from user_info where id = ? 

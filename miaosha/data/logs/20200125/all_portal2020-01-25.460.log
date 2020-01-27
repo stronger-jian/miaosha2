@@ -1,0 +1,7 @@
+11:23:03.349 [pool-3-thread-1] DEBUG o.s.d.r.core.RedisConnectionUtils - Closing Redis Connection.
+11:23:03.351 [http-nio-8090-exec-4] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Using @ExceptionHandler com.miaoshaproject.controller.OrderController#handlerException(HttpServletRequest, Exception)
+11:23:03.356 [http-nio-8090-exec-4] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+11:23:03.356 [http-nio-8090-exec-4] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [com.miaoshaproject.response.CommonReturnType@3dc49ea7]
+11:23:03.357 [http-nio-8090-exec-4] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [com.miaoshaproject.error.BusinessException]
+11:23:03.357 [http-nio-8090-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+11:23:03.357 [http-nio-8090-exec-4] DEBUG o.s.s.w.h.S.SESSION_LOGGER - No session found by id: Caching result for getSession(false) for this HttpServletRequest.

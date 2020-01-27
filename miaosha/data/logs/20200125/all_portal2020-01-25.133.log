@@ -1,0 +1,8 @@
+10:37:59.692 [http-nio-8090-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - GET "/item/get?id=2", parameters={masked}
+10:37:59.699 [http-nio-8090-exec-10] DEBUG o.s.s.w.h.S.SESSION_LOGGER - No session found by id: Caching result for getSession(false) for this HttpServletRequest.
+10:37:59.701 [http-nio-8090-exec-10] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.miaoshaproject.controller.ItemController#get(Integer)
+10:37:59.730 [http-nio-8090-exec-10] DEBUG o.s.d.r.core.RedisConnectionUtils - Opening RedisConnection
+10:37:59.732 [http-nio-8090-exec-10] DEBUG o.s.d.r.core.RedisConnectionUtils - Closing Redis Connection.
+10:37:59.740 [http-nio-8090-exec-10] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+10:37:59.743 [http-nio-8090-exec-10] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@14d3c5eb] was not registered for synchronization because synchronization is not active
+10:37:59.751 [http-nio-8090-exec-10] DEBUG o.s.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource

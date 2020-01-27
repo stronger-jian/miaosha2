@@ -1,0 +1,13 @@
+22:26:13.176 [http-nio-8090-exec-1] DEBUG o.s.j.d.DataSourceTransactionManager - Releasing JDBC Connection [com.mysql.jdbc.JDBC4Connection@43fda471] after transaction
+22:26:13.185 [http-nio-8090-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+22:26:13.185 [http-nio-8090-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [com.miaoshaproject.response.CommonReturnType@6102c723]
+22:26:13.186 [http-nio-8090-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+22:26:13.186 [http-nio-8090-exec-1] DEBUG o.s.s.w.h.S.SESSION_LOGGER - No session found by id: Caching result for getSession(false) for this HttpServletRequest.
+22:26:13.199 [ConsumeMessageThread_2] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+22:26:13.200 [ConsumeMessageThread_2] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4519099d] was not registered for synchronization because synchronization is not active
+22:26:13.200 [ConsumeMessageThread_2] DEBUG o.s.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+22:26:13.200 [ConsumeMessageThread_2] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@43fda471] will not be managed by Spring
+22:26:13.200 [ConsumeMessageThread_2] DEBUG c.m.d.I.deacreaseStock - ==>  Preparing: update item_stock set stock = stock-? where item_id = ? and stock>=? 
+22:26:13.200 [ConsumeMessageThread_2] DEBUG c.m.d.I.deacreaseStock - ==> Parameters: 1(Integer), 2(Integer), 1(Integer)
+22:26:13.202 [ConsumeMessageThread_2] DEBUG c.m.d.I.deacreaseStock - <==    Updates: 1
+22:26:13.203 [ConsumeMessageThread_2] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4519099d]

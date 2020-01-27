@@ -1,0 +1,4 @@
+20:52:25.504 [pool-2-thread-1] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@433d7483] will not be managed by Spring
+20:52:25.509 [pool-2-thread-1] DEBUG c.m.d.S.selectByPrimaryKey - ==>  Preparing: select stock_log_id, item_id, amount, status from stock_log where stock_log_id = ? 
+20:52:25.509 [pool-2-thread-1] DEBUG c.m.d.S.selectByPrimaryKey - ==> Parameters: 0d935f520a794e01b841624cf709ccf6(String)
+20:52:25.510 [pool-2-thread-1] DEBUG c.m.d.S.selectByPrimaryKey - <==      Total: 1

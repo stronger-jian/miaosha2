@@ -1,0 +1,4 @@
+15:51:53.469 [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\Lijian\Desktop\miaosha\target\classes\com\miaoshaproject\controller\GlobalExceptionHandler.class]
+15:51:53.482 [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\Lijian\Desktop\miaosha\target\classes\com\miaoshaproject\controller\ItemController.class]
+15:51:53.483 [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\Lijian\Desktop\miaosha\target\classes\com\miaoshaproject\controller\OrderController.class]
+15:51:53.485 [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\Lijian\Desktop\miaosha\target\classes\com\miaoshaproject\controller\UserController.class]

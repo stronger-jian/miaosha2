@@ -1,0 +1,8 @@
+15:51:59.122 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.session.SessionRepositoryFilterConfiguration'
+15:51:59.141 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'spring.session-org.springframework.boot.autoconfigure.session.SessionProperties'
+15:51:59.165 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'springSessionRepositoryFilter'
+15:51:59.165 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.session.data.redis.config.annotation.web.http.RedisHttpSessionConfiguration'
+15:51:59.209 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'cookieSerializer'
+15:51:59.209 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.session.SessionAutoConfiguration$ServletSessionConfiguration'
+15:51:59.211 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'cookieSerializer' via factory method to bean named 'server-org.springframework.boot.autoconfigure.web.ServerProperties'
+15:51:59.227 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'redisConnectionFactory'

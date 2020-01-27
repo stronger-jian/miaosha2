@@ -1,0 +1,8 @@
+22:26:20.724 [http-nio-8090-exec-1] DEBUG o.s.j.d.DataSourceTransactionManager - Committing JDBC transaction on Connection [com.mysql.jdbc.JDBC4Connection@66fb1ed3]
+22:26:20.730 [http-nio-8090-exec-1] DEBUG o.s.j.d.DataSourceTransactionManager - Releasing JDBC Connection [com.mysql.jdbc.JDBC4Connection@66fb1ed3] after transaction
+22:26:20.885 [http-nio-8090-exec-1] DEBUG o.s.j.d.DataSourceTransactionManager - Creating new transaction with name [com.miaoshaproject.service.Impl.OrderServiceImpl.createOrder]: PROPAGATION_REQUIRES_NEW,ISOLATION_DEFAULT
+22:26:20.886 [http-nio-8090-exec-1] DEBUG o.s.j.d.DataSourceTransactionManager - Acquired Connection [com.mysql.jdbc.JDBC4Connection@66fb1ed3] for JDBC transaction
+22:26:20.886 [http-nio-8090-exec-1] DEBUG o.s.j.d.DataSourceTransactionManager - Switching JDBC Connection [com.mysql.jdbc.JDBC4Connection@66fb1ed3] to manual commit
+22:26:20.888 [http-nio-8090-exec-1] DEBUG o.s.d.r.core.RedisConnectionUtils - Opening RedisConnection
+22:26:20.889 [http-nio-8090-exec-1] DEBUG o.s.d.r.core.RedisConnectionUtils - Closing Redis Connection.
+22:26:20.889 [http-nio-8090-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession

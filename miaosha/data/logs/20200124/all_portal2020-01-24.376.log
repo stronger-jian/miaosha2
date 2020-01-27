@@ -1,0 +1,32 @@
+22:26:20.902 [http-nio-8090-exec-1] DEBUG o.s.d.r.core.RedisConnectionUtils - Opening RedisConnection
+22:26:20.908 [http-nio-8090-exec-1] DEBUG o.s.d.r.core.RedisConnectionUtils - Closing Redis Connection.
+22:26:20.909 [http-nio-8090-exec-1] DEBUG o.s.d.r.core.RedisConnectionUtils - Opening RedisConnection
+22:26:20.911 [http-nio-8090-exec-1] DEBUG o.s.d.r.core.RedisConnectionUtils - Closing Redis Connection.
+22:26:20.912 [http-nio-8090-exec-1] DEBUG o.s.d.r.core.RedisConnectionUtils - Opening RedisConnection
+22:26:20.913 [http-nio-8090-exec-1] DEBUG o.s.d.r.core.RedisConnectionUtils - Closing Redis Connection.
+22:26:20.913 [http-nio-8090-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@e03b2bd] from current transaction
+22:26:20.913 [http-nio-8090-exec-1] DEBUG c.m.d.U.selectByPrimaryKey - ==>  Preparing: select id, name, gender, age, telphone, register_mode, third_party_id from user_info where id = ? 
+22:26:20.914 [http-nio-8090-exec-1] DEBUG c.m.d.U.selectByPrimaryKey - ==> Parameters: 8(Integer)
+22:26:20.915 [http-nio-8090-exec-1] DEBUG c.m.d.U.selectByPrimaryKey - <==      Total: 1
+22:26:20.916 [http-nio-8090-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@e03b2bd]
+22:26:20.916 [http-nio-8090-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@e03b2bd] from current transaction
+22:26:20.917 [http-nio-8090-exec-1] DEBUG c.m.d.U.selectByUserId - ==>  Preparing: select id, encrpt_password, user_id from user_password where user_id = ? 
+22:26:20.917 [http-nio-8090-exec-1] DEBUG c.m.d.U.selectByUserId - ==> Parameters: 8(Integer)
+22:26:20.918 [http-nio-8090-exec-1] DEBUG c.m.d.U.selectByUserId - <==      Total: 1
+22:26:20.918 [http-nio-8090-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@e03b2bd]
+22:26:20.918 [http-nio-8090-exec-1] DEBUG o.s.d.r.core.RedisConnectionUtils - Opening RedisConnection
+22:26:20.919 [http-nio-8090-exec-1] DEBUG o.s.d.r.core.RedisConnectionUtils - Closing Redis Connection.
+22:26:20.919 [http-nio-8090-exec-1] DEBUG o.s.d.r.core.RedisConnectionUtils - Opening RedisConnection
+22:26:20.920 [http-nio-8090-exec-1] DEBUG o.s.d.r.core.RedisConnectionUtils - Closing Redis Connection.
+22:26:20.920 [http-nio-8090-exec-1] DEBUG o.s.j.d.DataSourceTransactionManager - Participating in existing transaction
+22:26:20.921 [http-nio-8090-exec-1] DEBUG o.s.d.r.core.RedisConnectionUtils - Opening RedisConnection
+22:26:20.922 [http-nio-8090-exec-1] DEBUG o.s.d.r.core.RedisConnectionUtils - Closing Redis Connection.
+22:26:20.922 [http-nio-8090-exec-1] DEBUG o.s.d.r.core.RedisConnectionUtils - Opening RedisConnection
+22:26:20.923 [http-nio-8090-exec-1] DEBUG o.s.d.r.core.RedisConnectionUtils - Closing Redis Connection.
+22:26:20.927 [http-nio-8090-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@e03b2bd] from current transaction
+22:26:20.927 [http-nio-8090-exec-1] DEBUG c.m.d.SequenceDoMapper.selectByName - ==>  Preparing: select name, current_value, step from sequence_info where name = ? for update 
+22:26:20.928 [http-nio-8090-exec-1] DEBUG c.m.d.SequenceDoMapper.selectByName - ==> Parameters: order_info(String)
+22:26:20.930 [http-nio-8090-exec-1] DEBUG c.m.d.SequenceDoMapper.selectByName - <==      Total: 1
+22:26:20.930 [http-nio-8090-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@e03b2bd]
+22:26:20.930 [http-nio-8090-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@e03b2bd] from current transaction
+22:26:20.930 [http-nio-8090-exec-1] DEBUG c.m.d.S.updateByPrimaryKeySelective - ==>  Preparing: update sequence_info SET current_value = ?, step = ? where name = ? 

@@ -1,0 +1,16 @@
+22:37:39.716 [http-nio-8090-exec-10] DEBUG o.s.d.r.core.RedisConnectionUtils - Opening RedisConnection
+22:37:39.721 [http-nio-8090-exec-10] DEBUG o.s.d.r.core.RedisConnectionUtils - Closing Redis Connection.
+22:37:39.721 [http-nio-8090-exec-10] DEBUG o.s.j.d.DataSourceTransactionManager - Creating new transaction with name [com.miaoshaproject.service.Impl.OrderServiceImpl.createOrder]: PROPAGATION_REQUIRES_NEW,ISOLATION_DEFAULT
+22:37:39.721 [http-nio-8090-exec-10] DEBUG o.s.j.d.DataSourceTransactionManager - Acquired Connection [com.mysql.jdbc.JDBC4Connection@73495b0c] for JDBC transaction
+22:37:39.722 [http-nio-8090-exec-10] DEBUG o.s.j.d.DataSourceTransactionManager - Switching JDBC Connection [com.mysql.jdbc.JDBC4Connection@73495b0c] to manual commit
+22:37:39.722 [http-nio-8090-exec-10] DEBUG o.s.d.r.core.RedisConnectionUtils - Opening RedisConnection
+22:37:39.723 [http-nio-8090-exec-10] DEBUG o.s.d.r.core.RedisConnectionUtils - Closing Redis Connection.
+22:37:39.723 [http-nio-8090-exec-10] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+22:37:39.723 [http-nio-8090-exec-10] DEBUG org.mybatis.spring.SqlSessionUtils - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@56d340db]
+22:37:39.724 [http-nio-8090-exec-10] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@73495b0c] will be managed by Spring
+22:37:39.725 [http-nio-8090-exec-10] DEBUG c.m.d.I.selectByPrimaryKey - ==>  Preparing: select id, title, price, description, sales, img_url from item where id = ? 
+22:37:39.725 [http-nio-8090-exec-10] DEBUG c.m.d.I.selectByPrimaryKey - ==> Parameters: 2(Integer)
+22:37:39.726 [http-nio-8090-exec-10] DEBUG c.m.d.I.selectByPrimaryKey - <==      Total: 1
+22:37:39.726 [http-nio-8090-exec-10] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@56d340db]
+22:37:39.726 [http-nio-8090-exec-10] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@56d340db] from current transaction
+22:37:39.726 [http-nio-8090-exec-10] DEBUG c.m.d.I.selectByItemId - ==>  Preparing: select id, stock, item_id from item_stock where item_id = ? 

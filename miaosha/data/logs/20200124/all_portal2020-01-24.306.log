@@ -1,0 +1,5 @@
+21:01:42.991 [pool-2-thread-1] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+21:01:42.991 [http-nio-8090-exec-8] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+21:01:42.996 [pool-2-thread-1] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7f0e884b] was not registered for synchronization because synchronization is not active
+21:01:42.996 [http-nio-8090-exec-8] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [com.miaoshaproject.response.CommonReturnType@27388e12]
+21:01:42.997 [pool-2-thread-1] DEBUG o.s.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource

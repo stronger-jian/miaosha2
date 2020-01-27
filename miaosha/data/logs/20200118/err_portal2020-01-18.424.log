@@ -1,0 +1,16 @@
+16:22:13.138 [http-nio-8090-exec-3] DEBUG c.m.d.U.selectByPrimaryKey - ==>  Preparing: select id, name, gender, age, telphone, register_mode, third_party_id from user_info where id = ? 
+16:22:13.142 [http-nio-8090-exec-3] DEBUG c.m.d.U.selectByPrimaryKey - ==> Parameters: 8(Integer)
+16:22:13.142 [http-nio-8090-exec-3] DEBUG c.m.d.U.selectByPrimaryKey - <==      Total: 1
+16:22:13.142 [http-nio-8090-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7ac6da79]
+16:22:13.142 [http-nio-8090-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7ac6da79] from current transaction
+16:22:13.143 [http-nio-8090-exec-3] DEBUG c.m.d.U.selectByUserId - ==>  Preparing: select id, encrpt_password, user_id from user_password where user_id = ? 
+16:22:13.143 [http-nio-8090-exec-3] DEBUG c.m.d.U.selectByUserId - ==> Parameters: 8(Integer)
+16:22:13.144 [http-nio-8090-exec-3] DEBUG c.m.d.U.selectByUserId - <==      Total: 1
+16:22:13.144 [http-nio-8090-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7ac6da79]
+16:22:13.144 [http-nio-8090-exec-3] DEBUG o.s.d.r.core.RedisConnectionUtils - Opening RedisConnection
+16:22:13.145 [http-nio-8090-exec-3] DEBUG o.s.d.r.core.RedisConnectionUtils - Closing Redis Connection.
+16:22:13.145 [http-nio-8090-exec-3] DEBUG o.s.d.r.core.RedisConnectionUtils - Opening RedisConnection
+16:22:13.146 [http-nio-8090-exec-3] DEBUG o.s.d.r.core.RedisConnectionUtils - Closing Redis Connection.
+16:22:13.146 [http-nio-8090-exec-3] DEBUG o.s.j.d.DataSourceTransactionManager - Participating in existing transaction
+16:22:13.146 [http-nio-8090-exec-3] DEBUG o.s.d.r.core.RedisConnectionUtils - Opening RedisConnection
+16:22:13.146 [http-nio-8090-exec-3] DEBUG o.s.d.r.core.RedisConnectionUtils - Closing Redis Connection.

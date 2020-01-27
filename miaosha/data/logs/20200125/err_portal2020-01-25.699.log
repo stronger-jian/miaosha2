@@ -1,0 +1,2 @@
+11:40:48.677 [http-nio-8090-exec-5] DEBUG o.s.j.d.DataSourceTransactionManager - Initiating transaction rollback
+11:40:48.681 [http-nio-8090-exec-5] DEBUG o.s.j.d.DataSourceTransactionManager - Rolling back JDBC transaction on Connection [com.mysql.jdbc.JDBC4Connection@6ac8c624]

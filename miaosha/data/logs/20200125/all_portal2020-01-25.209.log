@@ -1,0 +1,2 @@
+10:46:52.435 [http-nio-8090-exec-3] DEBUG o.s.s.w.h.S.SESSION_LOGGER - No session found by id: Caching result for getSession(false) for this HttpServletRequest.
+10:46:52.439 [http-nio-8090-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.miaoshaproject.controller.OrderController#generatetoken(Integer, Integer)

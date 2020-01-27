@@ -1,0 +1,8 @@
+16:09:57.690 [http-nio-8090-exec-3] DEBUG o.s.j.d.DataSourceTransactionManager - Acquired Connection [com.mysql.jdbc.JDBC4Connection@36bc3369] for JDBC transaction
+16:09:57.693 [http-nio-8090-exec-3] DEBUG o.s.j.d.DataSourceTransactionManager - Switching JDBC Connection [com.mysql.jdbc.JDBC4Connection@36bc3369] to manual commit
+16:09:57.693 [http-nio-8090-exec-3] DEBUG o.s.d.r.core.RedisConnectionUtils - Opening RedisConnection
+16:09:57.694 [http-nio-8090-exec-3] DEBUG o.s.d.r.core.RedisConnectionUtils - Closing Redis Connection.
+16:09:57.694 [http-nio-8090-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+16:09:57.695 [http-nio-8090-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4d2455d]
+16:09:57.695 [http-nio-8090-exec-3] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@36bc3369] will be managed by Spring
+16:09:57.695 [http-nio-8090-exec-3] DEBUG c.m.d.I.selectByPrimaryKey - ==>  Preparing: select id, title, price, description, sales, img_url from item where id = ? 

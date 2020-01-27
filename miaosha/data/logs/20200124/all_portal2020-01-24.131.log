@@ -1,0 +1,8 @@
+20:51:33.053 [http-nio-8090-exec-10] DEBUG c.m.d.S.insertSelective - <==    Updates: 1
+20:51:33.057 [http-nio-8090-exec-10] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5ba130f]
+20:51:33.057 [http-nio-8090-exec-10] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5ba130f]
+20:51:33.057 [http-nio-8090-exec-10] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5ba130f]
+20:51:33.057 [http-nio-8090-exec-10] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5ba130f]
+20:51:33.057 [http-nio-8090-exec-10] DEBUG o.s.j.d.DataSourceTransactionManager - Initiating transaction commit
+20:51:33.057 [http-nio-8090-exec-10] DEBUG o.s.j.d.DataSourceTransactionManager - Committing JDBC transaction on Connection [com.mysql.jdbc.JDBC4Connection@433d7483]
+20:51:33.067 [http-nio-8090-exec-10] DEBUG o.s.j.d.DataSourceTransactionManager - Releasing JDBC Connection [com.mysql.jdbc.JDBC4Connection@433d7483] after transaction

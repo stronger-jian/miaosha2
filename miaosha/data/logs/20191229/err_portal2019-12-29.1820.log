@@ -1,0 +1,5 @@
+22:09:00.001 [pool-2-thread-1] DEBUG o.s.s.d.r.RedisSessionExpirationPolicy - Cleaning up sessions expiring at Sun Dec 29 22:09:00 CST 2019
+22:09:00.010 [pool-2-thread-1] DEBUG o.s.d.r.core.RedisConnectionUtils - Opening RedisConnection
+22:09:00.010 [pool-2-thread-1] DEBUG io.lettuce.core.RedisChannelHandler - dispatching command AsyncCommand [type=SMEMBERS, output=ValueSetOutput [output=[], error='null'], commandType=io.lettuce.core.protocol.Command]
+22:09:00.010 [pool-2-thread-1] DEBUG i.l.core.protocol.DefaultEndpoint - [channel=0xfa7af830, /127.0.0.1:57628 -> /127.0.0.1:6379, epid=0x1] write() writeAndFlush command AsyncCommand [type=SMEMBERS, output=ValueSetOutput [output=[], error='null'], commandType=io.lettuce.core.protocol.Command]
+22:09:00.012 [pool-2-thread-1] DEBUG i.l.core.protocol.DefaultEndpoint - [channel=0xfa7af830, /127.0.0.1:57628 -> /127.0.0.1:6379, epid=0x1] write() done

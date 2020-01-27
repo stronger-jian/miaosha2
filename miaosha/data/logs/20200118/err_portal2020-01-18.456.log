@@ -1,0 +1,8 @@
+16:23:57.297 [http-nio-8090-exec-6] DEBUG o.s.s.w.h.S.SESSION_LOGGER - No session found by id: Caching result for getSession(false) for this HttpServletRequest.
+16:23:57.301 [http-nio-8090-exec-6] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.miaoshaproject.controller.UserController#login(String, String)
+16:23:57.313 [http-nio-8090-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+16:23:57.313 [http-nio-8090-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@683746ee] was not registered for synchronization because synchronization is not active
+16:23:57.314 [http-nio-8090-exec-6] DEBUG o.s.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+16:23:57.315 [http-nio-8090-exec-6] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@463bf978] will not be managed by Spring
+16:23:57.315 [http-nio-8090-exec-6] DEBUG c.m.d.UserDOMapper.selectByTelphone - ==>  Preparing: select id, name, gender, age, telphone, register_mode, third_party_id from user_info where telphone = ? 
+16:23:57.315 [http-nio-8090-exec-6] DEBUG c.m.d.UserDOMapper.selectByTelphone - ==> Parameters: 123(String)

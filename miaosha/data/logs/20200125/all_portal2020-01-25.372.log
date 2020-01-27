@@ -1,0 +1,2 @@
+11:18:57.417 [http-nio-8090-exec-9] DEBUG o.s.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+11:18:57.421 [http-nio-8090-exec-9] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@6ac8c624] will not be managed by Spring

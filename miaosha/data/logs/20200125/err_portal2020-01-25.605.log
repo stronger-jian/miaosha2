@@ -1,0 +1,14 @@
+11:36:55.300 [http-nio-8090-exec-4] DEBUG o.s.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+11:36:55.308 [http-nio-8090-exec-4] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@6ac8c624] will not be managed by Spring
+11:36:55.309 [http-nio-8090-exec-4] DEBUG c.m.dao.PromoDOMapper.selectByItemId - ==>  Preparing: select id, promo_name, start_time, end_time, item_id, promo_item_price from promo where item_id = ? 
+11:36:55.309 [http-nio-8090-exec-4] DEBUG c.m.dao.PromoDOMapper.selectByItemId - ==> Parameters: 2(Integer)
+11:36:55.310 [http-nio-8090-exec-4] DEBUG c.m.dao.PromoDOMapper.selectByItemId - <==      Total: 1
+11:36:55.311 [http-nio-8090-exec-4] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@d0d7b2c]
+11:36:55.312 [http-nio-8090-exec-4] DEBUG o.s.d.r.core.RedisConnectionUtils - Opening RedisConnection
+11:36:55.313 [http-nio-8090-exec-4] DEBUG o.s.d.r.core.RedisConnectionUtils - Closing Redis Connection.
+11:36:55.313 [http-nio-8090-exec-4] DEBUG o.s.d.r.core.RedisConnectionUtils - Opening RedisConnection
+11:36:55.315 [http-nio-8090-exec-4] DEBUG o.s.d.r.core.RedisConnectionUtils - Closing Redis Connection.
+11:36:55.315 [http-nio-8090-exec-4] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+11:36:55.316 [http-nio-8090-exec-4] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [com.miaoshaproject.response.CommonReturnType@2096e0bb]
+11:36:55.316 [http-nio-8090-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+11:36:55.316 [http-nio-8090-exec-4] DEBUG o.s.s.w.h.S.SESSION_LOGGER - No session found by id: Caching result for getSession(false) for this HttpServletRequest.

@@ -1,0 +1,16 @@
+11:20:54.567 [pool-2-thread-1] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@58d1b97d]
+11:20:54.568 [http-nio-8090-exec-3] DEBUG o.s.d.r.core.RedisConnectionUtils - Closing Redis Connection.
+11:20:54.806 [http-nio-8090-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+11:20:54.807 [http-nio-8090-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@12fd272c] was not registered for synchronization because synchronization is not active
+11:20:54.809 [http-nio-8090-exec-3] DEBUG o.s.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+11:20:54.810 [http-nio-8090-exec-3] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@6ac8c624] will not be managed by Spring
+11:20:54.810 [http-nio-8090-exec-3] DEBUG c.m.d.P.selectByPrimaryKey - ==>  Preparing: select id, promo_name, start_time, end_time, item_id, promo_item_price from promo where id = ? 
+11:20:54.811 [http-nio-8090-exec-3] DEBUG c.m.d.P.selectByPrimaryKey - ==> Parameters: 1(Integer)
+11:20:54.813 [http-nio-8090-exec-3] DEBUG c.m.d.P.selectByPrimaryKey - <==      Total: 1
+11:20:54.813 [http-nio-8090-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@12fd272c]
+11:20:54.976 [http-nio-8090-exec-3] DEBUG o.s.d.r.core.RedisConnectionUtils - Opening RedisConnection
+11:20:54.977 [http-nio-8090-exec-3] DEBUG o.s.d.r.core.RedisConnectionUtils - Closing Redis Connection.
+11:20:54.977 [http-nio-8090-exec-3] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Using @ExceptionHandler com.miaoshaproject.controller.OrderController#handlerException(HttpServletRequest, Exception)
+11:20:54.978 [http-nio-8090-exec-3] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+11:20:54.978 [http-nio-8090-exec-3] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [com.miaoshaproject.response.CommonReturnType@521d740c]
+11:20:54.978 [http-nio-8090-exec-3] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.data.redis.serializer.SerializationException: Could not read JSON: Invalid format: "2019-12-07 13:14:27" is malformed at " 13:14:27" (through reference chain: com.miaoshaproject.service.model.ItemModel["promoModel"]->com.miaoshaproject.service.model.PromoModel["startTime"]); nested exception is com.fasterxml.jackson.databind.JsonMappingException: Invalid format: "2019-12-07 13:14:27" is malformed at " 13:14:27" (through reference chain: com.miaoshaproject.service.model.ItemModel["promoModel"]->com.miaoshaproject.service.model.PromoModel["startTime"])]

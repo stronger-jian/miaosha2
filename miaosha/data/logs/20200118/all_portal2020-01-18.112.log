@@ -1,0 +1,8 @@
+15:59:47.273 [http-nio-8090-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.miaoshaproject.controller.ItemController#get(Integer)
+15:59:47.280 [http-nio-8090-exec-1] DEBUG o.s.d.r.core.RedisConnectionUtils - Opening RedisConnection
+15:59:47.282 [http-nio-8090-exec-1] DEBUG o.s.d.r.core.RedisConnectionUtils - Closing Redis Connection.
+15:59:47.282 [http-nio-8090-exec-1] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Using @ExceptionHandler com.miaoshaproject.controller.ItemController#handlerException(HttpServletRequest, Exception)
+15:59:47.283 [http-nio-8090-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+15:59:47.284 [http-nio-8090-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [com.miaoshaproject.response.CommonReturnType@50d33bb4]
+15:59:47.284 [http-nio-8090-exec-1] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.data.redis.serializer.SerializationException: Could not read JSON: Invalid format: "2019-12-07 13:14:27" is malformed at " 13:14:27" (through reference chain: com.miaoshaproject.service.model.ItemModel["promoModel"]->com.miaoshaproject.service.model.PromoModel["startTime"]); nested exception is com.fasterxml.jackson.databind.JsonMappingException: Invalid format: "2019-12-07 13:14:27" is malformed at " 13:14:27" (through reference chain: com.miaoshaproject.service.model.ItemModel["promoModel"]->com.miaoshaproject.service.model.PromoModel["startTime"])]
+15:59:47.285 [http-nio-8090-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK

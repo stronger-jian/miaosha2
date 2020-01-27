@@ -1,0 +1,4 @@
+11:28:06.180 [http-nio-8090-exec-6] DEBUG o.s.d.r.core.RedisConnectionUtils - Closing Redis Connection.
+11:28:06.719 [http-nio-8090-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+11:28:06.719 [http-nio-8090-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6e64f791] was not registered for synchronization because synchronization is not active
+11:28:06.719 [http-nio-8090-exec-6] DEBUG o.s.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource

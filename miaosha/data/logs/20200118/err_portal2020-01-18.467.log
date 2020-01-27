@@ -1,0 +1,9 @@
+16:24:33.482 [http-nio-8090-exec-7] DEBUG o.s.d.r.core.RedisConnectionUtils - Opening RedisConnection
+16:24:33.498 [http-nio-8090-exec-7] DEBUG o.s.d.r.core.RedisConnectionUtils - Closing Redis Connection.
+16:24:33.499 [http-nio-8090-exec-7] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4fc4f116]
+16:24:33.500 [http-nio-8090-exec-7] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4fc4f116]
+16:24:33.500 [http-nio-8090-exec-7] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4fc4f116]
+16:24:33.509 [http-nio-8090-exec-7] DEBUG o.s.j.d.DataSourceTransactionManager - Initiating transaction commit
+16:24:33.509 [http-nio-8090-exec-7] DEBUG o.s.j.d.DataSourceTransactionManager - Committing JDBC transaction on Connection [com.mysql.jdbc.JDBC4Connection@463bf978]
+16:24:33.511 [http-nio-8090-exec-7] DEBUG o.s.j.d.DataSourceTransactionManager - Releasing JDBC Connection [com.mysql.jdbc.JDBC4Connection@463bf978] after transaction
+16:24:33.513 [http-nio-8090-exec-7] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Using @ExceptionHandler com.miaoshaproject.controller.OrderController#handlerException(HttpServletRequest, Exception)

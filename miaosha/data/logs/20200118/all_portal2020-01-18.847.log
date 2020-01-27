@@ -1,0 +1,2 @@
+22:09:41.142 [http-nio-8090-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1064b41] from current transaction
+22:09:41.152 [http-nio-8090-exec-2] DEBUG c.m.d.SequenceDoMapper.selectByName - ==>  Preparing: select name, current_value, step from sequence_info where name = ? for update 

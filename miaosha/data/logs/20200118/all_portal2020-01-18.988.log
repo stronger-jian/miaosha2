@@ -1,0 +1,16 @@
+22:37:48.205 [ConsumeMessageThread_3] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1da55b60] was not registered for synchronization because synchronization is not active
+22:37:48.216 [http-nio-8090-exec-10] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@56d340db] from current transaction
+22:37:48.217 [ConsumeMessageThread_3] DEBUG o.s.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+22:37:48.218 [http-nio-8090-exec-10] DEBUG c.m.d.SequenceDoMapper.selectByName - ==>  Preparing: select name, current_value, step from sequence_info where name = ? for update 
+22:37:48.219 [http-nio-8090-exec-10] DEBUG c.m.d.SequenceDoMapper.selectByName - ==> Parameters: order_info(String)
+22:37:48.224 [ConsumeMessageThread_3] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@30640b8] will not be managed by Spring
+22:37:48.224 [http-nio-8090-exec-10] DEBUG c.m.d.SequenceDoMapper.selectByName - <==      Total: 1
+22:37:48.225 [ConsumeMessageThread_3] DEBUG c.m.d.I.deacreaseStock - ==>  Preparing: update item_stock set stock = stock-? where item_id = ? and stock>=? 
+22:37:48.225 [http-nio-8090-exec-10] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@56d340db]
+22:37:48.225 [http-nio-8090-exec-10] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@56d340db] from current transaction
+22:37:48.225 [ConsumeMessageThread_3] DEBUG c.m.d.I.deacreaseStock - ==> Parameters: 1(Integer), 2(Integer), 1(Integer)
+22:37:48.227 [ConsumeMessageThread_3] DEBUG c.m.d.I.deacreaseStock - <==    Updates: 1
+22:37:48.228 [ConsumeMessageThread_3] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1da55b60]
+22:37:48.254 [http-nio-8090-exec-10] DEBUG c.m.d.S.updateByPrimaryKeySelective - ==>  Preparing: update sequence_info SET current_value = ?, step = ? where name = ? 
+22:37:48.254 [http-nio-8090-exec-10] DEBUG c.m.d.S.updateByPrimaryKeySelective - ==> Parameters: 20(Integer), 1(Integer), order_info(String)
+22:37:48.256 [http-nio-8090-exec-10] DEBUG c.m.d.S.updateByPrimaryKeySelective - <==    Updates: 1

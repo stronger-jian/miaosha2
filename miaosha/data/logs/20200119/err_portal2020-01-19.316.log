@@ -1,0 +1,32 @@
+22:25:54.018 [http-nio-8090-exec-4] DEBUG c.m.d.P.selectByPrimaryKey - <==      Total: 1
+22:25:54.024 [http-nio-8090-exec-4] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@314901b]
+22:25:54.024 [http-nio-8090-exec-4] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+22:25:54.024 [http-nio-8090-exec-4] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1513ce86] was not registered for synchronization because synchronization is not active
+22:25:54.024 [http-nio-8090-exec-4] DEBUG o.s.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+22:25:54.024 [http-nio-8090-exec-4] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@43fda471] will not be managed by Spring
+22:25:54.024 [http-nio-8090-exec-4] DEBUG c.m.d.I.selectByPrimaryKey - ==>  Preparing: select id, title, price, description, sales, img_url from item where id = ? 
+22:25:54.024 [http-nio-8090-exec-4] DEBUG c.m.d.I.selectByPrimaryKey - ==> Parameters: 2(Integer)
+22:25:54.025 [http-nio-8090-exec-4] DEBUG c.m.d.I.selectByPrimaryKey - <==      Total: 1
+22:25:54.025 [http-nio-8090-exec-4] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1513ce86]
+22:25:54.025 [http-nio-8090-exec-4] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+22:25:54.025 [http-nio-8090-exec-4] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2c8cae67] was not registered for synchronization because synchronization is not active
+22:25:54.025 [http-nio-8090-exec-4] DEBUG o.s.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+22:25:54.025 [http-nio-8090-exec-4] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@43fda471] will not be managed by Spring
+22:25:54.025 [http-nio-8090-exec-4] DEBUG c.m.d.I.selectByItemId - ==>  Preparing: select id, stock, item_id from item_stock where item_id = ? 
+22:25:54.026 [http-nio-8090-exec-4] DEBUG c.m.d.I.selectByItemId - ==> Parameters: 2(Integer)
+22:25:54.026 [http-nio-8090-exec-4] DEBUG c.m.d.I.selectByItemId - <==      Total: 1
+22:25:54.026 [http-nio-8090-exec-4] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2c8cae67]
+22:25:54.026 [http-nio-8090-exec-4] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+22:25:54.026 [http-nio-8090-exec-4] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1eb4e23c] was not registered for synchronization because synchronization is not active
+22:25:54.026 [http-nio-8090-exec-4] DEBUG o.s.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+22:25:54.026 [http-nio-8090-exec-4] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@43fda471] will not be managed by Spring
+22:25:54.027 [http-nio-8090-exec-4] DEBUG c.m.dao.PromoDOMapper.selectByItemId - ==>  Preparing: select id, promo_name, start_time, end_time, item_id, promo_item_price from promo where item_id = ? 
+22:25:54.027 [http-nio-8090-exec-4] DEBUG c.m.dao.PromoDOMapper.selectByItemId - ==> Parameters: 2(Integer)
+22:25:54.028 [http-nio-8090-exec-4] DEBUG c.m.dao.PromoDOMapper.selectByItemId - <==      Total: 1
+22:25:54.028 [http-nio-8090-exec-4] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1eb4e23c]
+22:25:54.028 [http-nio-8090-exec-4] DEBUG o.s.d.r.core.RedisConnectionUtils - Opening RedisConnection
+22:25:54.029 [http-nio-8090-exec-4] DEBUG o.s.d.r.core.RedisConnectionUtils - Closing Redis Connection.
+22:25:54.030 [http-nio-8090-exec-4] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json;q=0.8', given [text/html, application/xhtml+xml, image/webp, image/apng, application/signed-exchange;v=b3, application/xml;q=0.9, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]
+22:25:54.030 [http-nio-8090-exec-4] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [com.miaoshaproject.response.CommonReturnType@356afb10]
+22:25:54.031 [http-nio-8090-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+22:25:54.031 [http-nio-8090-exec-4] DEBUG o.s.s.w.h.S.SESSION_LOGGER - No session found by id: Caching result for getSession(false) for this HttpServletRequest.

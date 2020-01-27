@@ -1,0 +1,16 @@
+22:25:34.269 [http-nio-8090-exec-1] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@43fda471] will be managed by Spring
+22:25:34.273 [http-nio-8090-exec-1] DEBUG c.m.d.I.selectByPrimaryKey - ==>  Preparing: select id, title, price, description, sales, img_url from item where id = ? 
+22:25:34.273 [http-nio-8090-exec-1] DEBUG c.m.d.I.selectByPrimaryKey - ==> Parameters: 2(Integer)
+22:25:34.274 [http-nio-8090-exec-1] DEBUG c.m.d.I.selectByPrimaryKey - <==      Total: 1
+22:25:34.274 [http-nio-8090-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@d692520]
+22:25:34.274 [http-nio-8090-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@d692520] from current transaction
+22:25:34.275 [http-nio-8090-exec-1] DEBUG c.m.d.I.selectByItemId - ==>  Preparing: select id, stock, item_id from item_stock where item_id = ? 
+22:25:34.275 [http-nio-8090-exec-1] DEBUG c.m.d.I.selectByItemId - ==> Parameters: 2(Integer)
+22:25:34.275 [http-nio-8090-exec-1] DEBUG c.m.d.I.selectByItemId - <==      Total: 1
+22:25:34.276 [http-nio-8090-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@d692520]
+22:25:34.276 [http-nio-8090-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@d692520] from current transaction
+22:25:34.276 [http-nio-8090-exec-1] DEBUG c.m.dao.PromoDOMapper.selectByItemId - ==>  Preparing: select id, promo_name, start_time, end_time, item_id, promo_item_price from promo where item_id = ? 
+22:25:34.276 [http-nio-8090-exec-1] DEBUG c.m.dao.PromoDOMapper.selectByItemId - ==> Parameters: 2(Integer)
+22:25:34.277 [http-nio-8090-exec-1] DEBUG c.m.dao.PromoDOMapper.selectByItemId - <==      Total: 1
+22:25:34.277 [http-nio-8090-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@d692520]
+22:25:34.277 [http-nio-8090-exec-1] DEBUG o.s.d.r.core.RedisConnectionUtils - Opening RedisConnection

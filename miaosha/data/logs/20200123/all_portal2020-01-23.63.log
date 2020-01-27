@@ -1,0 +1,2 @@
+15:22:46.080 [http-nio-8090-exec-8] DEBUG o.s.j.d.DataSourceTransactionManager - Creating new transaction with name [com.miaoshaproject.service.Impl.OrderServiceImpl.createOrder]: PROPAGATION_REQUIRES_NEW,ISOLATION_DEFAULT
+15:22:46.085 [http-nio-8090-exec-8] DEBUG o.s.j.d.DataSourceTransactionManager - Acquired Connection [com.mysql.jdbc.JDBC4Connection@14fa1078] for JDBC transaction

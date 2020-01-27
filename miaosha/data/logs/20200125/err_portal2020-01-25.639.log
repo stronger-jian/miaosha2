@@ -1,0 +1,2 @@
+11:37:44.379 [http-nio-8090-exec-1] DEBUG o.s.d.r.core.RedisConnectionUtils - Closing Redis Connection.
+11:37:44.383 [http-nio-8090-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession

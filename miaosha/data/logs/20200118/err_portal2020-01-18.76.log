@@ -1,0 +1,16 @@
+15:56:10.620 [http-nio-8090-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - POST "/user/login", parameters={masked}
+15:56:10.624 [http-nio-8090-exec-5] DEBUG o.s.s.w.h.S.SESSION_LOGGER - No session found by id: Caching result for getSession(false) for this HttpServletRequest.
+15:56:10.624 [http-nio-8090-exec-5] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.miaoshaproject.controller.UserController#login(String, String)
+15:56:10.634 [http-nio-8090-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+15:56:10.634 [http-nio-8090-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@a699d45] was not registered for synchronization because synchronization is not active
+15:56:10.635 [http-nio-8090-exec-5] DEBUG o.s.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+15:56:10.635 [http-nio-8090-exec-5] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@789fc5f] will not be managed by Spring
+15:56:10.635 [http-nio-8090-exec-5] DEBUG c.m.d.UserDOMapper.selectByTelphone - ==>  Preparing: select id, name, gender, age, telphone, register_mode, third_party_id from user_info where telphone = ? 
+15:56:10.636 [http-nio-8090-exec-5] DEBUG c.m.d.UserDOMapper.selectByTelphone - ==> Parameters: 123(String)
+15:56:10.643 [http-nio-8090-exec-5] DEBUG c.m.d.UserDOMapper.selectByTelphone - <==      Total: 1
+15:56:10.643 [http-nio-8090-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@a699d45]
+15:56:10.644 [http-nio-8090-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+15:56:10.644 [http-nio-8090-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@310458c4] was not registered for synchronization because synchronization is not active
+15:56:10.644 [http-nio-8090-exec-5] DEBUG o.s.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+15:56:10.644 [http-nio-8090-exec-5] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@789fc5f] will not be managed by Spring
+15:56:10.644 [http-nio-8090-exec-5] DEBUG c.m.d.U.selectByUserId - ==>  Preparing: select id, encrpt_password, user_id from user_password where user_id = ? 

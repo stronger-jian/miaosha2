@@ -1,0 +1,1 @@
+11:22:01.531 [http-nio-8090-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.miaoshaproject.controller.OrderController#generatetoken(Integer, Integer)

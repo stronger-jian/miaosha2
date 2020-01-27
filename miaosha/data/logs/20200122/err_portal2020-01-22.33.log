@@ -1,0 +1,1 @@
+03:29:09.016 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true

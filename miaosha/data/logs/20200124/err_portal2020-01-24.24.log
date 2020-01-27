@@ -1,0 +1,16 @@
+20:41:29.526 [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\Lijian\Desktop\miaosha\target\classes\com\miaoshaproject\service\Impl\ItemServiceImpl.class]
+20:41:29.531 [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\Lijian\Desktop\miaosha\target\classes\com\miaoshaproject\service\Impl\OrderServiceImpl.class]
+20:41:29.541 [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\Lijian\Desktop\miaosha\target\classes\com\miaoshaproject\service\Impl\PromoServiceImpl.class]
+20:41:29.549 [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\Lijian\Desktop\miaosha\target\classes\com\miaoshaproject\service\Impl\UserServiceImpl.class]
+20:41:29.556 [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\Lijian\Desktop\miaosha\target\classes\com\miaoshaproject\validator\ValidatorImpl.class]
+20:41:29.864 [main] DEBUG o.s.c.e.PropertySourcesPropertyResolver - Found key 'spring.datasource.type' in PropertySource 'configurationProperties' with value of type String
+20:41:29.869 [main] DEBUG o.s.c.e.PropertySourcesPropertyResolver - Found key 'spring.datasource.type' in PropertySource 'configurationProperties' with value of type String
+20:41:29.871 [main] DEBUG o.s.c.e.PropertySourcesPropertyResolver - Found key 'spring.datasource.type' in PropertySource 'configurationProperties' with value of type String
+20:41:29.872 [main] DEBUG o.s.c.e.PropertySourcesPropertyResolver - Found key 'spring.jmx.enabled' in PropertySource 'configurationProperties' with value of type String
+20:41:29.877 [main] DEBUG o.s.c.e.PropertySourcesPropertyResolver - Found key 'spring.datasource.type' in PropertySource 'configurationProperties' with value of type String
+20:41:29.893 [main] DEBUG o.s.c.e.PropertySourcesPropertyResolver - Found key 'spring.jmx.enabled' in PropertySource 'configurationProperties' with value of type String
+20:41:29.894 [main] DEBUG o.s.c.e.PropertySourcesPropertyResolver - Found key 'spring.application.admin.enabled' in PropertySource 'configurationProperties' with value of type String
+20:41:30.064 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [C:\Users\Lijian\Desktop\miaosha\target\classes\com\miaoshaproject\dao\ItemDOMapper.class]
+20:41:30.064 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [C:\Users\Lijian\Desktop\miaosha\target\classes\com\miaoshaproject\dao\ItemStockDOMapper.class]
+20:41:30.064 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [C:\Users\Lijian\Desktop\miaosha\target\classes\com\miaoshaproject\dao\OrderInfoDOMapper.class]
+20:41:30.064 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [C:\Users\Lijian\Desktop\miaosha\target\classes\com\miaoshaproject\dao\PromoDOMapper.class]

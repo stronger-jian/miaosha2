@@ -1,0 +1,8 @@
+22:38:22.886 [http-nio-8090-exec-4] DEBUG o.s.j.d.DataSourceTransactionManager - Acquired Connection [com.mysql.jdbc.JDBC4Connection@73495b0c] for JDBC transaction
+22:38:22.890 [http-nio-8090-exec-4] DEBUG o.s.j.d.DataSourceTransactionManager - Switching JDBC Connection [com.mysql.jdbc.JDBC4Connection@73495b0c] to manual commit
+22:38:22.891 [http-nio-8090-exec-4] DEBUG o.s.d.r.core.RedisConnectionUtils - Opening RedisConnection
+22:38:22.892 [http-nio-8090-exec-4] DEBUG o.s.d.r.core.RedisConnectionUtils - Closing Redis Connection.
+22:38:22.892 [http-nio-8090-exec-4] DEBUG o.s.j.d.DataSourceTransactionManager - Initiating transaction rollback
+22:38:22.893 [http-nio-8090-exec-4] DEBUG o.s.j.d.DataSourceTransactionManager - Rolling back JDBC transaction on Connection [com.mysql.jdbc.JDBC4Connection@73495b0c]
+22:38:22.893 [http-nio-8090-exec-4] DEBUG o.s.j.d.DataSourceTransactionManager - Releasing JDBC Connection [com.mysql.jdbc.JDBC4Connection@73495b0c] after transaction
+22:38:22.893 [http-nio-8090-exec-4] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Using @ExceptionHandler com.miaoshaproject.controller.OrderController#handlerException(HttpServletRequest, Exception)

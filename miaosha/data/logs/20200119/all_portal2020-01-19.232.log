@@ -1,0 +1,16 @@
+22:21:24.609 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'itemDOMapper'.
+22:21:24.619 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'itemStockDOMapper' and 'com.miaoshaproject.dao.ItemStockDOMapper' mapperInterface
+22:21:24.619 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'itemStockDOMapper'.
+22:21:24.619 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'orderInfoDOMapper' and 'com.miaoshaproject.dao.OrderInfoDOMapper' mapperInterface
+22:21:24.620 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'orderInfoDOMapper'.
+22:21:24.620 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'promoDOMapper' and 'com.miaoshaproject.dao.PromoDOMapper' mapperInterface
+22:21:24.620 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'promoDOMapper'.
+22:21:24.620 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'sequenceDoMapper' and 'com.miaoshaproject.dao.SequenceDoMapper' mapperInterface
+22:21:24.620 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'sequenceDoMapper'.
+22:21:24.620 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'userDOMapper' and 'com.miaoshaproject.dao.UserDOMapper' mapperInterface
+22:21:24.621 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'userDOMapper'.
+22:21:24.621 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'userPasswordDOMapper' and 'com.miaoshaproject.dao.UserPasswordDOMapper' mapperInterface
+22:21:24.621 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'userPasswordDOMapper'.
+22:21:24.867 [main] DEBUG o.s.c.e.PropertySourcesPropertyResolver - Found key 'spring.datasource.type' in PropertySource 'configurationProperties' with value of type String
+22:21:24.991 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+22:21:24.998 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.

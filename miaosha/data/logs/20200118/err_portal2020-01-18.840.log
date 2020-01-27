@@ -1,0 +1,8 @@
+22:09:25.190 [http-nio-8090-exec-2] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@5af47924] will be managed by Spring
+22:09:25.198 [http-nio-8090-exec-2] DEBUG c.m.d.I.selectByPrimaryKey - ==>  Preparing: select id, title, price, description, sales, img_url from item where id = ? 
+22:09:25.198 [http-nio-8090-exec-2] DEBUG c.m.d.I.selectByPrimaryKey - ==> Parameters: 2(Integer)
+22:09:25.200 [http-nio-8090-exec-2] DEBUG c.m.d.I.selectByPrimaryKey - <==      Total: 1
+22:09:25.200 [http-nio-8090-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1064b41]
+22:09:25.201 [http-nio-8090-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1064b41] from current transaction
+22:09:25.201 [http-nio-8090-exec-2] DEBUG c.m.d.I.selectByItemId - ==>  Preparing: select id, stock, item_id from item_stock where item_id = ? 
+22:09:25.201 [http-nio-8090-exec-2] DEBUG c.m.d.I.selectByItemId - ==> Parameters: 2(Integer)

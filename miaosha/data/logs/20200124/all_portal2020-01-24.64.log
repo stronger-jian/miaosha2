@@ -1,0 +1,8 @@
+20:46:00.391 [http-nio-8090-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+20:46:00.395 [http-nio-8090-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5154ccb9]
+20:46:00.413 [http-nio-8090-exec-8] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@44f147d1] will be managed by Spring
+20:46:00.413 [http-nio-8090-exec-8] DEBUG c.m.d.S.insertSelective - ==>  Preparing: insert into stock_log ( stock_log_id, item_id, amount, status ) values ( ?, ?, ?, ? ) 
+20:46:00.414 [http-nio-8090-exec-8] DEBUG c.m.d.S.insertSelective - ==> Parameters: ce6d14521c72464ab52b99230b6e4d57(String), 2(Integer), 1(Integer), 1(Integer)
+20:46:00.421 [http-nio-8090-exec-8] DEBUG c.m.d.S.insertSelective - <==    Updates: 1
+20:46:00.421 [http-nio-8090-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5154ccb9]
+20:46:00.421 [http-nio-8090-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5154ccb9]

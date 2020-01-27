@@ -1,0 +1,5 @@
+11:43:55.953 [http-nio-8090-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - GET "/item/publishpromo?id=1", parameters={masked}
+11:43:55.958 [http-nio-8090-exec-8] DEBUG o.s.s.w.h.S.SESSION_LOGGER - No session found by id: Caching result for getSession(false) for this HttpServletRequest.
+11:43:55.958 [http-nio-8090-exec-8] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.miaoshaproject.controller.ItemController#publishpromo(Integer)
+11:43:55.958 [http-nio-8090-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+11:43:55.958 [http-nio-8090-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@38cbee65] was not registered for synchronization because synchronization is not active

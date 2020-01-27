@@ -1,0 +1,4 @@
+16:14:17.532 [http-nio-8090-exec-9] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@e8589e3] was not registered for synchronization because synchronization is not active
+16:14:17.536 [http-nio-8090-exec-9] DEBUG o.s.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+16:14:17.537 [http-nio-8090-exec-9] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@36bc3369] will not be managed by Spring
+16:14:17.537 [http-nio-8090-exec-9] DEBUG c.m.d.P.selectByPrimaryKey - ==>  Preparing: select id, promo_name, start_time, end_time, item_id, promo_item_price from promo where id = ? 

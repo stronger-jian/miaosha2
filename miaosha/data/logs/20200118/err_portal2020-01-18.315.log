@@ -1,0 +1,7 @@
+16:18:17.040 [http-nio-8090-exec-9] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@36bc3369] will not be managed by Spring
+16:18:17.045 [http-nio-8090-exec-9] DEBUG c.m.dao.PromoDOMapper.selectByItemId - ==>  Preparing: select id, promo_name, start_time, end_time, item_id, promo_item_price from promo where item_id = ? 
+16:18:17.046 [http-nio-8090-exec-9] DEBUG c.m.dao.PromoDOMapper.selectByItemId - ==> Parameters: 2(Integer)
+16:18:17.049 [http-nio-8090-exec-9] DEBUG c.m.dao.PromoDOMapper.selectByItemId - <==      Total: 1
+16:18:17.050 [http-nio-8090-exec-9] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@446ee352]
+16:18:17.241 [http-nio-8090-exec-9] DEBUG o.s.d.r.core.RedisConnectionUtils - Opening RedisConnection
+16:18:17.242 [http-nio-8090-exec-9] DEBUG o.s.d.r.core.RedisConnectionUtils - Closing Redis Connection.

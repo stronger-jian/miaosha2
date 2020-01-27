@@ -1,0 +1,32 @@
+10:38:39.384 [http-nio-8090-exec-8] DEBUG o.s.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+10:38:39.387 [http-nio-8090-exec-8] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@35bc682f] will not be managed by Spring
+10:38:39.388 [http-nio-8090-exec-8] DEBUG c.m.d.U.selectByPrimaryKey - ==>  Preparing: select id, name, gender, age, telphone, register_mode, third_party_id from user_info where id = ? 
+10:38:39.388 [http-nio-8090-exec-8] DEBUG c.m.d.U.selectByPrimaryKey - ==> Parameters: 8(Integer)
+10:38:39.388 [http-nio-8090-exec-8] DEBUG c.m.d.U.selectByPrimaryKey - <==      Total: 1
+10:38:39.389 [http-nio-8090-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@43fe3be1]
+10:38:39.389 [http-nio-8090-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+10:38:39.389 [http-nio-8090-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1514b9fc] was not registered for synchronization because synchronization is not active
+10:38:39.389 [http-nio-8090-exec-8] DEBUG o.s.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+10:38:39.389 [http-nio-8090-exec-8] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@35bc682f] will not be managed by Spring
+10:38:39.389 [http-nio-8090-exec-8] DEBUG c.m.d.U.selectByUserId - ==>  Preparing: select id, encrpt_password, user_id from user_password where user_id = ? 
+10:38:39.390 [http-nio-8090-exec-8] DEBUG c.m.d.U.selectByUserId - ==> Parameters: 8(Integer)
+10:38:39.390 [http-nio-8090-exec-8] DEBUG c.m.d.U.selectByUserId - <==      Total: 1
+10:38:39.390 [http-nio-8090-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1514b9fc]
+10:38:39.390 [http-nio-8090-exec-8] DEBUG o.s.d.r.core.RedisConnectionUtils - Opening RedisConnection
+10:38:39.391 [http-nio-8090-exec-8] DEBUG o.s.d.r.core.RedisConnectionUtils - Closing Redis Connection.
+10:38:39.391 [http-nio-8090-exec-8] DEBUG o.s.d.r.core.RedisConnectionUtils - Opening RedisConnection
+10:38:39.391 [http-nio-8090-exec-8] DEBUG o.s.d.r.core.RedisConnectionUtils - Closing Redis Connection.
+10:38:39.392 [http-nio-8090-exec-8] DEBUG o.s.d.r.core.RedisConnectionUtils - Opening RedisConnection
+10:38:39.392 [http-nio-8090-exec-8] DEBUG o.s.d.r.core.RedisConnectionUtils - Closing Redis Connection.
+10:38:39.392 [http-nio-8090-exec-8] DEBUG o.s.d.r.core.RedisConnectionUtils - Opening RedisConnection
+10:38:39.392 [http-nio-8090-exec-8] DEBUG o.s.d.r.core.RedisConnectionUtils - Closing Redis Connection.
+10:38:39.393 [http-nio-8090-exec-8] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+10:38:39.393 [http-nio-8090-exec-8] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [com.miaoshaproject.response.CommonReturnType@7eca862c]
+10:38:39.393 [http-nio-8090-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+10:38:39.393 [http-nio-8090-exec-8] DEBUG o.s.s.w.h.S.SESSION_LOGGER - No session found by id: Caching result for getSession(false) for this HttpServletRequest.
+10:38:39.395 [http-nio-8090-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - POST "/order/createorder?token=a37c7838c8cc4bebb42ba072e1f16d5d", parameters={masked}
+10:38:39.396 [http-nio-8090-exec-7] DEBUG o.s.s.w.h.S.SESSION_LOGGER - No session found by id: Caching result for getSession(false) for this HttpServletRequest.
+10:38:39.396 [http-nio-8090-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.miaoshaproject.controller.OrderController#createOrder(Integer, Integer, Integer, String)
+10:38:39.397 [http-nio-8090-exec-7] DEBUG o.s.d.r.core.RedisConnectionUtils - Opening RedisConnection
+10:38:39.397 [http-nio-8090-exec-7] DEBUG o.s.d.r.core.RedisConnectionUtils - Closing Redis Connection.
+10:38:39.398 [http-nio-8090-exec-7] DEBUG o.s.d.r.core.RedisConnectionUtils - Opening RedisConnection

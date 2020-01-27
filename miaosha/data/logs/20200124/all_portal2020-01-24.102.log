@@ -1,0 +1,4 @@
+20:48:44.113 [http-nio-8090-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - POST "/user/login", parameters={masked}
+20:48:44.117 [http-nio-8090-exec-4] DEBUG o.s.s.w.h.S.SESSION_LOGGER - No session found by id: Caching result for getSession(false) for this HttpServletRequest.
+20:48:44.118 [http-nio-8090-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.miaoshaproject.controller.UserController#login(String, String)
+20:48:44.128 [http-nio-8090-exec-4] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession

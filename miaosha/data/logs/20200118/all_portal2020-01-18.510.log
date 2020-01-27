@@ -1,0 +1,16 @@
+20:19:40.119 [http-nio-8090-exec-8] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.miaoshaproject.controller.ItemController#listItem()
+20:19:40.124 [http-nio-8090-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+20:19:40.124 [http-nio-8090-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@726cfbde] was not registered for synchronization because synchronization is not active
+20:19:40.125 [http-nio-8090-exec-8] DEBUG o.s.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+20:19:40.125 [http-nio-8090-exec-8] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@289e913f] will not be managed by Spring
+20:19:40.125 [http-nio-8090-exec-8] DEBUG c.m.dao.ItemDOMapper.listItem - ==>  Preparing: select id, title, price, description, sales, img_url from item order by sales desc 
+20:19:40.125 [http-nio-8090-exec-8] DEBUG c.m.dao.ItemDOMapper.listItem - ==> Parameters: 
+20:19:40.126 [http-nio-8090-exec-8] DEBUG c.m.dao.ItemDOMapper.listItem - <==      Total: 2
+20:19:40.127 [http-nio-8090-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@726cfbde]
+20:19:40.127 [http-nio-8090-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+20:19:40.127 [http-nio-8090-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@33dd091f] was not registered for synchronization because synchronization is not active
+20:19:40.127 [http-nio-8090-exec-8] DEBUG o.s.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+20:19:40.127 [http-nio-8090-exec-8] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@289e913f] will not be managed by Spring
+20:19:40.127 [http-nio-8090-exec-8] DEBUG c.m.d.I.selectByItemId - ==>  Preparing: select id, stock, item_id from item_stock where item_id = ? 
+20:19:40.127 [http-nio-8090-exec-8] DEBUG c.m.d.I.selectByItemId - ==> Parameters: 2(Integer)
+20:19:40.129 [http-nio-8090-exec-8] DEBUG c.m.d.I.selectByItemId - <==      Total: 1

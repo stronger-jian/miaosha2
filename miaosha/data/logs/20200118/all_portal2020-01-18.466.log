@@ -1,0 +1,8 @@
+16:24:00.001 [pool-2-thread-1] DEBUG o.s.s.d.r.RedisSessionExpirationPolicy - Cleaning up sessions expiring at Sat Jan 18 16:24:00 CST 2020
+16:24:00.009 [pool-2-thread-1] DEBUG o.s.d.r.core.RedisConnectionUtils - Opening RedisConnection
+16:24:00.011 [pool-2-thread-1] DEBUG o.s.d.r.core.RedisConnectionUtils - Closing Redis Connection.
+16:24:00.012 [pool-2-thread-1] DEBUG o.s.d.r.core.RedisConnectionUtils - Opening RedisConnection
+16:24:00.013 [pool-2-thread-1] DEBUG o.s.d.r.core.RedisConnectionUtils - Closing Redis Connection.
+16:24:00.210 [http-nio-8090-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - POST "/order/createorder?token=b93bb3f272f2494d9025a34218ca793f", parameters={masked}
+16:24:00.212 [http-nio-8090-exec-7] DEBUG o.s.s.w.h.S.SESSION_LOGGER - No session found by id: Caching result for getSession(false) for this HttpServletRequest.
+16:24:00.212 [http-nio-8090-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.miaoshaproject.controller.OrderController#createOrder(Integer, Integer, Integer)

@@ -1,0 +1,8 @@
+16:04:59.257 [http-nio-8090-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@787432db]
+16:04:59.261 [http-nio-8090-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@787432db]
+16:04:59.261 [http-nio-8090-exec-5] DEBUG o.s.j.d.DataSourceTransactionManager - Initiating transaction commit
+16:04:59.261 [http-nio-8090-exec-5] DEBUG o.s.j.d.DataSourceTransactionManager - Committing JDBC transaction on Connection [com.mysql.jdbc.JDBC4Connection@789fc5f]
+16:04:59.268 [http-nio-8090-exec-5] DEBUG o.s.j.d.DataSourceTransactionManager - Releasing JDBC Connection [com.mysql.jdbc.JDBC4Connection@789fc5f] after transaction
+16:04:59.269 [http-nio-8090-exec-5] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Using @ExceptionHandler com.miaoshaproject.controller.OrderController#handlerException(HttpServletRequest, Exception)
+16:04:59.269 [http-nio-8090-exec-5] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+16:04:59.269 [http-nio-8090-exec-5] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [com.miaoshaproject.response.CommonReturnType@251f7fc6]

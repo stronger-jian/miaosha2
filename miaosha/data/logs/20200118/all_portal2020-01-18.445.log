@@ -1,0 +1,8 @@
+16:23:40.907 [main] DEBUG i.l.c.r.DefaultEventLoopGroupProvider - Adding reference to io.netty.channel.nio.NioEventLoopGroup@56266bda, existing ref count 0
+16:23:40.921 [main] DEBUG io.lettuce.core.RedisClient - Resolved SocketAddress 127.0.0.1:6379 using RedisURI [host='127.0.0.1', port=6379]
+16:23:40.922 [main] DEBUG io.lettuce.core.RedisClient - Connecting to Redis at 127.0.0.1:6379
+16:23:40.951 [lettuce-nioEventLoop-4-1] DEBUG i.n.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@26437793
+16:23:40.972 [lettuce-nioEventLoop-4-1] DEBUG io.lettuce.core.RedisClient - Connecting to Redis at 127.0.0.1:6379: Success
+16:23:41.005 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'sessionEventHttpSessionListenerAdapter'
+16:23:41.006 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration'
+16:23:41.006 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.websocket.servlet.WebSocketServletAutoConfiguration'

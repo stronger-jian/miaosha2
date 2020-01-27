@@ -1,0 +1,5 @@
+10:38:31.015 [http-nio-8090-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - GET "/item/list", parameters={}
+10:38:31.021 [http-nio-8090-exec-1] DEBUG o.s.s.w.h.S.SESSION_LOGGER - No session found by id: Caching result for getSession(false) for this HttpServletRequest.
+10:38:31.021 [http-nio-8090-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.miaoshaproject.controller.ItemController#listItem()
+10:38:31.022 [http-nio-8090-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+10:38:31.022 [http-nio-8090-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@39e3c6a2] was not registered for synchronization because synchronization is not active

@@ -1,0 +1,4 @@
+15:18:30.744 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+15:18:30.756 [main] DEBUG o.s.web.context.ContextLoader - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+15:18:30.757 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4609 ms
+15:18:30.760 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'sessionRepositoryFilterRegistration'

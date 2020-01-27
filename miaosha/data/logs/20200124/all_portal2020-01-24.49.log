@@ -1,0 +1,16 @@
+20:45:49.378 [http-nio-8090-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.miaoshaproject.controller.ItemController#publishpromo(Integer)
+20:45:49.401 [http-nio-8090-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+20:45:49.406 [http-nio-8090-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@734d65ee] was not registered for synchronization because synchronization is not active
+20:45:49.414 [http-nio-8090-exec-1] DEBUG o.s.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+20:45:49.451 [http-nio-8090-exec-1] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+20:45:49.605 [http-nio-8090-exec-1] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@44f147d1] will not be managed by Spring
+20:45:49.608 [http-nio-8090-exec-1] DEBUG c.m.d.P.selectByPrimaryKey - ==>  Preparing: select id, promo_name, start_time, end_time, item_id, promo_item_price from promo where id = ? 
+20:45:49.622 [http-nio-8090-exec-1] DEBUG c.m.d.P.selectByPrimaryKey - ==> Parameters: 1(Integer)
+20:45:49.643 [http-nio-8090-exec-1] DEBUG c.m.d.P.selectByPrimaryKey - <==      Total: 1
+20:45:49.644 [http-nio-8090-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@734d65ee]
+20:45:49.648 [http-nio-8090-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+20:45:49.649 [http-nio-8090-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@71157d35] was not registered for synchronization because synchronization is not active
+20:45:49.649 [http-nio-8090-exec-1] DEBUG o.s.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+20:45:49.649 [http-nio-8090-exec-1] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@44f147d1] will not be managed by Spring
+20:45:49.649 [http-nio-8090-exec-1] DEBUG c.m.d.I.selectByPrimaryKey - ==>  Preparing: select id, title, price, description, sales, img_url from item where id = ? 
+20:45:49.649 [http-nio-8090-exec-1] DEBUG c.m.d.I.selectByPrimaryKey - ==> Parameters: 2(Integer)

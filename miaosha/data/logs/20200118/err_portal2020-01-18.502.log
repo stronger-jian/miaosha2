@@ -1,0 +1,4 @@
+20:19:39.060 [http-nio-8090-exec-6] DEBUG o.s.s.w.h.S.SESSION_LOGGER - No session found by id: Caching result for getSession(false) for this HttpServletRequest.
+20:19:39.065 [http-nio-8090-exec-6] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.miaoshaproject.controller.UserController#login(String, String)
+20:19:39.066 [http-nio-8090-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+20:19:39.066 [http-nio-8090-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@a3ad4a6] was not registered for synchronization because synchronization is not active

@@ -1,0 +1,2 @@
+22:35:20.953 [SpringContextShutdownHook] DEBUG o.s.d.r.l.RedisMessageListenerContainer - Stopped RedisMessageListenerContainer
+22:35:20.958 [SpringContextShutdownHook] DEBUG o.s.c.s.DefaultLifecycleProcessor - Bean 'springSessionRedisMessageListenerContainer' completed its stop procedure

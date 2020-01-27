@@ -1,0 +1,8 @@
+11:39:39.345 [pool-2-thread-1] DEBUG c.m.d.S.selectByPrimaryKey - ==>  Preparing: select stock_log_id, item_id, amount, status from stock_log where stock_log_id = ? 
+11:39:39.345 [http-nio-8090-exec-3] DEBUG c.m.d.P.selectByPrimaryKey - ==> Parameters: 1(Integer)
+11:39:39.352 [pool-2-thread-1] DEBUG c.m.d.S.selectByPrimaryKey - ==> Parameters: 11de0380998a46e29c695606308d67ea(String)
+11:39:39.353 [pool-2-thread-1] DEBUG c.m.d.S.selectByPrimaryKey - <==      Total: 1
+11:39:39.353 [http-nio-8090-exec-3] DEBUG c.m.d.P.selectByPrimaryKey - <==      Total: 1
+11:39:39.353 [pool-2-thread-1] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@62818eaa]
+11:39:39.353 [http-nio-8090-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@68052e62]
+11:39:39.354 [pool-2-thread-1] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession

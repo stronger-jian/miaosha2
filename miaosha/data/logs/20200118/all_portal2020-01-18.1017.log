@@ -1,0 +1,1 @@
+22:42:52.930 [http-nio-8090-exec-2] DEBUG o.s.j.d.DataSourceTransactionManager - Switching JDBC Connection [com.mysql.jdbc.JDBC4Connection@73495b0c] to manual commit

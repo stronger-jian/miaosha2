@@ -1,0 +1,13 @@
+20:38:00.045 [lettuce-nioEventLoop-4-1] DEBUG i.l.core.protocol.RedisStateMachine - Decoded AsyncCommand [type=SMEMBERS, output=ValueSetOutput [output=[], error='null'], commandType=io.lettuce.core.protocol.Command], empty stack: true
+20:38:00.058 [pool-2-thread-1] DEBUG o.s.d.r.core.RedisConnectionUtils - Closing Redis Connection.
+20:38:00.059 [pool-2-thread-1] DEBUG o.s.d.r.core.RedisConnectionUtils - Opening RedisConnection
+20:38:00.060 [pool-2-thread-1] DEBUG io.lettuce.core.RedisChannelHandler - dispatching command AsyncCommand [type=DEL, output=IntegerOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+20:38:00.061 [pool-2-thread-1] DEBUG i.l.core.protocol.DefaultEndpoint - [channel=0xfa7af830, /127.0.0.1:57628 -> /127.0.0.1:6379, epid=0x1] write() writeAndFlush command AsyncCommand [type=DEL, output=IntegerOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+20:38:00.061 [lettuce-nioEventLoop-4-1] DEBUG i.l.core.protocol.CommandHandler - [channel=0xfa7af830, /127.0.0.1:57628 -> /127.0.0.1:6379, chid=0x1] write(ctx, AsyncCommand [type=DEL, output=IntegerOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command], promise)
+20:38:00.061 [pool-2-thread-1] DEBUG i.l.core.protocol.DefaultEndpoint - [channel=0xfa7af830, /127.0.0.1:57628 -> /127.0.0.1:6379, epid=0x1] write() done
+20:38:00.063 [lettuce-nioEventLoop-4-1] DEBUG i.l.core.protocol.CommandEncoder - [channel=0xfa7af830, /127.0.0.1:57628 -> /127.0.0.1:6379] writing command AsyncCommand [type=DEL, output=IntegerOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+20:38:00.064 [lettuce-nioEventLoop-4-1] DEBUG i.l.core.protocol.CommandHandler - [channel=0xfa7af830, /127.0.0.1:57628 -> /127.0.0.1:6379, chid=0x1] Received: 4 bytes, 1 commands in the stack
+20:38:00.064 [lettuce-nioEventLoop-4-1] DEBUG i.l.core.protocol.CommandHandler - [channel=0xfa7af830, /127.0.0.1:57628 -> /127.0.0.1:6379, chid=0x1] Stack contains: 1 commands
+20:38:00.065 [lettuce-nioEventLoop-4-1] DEBUG i.l.core.protocol.RedisStateMachine - Decode AsyncCommand [type=DEL, output=IntegerOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+20:38:00.065 [lettuce-nioEventLoop-4-1] DEBUG i.l.core.protocol.RedisStateMachine - Decoded AsyncCommand [type=DEL, output=IntegerOutput [output=0, error='null'], commandType=io.lettuce.core.protocol.Command], empty stack: true
+20:38:00.065 [pool-2-thread-1] DEBUG o.s.d.r.core.RedisConnectionUtils - Closing Redis Connection.

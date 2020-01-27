@@ -1,0 +1,1 @@
+11:40:31.573 [http-nio-8090-exec-5] DEBUG o.s.j.d.DataSourceTransactionManager - Releasing JDBC Connection [com.mysql.jdbc.JDBC4Connection@6ac8c624] after transaction

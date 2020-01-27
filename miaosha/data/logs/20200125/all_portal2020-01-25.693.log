@@ -1,0 +1,8 @@
+11:40:31.547 [pool-2-thread-1] DEBUG c.m.d.S.selectByPrimaryKey - ==> Parameters: 3afbce8dc76342aba4bf0d84808483e2(String)
+11:40:31.547 [http-nio-8090-exec-5] DEBUG o.s.j.d.DataSourceTransactionManager - Switching JDBC Connection [com.mysql.jdbc.JDBC4Connection@6ac8c624] to manual commit
+11:40:31.551 [pool-2-thread-1] DEBUG c.m.d.S.selectByPrimaryKey - <==      Total: 1
+11:40:31.552 [pool-2-thread-1] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6001ad31]
+11:40:31.552 [pool-2-thread-1] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+11:40:31.552 [http-nio-8090-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+11:40:31.552 [pool-2-thread-1] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7450738c] was not registered for synchronization because synchronization is not active
+11:40:31.552 [pool-2-thread-1] DEBUG o.s.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource

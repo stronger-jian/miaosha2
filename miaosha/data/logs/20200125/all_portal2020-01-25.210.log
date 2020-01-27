@@ -1,0 +1,4 @@
+10:46:56.842 [http-nio-8090-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - POST "/order/generatetoken?token=a37c7838c8cc4bebb42ba072e1f16d5d", parameters={masked}
+10:46:56.842 [http-nio-8090-exec-3] DEBUG o.s.d.r.core.RedisConnectionUtils - Opening RedisConnection
+10:46:56.847 [http-nio-8090-exec-8] DEBUG o.s.s.w.h.S.SESSION_LOGGER - No session found by id: Caching result for getSession(false) for this HttpServletRequest.
+10:46:56.847 [http-nio-8090-exec-8] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.miaoshaproject.controller.OrderController#generatetoken(Integer, Integer)

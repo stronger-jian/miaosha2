@@ -1,0 +1,1 @@
+11:49:46.779 [http-nio-8090-exec-9] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7bc0aa5e]

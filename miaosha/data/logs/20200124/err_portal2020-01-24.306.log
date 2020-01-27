@@ -1,0 +1,15 @@
+21:01:43.368 [ConsumeMessageThread_1] DEBUG o.s.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+21:01:43.368 [pool-2-thread-1] DEBUG c.m.d.S.selectByPrimaryKey - ==> Parameters: 85cd843a5e9e4719b465736c11cf79bf(String)
+21:01:43.368 [ConsumeMessageThread_2] DEBUG o.s.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+21:01:43.373 [ConsumeMessageThread_1] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@324a6a12] will not be managed by Spring
+21:01:43.373 [ConsumeMessageThread_1] DEBUG c.m.d.I.deacreaseStock - ==>  Preparing: update item_stock set stock = stock-? where item_id = ? and stock>=? 
+21:01:43.374 [pool-2-thread-1] DEBUG c.m.d.S.selectByPrimaryKey - <==      Total: 1
+21:01:43.374 [ConsumeMessageThread_1] DEBUG c.m.d.I.deacreaseStock - ==> Parameters: 1(Integer), 2(Integer), 1(Integer)
+21:01:43.374 [pool-2-thread-1] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7f0e884b]
+21:01:43.374 [ConsumeMessageThread_2] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@9c5e2f5] will not be managed by Spring
+21:01:43.550 [ConsumeMessageThread_2] DEBUG c.m.d.I.deacreaseStock - ==>  Preparing: update item_stock set stock = stock-? where item_id = ? and stock>=? 
+21:01:43.551 [ConsumeMessageThread_2] DEBUG c.m.d.I.deacreaseStock - ==> Parameters: 1(Integer), 2(Integer), 1(Integer)
+21:01:43.553 [ConsumeMessageThread_1] DEBUG c.m.d.I.deacreaseStock - <==    Updates: 1
+21:01:43.553 [ConsumeMessageThread_1] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4a8a1a59]
+21:01:43.554 [ConsumeMessageThread_2] DEBUG c.m.d.I.deacreaseStock - <==    Updates: 1
+21:01:43.554 [ConsumeMessageThread_2] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5709d33d]

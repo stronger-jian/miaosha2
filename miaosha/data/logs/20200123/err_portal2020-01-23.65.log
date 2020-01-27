@@ -1,0 +1,16 @@
+15:22:46.130 [http-nio-8090-exec-8] DEBUG c.m.d.I.selectByPrimaryKey - <==      Total: 1
+15:22:46.135 [http-nio-8090-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4ad28101]
+15:22:46.136 [http-nio-8090-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4ad28101] from current transaction
+15:22:46.137 [http-nio-8090-exec-8] DEBUG c.m.d.I.selectByItemId - ==>  Preparing: select id, stock, item_id from item_stock where item_id = ? 
+15:22:46.139 [http-nio-8090-exec-8] DEBUG c.m.d.I.selectByItemId - ==> Parameters: 2(Integer)
+15:22:46.142 [http-nio-8090-exec-8] DEBUG c.m.d.I.selectByItemId - <==      Total: 1
+15:22:46.142 [http-nio-8090-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4ad28101]
+15:22:46.143 [http-nio-8090-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4ad28101] from current transaction
+15:22:46.144 [http-nio-8090-exec-8] DEBUG c.m.dao.PromoDOMapper.selectByItemId - ==>  Preparing: select id, promo_name, start_time, end_time, item_id, promo_item_price from promo where item_id = ? 
+15:22:46.145 [http-nio-8090-exec-8] DEBUG c.m.dao.PromoDOMapper.selectByItemId - ==> Parameters: 2(Integer)
+15:22:46.150 [http-nio-8090-exec-8] DEBUG c.m.dao.PromoDOMapper.selectByItemId - <==      Total: 1
+15:22:46.151 [http-nio-8090-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4ad28101]
+15:22:46.153 [http-nio-8090-exec-8] DEBUG o.s.d.r.core.RedisConnectionUtils - Opening RedisConnection
+15:22:46.154 [http-nio-8090-exec-8] DEBUG o.s.d.r.core.RedisConnectionUtils - Closing Redis Connection.
+15:22:46.155 [http-nio-8090-exec-8] DEBUG o.s.d.r.core.RedisConnectionUtils - Opening RedisConnection
+15:22:46.156 [http-nio-8090-exec-8] DEBUG o.s.d.r.core.RedisConnectionUtils - Closing Redis Connection.

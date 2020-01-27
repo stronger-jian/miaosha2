@@ -1,0 +1,1 @@
+21:01:38.524 [http-nio-8090-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@38ee94a3]

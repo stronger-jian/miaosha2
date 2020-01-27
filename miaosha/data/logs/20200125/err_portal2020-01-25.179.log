@@ -1,0 +1,6 @@
+10:42:06.492 [http-nio-8090-exec-2] DEBUG c.m.d.P.selectByPrimaryKey - ==>  Preparing: select id, promo_name, start_time, end_time, item_id, promo_item_price from promo where id = ? 
+10:42:06.500 [http-nio-8090-exec-2] DEBUG c.m.d.P.selectByPrimaryKey - ==> Parameters: 1(Integer)
+10:42:06.504 [http-nio-8090-exec-2] DEBUG c.m.d.P.selectByPrimaryKey - <==      Total: 1
+10:42:06.505 [http-nio-8090-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5b389df3]
+10:42:06.506 [http-nio-8090-exec-2] DEBUG o.s.d.r.core.RedisConnectionUtils - Opening RedisConnection
+10:42:06.509 [http-nio-8090-exec-2] DEBUG o.s.d.r.core.RedisConnectionUtils - Closing Redis Connection.

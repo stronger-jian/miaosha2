@@ -1,0 +1,5 @@
+20:46:24.603 [ConsumeMessageThread_1] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@44f147d1] will not be managed by Spring
+20:46:24.614 [ConsumeMessageThread_1] DEBUG c.m.d.I.deacreaseStock - ==>  Preparing: update item_stock set stock = stock-? where item_id = ? and stock>=? 
+20:46:24.614 [ConsumeMessageThread_1] DEBUG c.m.d.I.deacreaseStock - ==> Parameters: 1(Integer), 2(Integer), 1(Integer)
+20:46:24.618 [ConsumeMessageThread_1] DEBUG c.m.d.I.deacreaseStock - <==    Updates: 1
+20:46:24.619 [ConsumeMessageThread_1] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@a227cbc]

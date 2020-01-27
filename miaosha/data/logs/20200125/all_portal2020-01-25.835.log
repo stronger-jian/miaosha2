@@ -1,0 +1,16 @@
+11:49:28.440 [pool-2-thread-1] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+11:49:28.464 [http-nio-8090-exec-8] DEBUG c.m.d.I.selectByPrimaryKey - <==      Total: 1
+11:49:28.546 [pool-2-thread-1] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@971761d] was not registered for synchronization because synchronization is not active
+11:49:28.546 [http-nio-8090-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1ef97101]
+11:49:28.546 [http-nio-8090-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+11:49:28.546 [pool-2-thread-1] DEBUG o.s.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+11:49:28.547 [http-nio-8090-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@730a1ab5] was not registered for synchronization because synchronization is not active
+11:49:28.547 [pool-2-thread-1] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@275a148c] will not be managed by Spring
+11:49:28.547 [http-nio-8090-exec-8] DEBUG o.s.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+11:49:28.557 [http-nio-8090-exec-8] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@7c169d37] will not be managed by Spring
+11:49:28.557 [pool-2-thread-1] DEBUG c.m.d.S.selectByPrimaryKey - ==>  Preparing: select stock_log_id, item_id, amount, status from stock_log where stock_log_id = ? 
+11:49:28.557 [http-nio-8090-exec-8] DEBUG c.m.d.I.selectByItemId - ==>  Preparing: select id, stock, item_id from item_stock where item_id = ? 
+11:49:28.582 [pool-2-thread-1] DEBUG c.m.d.S.selectByPrimaryKey - ==> Parameters: 76d30f3cbe1f43f48000675fe61046ee(String)
+11:49:28.582 [http-nio-8090-exec-8] DEBUG c.m.d.I.selectByItemId - ==> Parameters: 2(Integer)
+11:49:28.619 [pool-2-thread-1] DEBUG c.m.d.S.selectByPrimaryKey - <==      Total: 1
+11:49:28.621 [http-nio-8090-exec-8] DEBUG c.m.d.I.selectByItemId - <==      Total: 1

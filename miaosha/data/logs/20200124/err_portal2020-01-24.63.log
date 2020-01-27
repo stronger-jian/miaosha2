@@ -1,0 +1,8 @@
+20:46:00.341 [http-nio-8090-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - POST "/order/createorder?token=66ecafad6739418e9521873248b08d16", parameters={masked}
+20:46:00.345 [http-nio-8090-exec-8] DEBUG o.s.s.w.h.S.SESSION_LOGGER - No session found by id: Caching result for getSession(false) for this HttpServletRequest.
+20:46:00.345 [http-nio-8090-exec-8] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.miaoshaproject.controller.OrderController#createOrder(Integer, Integer, Integer)
+20:46:00.346 [http-nio-8090-exec-8] DEBUG o.s.d.r.core.RedisConnectionUtils - Opening RedisConnection
+20:46:00.384 [http-nio-8090-exec-8] DEBUG o.s.d.r.core.RedisConnectionUtils - Closing Redis Connection.
+20:46:00.388 [http-nio-8090-exec-8] DEBUG o.s.j.d.DataSourceTransactionManager - Creating new transaction with name [com.miaoshaproject.service.Impl.ItemServiceImpl.initStockLog]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+20:46:00.388 [http-nio-8090-exec-8] DEBUG o.s.j.d.DataSourceTransactionManager - Acquired Connection [com.mysql.jdbc.JDBC4Connection@44f147d1] for JDBC transaction
+20:46:00.390 [http-nio-8090-exec-8] DEBUG o.s.j.d.DataSourceTransactionManager - Switching JDBC Connection [com.mysql.jdbc.JDBC4Connection@44f147d1] to manual commit

@@ -1,0 +1,2 @@
+11:28:38.442 [http-nio-8090-exec-7] DEBUG c.m.d.P.selectByPrimaryKey - <==      Total: 1
+11:28:38.450 [http-nio-8090-exec-7] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3257d9cf]

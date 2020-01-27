@@ -1,0 +1,32 @@
+22:26:02.799 [http-nio-8090-exec-1] DEBUG o.s.d.r.core.RedisConnectionUtils - Opening RedisConnection
+22:26:02.803 [http-nio-8090-exec-1] DEBUG o.s.d.r.core.RedisConnectionUtils - Closing Redis Connection.
+22:26:02.804 [http-nio-8090-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@12ea9880] from current transaction
+22:26:02.804 [http-nio-8090-exec-1] DEBUG c.m.d.U.selectByPrimaryKey - ==>  Preparing: select id, name, gender, age, telphone, register_mode, third_party_id from user_info where id = ? 
+22:26:02.804 [http-nio-8090-exec-1] DEBUG c.m.d.U.selectByPrimaryKey - ==> Parameters: 8(Integer)
+22:26:02.805 [http-nio-8090-exec-1] DEBUG c.m.d.U.selectByPrimaryKey - <==      Total: 1
+22:26:02.805 [http-nio-8090-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@12ea9880]
+22:26:02.805 [http-nio-8090-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@12ea9880] from current transaction
+22:26:02.805 [http-nio-8090-exec-1] DEBUG c.m.d.U.selectByUserId - ==>  Preparing: select id, encrpt_password, user_id from user_password where user_id = ? 
+22:26:02.805 [http-nio-8090-exec-1] DEBUG c.m.d.U.selectByUserId - ==> Parameters: 8(Integer)
+22:26:02.806 [http-nio-8090-exec-1] DEBUG c.m.d.U.selectByUserId - <==      Total: 1
+22:26:02.806 [http-nio-8090-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@12ea9880]
+22:26:02.806 [http-nio-8090-exec-1] DEBUG o.s.d.r.core.RedisConnectionUtils - Opening RedisConnection
+22:26:02.807 [http-nio-8090-exec-1] DEBUG o.s.d.r.core.RedisConnectionUtils - Closing Redis Connection.
+22:26:02.807 [http-nio-8090-exec-1] DEBUG o.s.d.r.core.RedisConnectionUtils - Opening RedisConnection
+22:26:02.807 [http-nio-8090-exec-1] DEBUG o.s.d.r.core.RedisConnectionUtils - Closing Redis Connection.
+22:26:02.807 [http-nio-8090-exec-1] DEBUG o.s.j.d.DataSourceTransactionManager - Participating in existing transaction
+22:26:02.808 [http-nio-8090-exec-1] DEBUG o.s.d.r.core.RedisConnectionUtils - Opening RedisConnection
+22:26:02.808 [http-nio-8090-exec-1] DEBUG o.s.d.r.core.RedisConnectionUtils - Closing Redis Connection.
+22:26:02.808 [http-nio-8090-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@12ea9880] from current transaction
+22:26:02.808 [http-nio-8090-exec-1] DEBUG c.m.d.SequenceDoMapper.selectByName - ==>  Preparing: select name, current_value, step from sequence_info where name = ? for update 
+22:26:02.809 [http-nio-8090-exec-1] DEBUG c.m.d.SequenceDoMapper.selectByName - ==> Parameters: order_info(String)
+22:26:02.810 [http-nio-8090-exec-1] DEBUG c.m.d.SequenceDoMapper.selectByName - <==      Total: 1
+22:26:02.810 [http-nio-8090-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@12ea9880]
+22:26:02.810 [http-nio-8090-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@12ea9880] from current transaction
+22:26:02.810 [http-nio-8090-exec-1] DEBUG c.m.d.S.updateByPrimaryKeySelective - ==>  Preparing: update sequence_info SET current_value = ?, step = ? where name = ? 
+22:26:02.810 [http-nio-8090-exec-1] DEBUG c.m.d.S.updateByPrimaryKeySelective - ==> Parameters: 22(Integer), 1(Integer), order_info(String)
+22:26:02.812 [http-nio-8090-exec-1] DEBUG c.m.d.S.updateByPrimaryKeySelective - <==    Updates: 1
+22:26:02.812 [http-nio-8090-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@12ea9880]
+22:26:02.812 [http-nio-8090-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@12ea9880] from current transaction
+22:26:02.812 [http-nio-8090-exec-1] DEBUG c.m.d.O.insertSelective - ==>  Preparing: insert into order_info ( id, user_id, item_id, promo_id, item_price, amount, order_price ) values ( ?, ?, ?, ?, ?, ?, ? ) 
+22:26:02.813 [http-nio-8090-exec-1] DEBUG c.m.d.O.insertSelective - ==> Parameters: 202001192100(String), 8(Integer), 2(Integer), 1(Integer), 222.00(BigDecimal), 1(Integer), 222.00(BigDecimal)

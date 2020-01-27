@@ -1,0 +1,16 @@
+12:55:28.722 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [C:\Users\Lijian\Desktop\miaosha\target\classes\com\miaoshaproject\dao\StockLogDOMapper.class]
+12:55:28.726 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [C:\Users\Lijian\Desktop\miaosha\target\classes\com\miaoshaproject\dao\UserDOMapper.class]
+12:55:28.727 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [C:\Users\Lijian\Desktop\miaosha\target\classes\com\miaoshaproject\dao\UserPasswordDOMapper.class]
+12:55:28.728 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'itemDOMapper' and 'com.miaoshaproject.dao.ItemDOMapper' mapperInterface
+12:55:28.728 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'itemDOMapper'.
+12:55:28.728 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'itemStockDOMapper' and 'com.miaoshaproject.dao.ItemStockDOMapper' mapperInterface
+12:55:28.728 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'itemStockDOMapper'.
+12:55:28.728 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'orderInfoDOMapper' and 'com.miaoshaproject.dao.OrderInfoDOMapper' mapperInterface
+12:55:28.728 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'orderInfoDOMapper'.
+12:55:28.728 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'promoDOMapper' and 'com.miaoshaproject.dao.PromoDOMapper' mapperInterface
+12:55:28.728 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'promoDOMapper'.
+12:55:28.728 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'sequenceDoMapper' and 'com.miaoshaproject.dao.SequenceDoMapper' mapperInterface
+12:55:28.728 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'sequenceDoMapper'.
+12:55:28.728 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'stockLogDOMapper' and 'com.miaoshaproject.dao.StockLogDOMapper' mapperInterface
+12:55:28.728 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'stockLogDOMapper'.
+12:55:28.728 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'userDOMapper' and 'com.miaoshaproject.dao.UserDOMapper' mapperInterface

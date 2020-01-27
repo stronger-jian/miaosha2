@@ -1,0 +1,16 @@
+11:39:17.644 [http-nio-8090-exec-2] DEBUG c.m.d.UserDOMapper.selectByTelphone - ==>  Preparing: select id, name, gender, age, telphone, register_mode, third_party_id from user_info where telphone = ? 
+11:39:17.648 [http-nio-8090-exec-2] DEBUG c.m.d.UserDOMapper.selectByTelphone - ==> Parameters: 123(String)
+11:39:17.650 [http-nio-8090-exec-2] DEBUG c.m.d.UserDOMapper.selectByTelphone - <==      Total: 1
+11:39:17.650 [http-nio-8090-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7630fbed]
+11:39:17.650 [http-nio-8090-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+11:39:17.650 [http-nio-8090-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2832932] was not registered for synchronization because synchronization is not active
+11:39:17.650 [http-nio-8090-exec-2] DEBUG o.s.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+11:39:17.650 [http-nio-8090-exec-2] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@15a72c60] will not be managed by Spring
+11:39:17.651 [http-nio-8090-exec-2] DEBUG c.m.d.U.selectByUserId - ==>  Preparing: select id, encrpt_password, user_id from user_password where user_id = ? 
+11:39:17.651 [http-nio-8090-exec-2] DEBUG c.m.d.U.selectByUserId - ==> Parameters: 8(Integer)
+11:39:17.652 [http-nio-8090-exec-2] DEBUG c.m.d.U.selectByUserId - <==      Total: 1
+11:39:17.652 [http-nio-8090-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2832932]
+11:39:17.653 [http-nio-8090-exec-2] DEBUG o.s.d.r.core.RedisConnectionUtils - Opening RedisConnection
+11:39:17.653 [http-nio-8090-exec-2] DEBUG o.s.d.r.core.RedisConnectionUtils - Closing Redis Connection.
+11:39:17.653 [http-nio-8090-exec-2] DEBUG o.s.d.r.core.RedisConnectionUtils - Opening RedisConnection
+11:39:17.654 [http-nio-8090-exec-2] DEBUG o.s.d.r.core.RedisConnectionUtils - Closing Redis Connection.

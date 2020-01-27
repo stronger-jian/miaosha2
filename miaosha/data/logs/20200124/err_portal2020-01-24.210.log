@@ -1,0 +1,8 @@
+20:55:05.977 [http-nio-8090-exec-4] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@277680ee] will not be managed by Spring
+20:55:05.981 [http-nio-8090-exec-4] DEBUG c.m.d.UserDOMapper.selectByTelphone - ==>  Preparing: select id, name, gender, age, telphone, register_mode, third_party_id from user_info where telphone = ? 
+20:55:05.981 [http-nio-8090-exec-4] DEBUG c.m.d.UserDOMapper.selectByTelphone - ==> Parameters: 123(String)
+20:55:05.983 [http-nio-8090-exec-4] DEBUG c.m.d.UserDOMapper.selectByTelphone - <==      Total: 1
+20:55:05.983 [http-nio-8090-exec-4] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@397d6843]
+20:55:05.983 [http-nio-8090-exec-4] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+20:55:05.983 [http-nio-8090-exec-4] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@143ada6b] was not registered for synchronization because synchronization is not active
+20:55:05.983 [http-nio-8090-exec-4] DEBUG o.s.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource

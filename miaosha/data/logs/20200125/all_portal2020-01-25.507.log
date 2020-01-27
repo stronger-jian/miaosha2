@@ -1,0 +1,4 @@
+11:28:38.432 [http-nio-8090-exec-7] DEBUG o.s.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+11:28:38.440 [http-nio-8090-exec-7] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@6ac8c624] will not be managed by Spring
+11:28:38.440 [http-nio-8090-exec-7] DEBUG c.m.d.P.selectByPrimaryKey - ==>  Preparing: select id, promo_name, start_time, end_time, item_id, promo_item_price from promo where id = ? 
+11:28:38.440 [http-nio-8090-exec-7] DEBUG c.m.d.P.selectByPrimaryKey - ==> Parameters: 1(Integer)

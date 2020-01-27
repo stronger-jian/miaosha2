@@ -1,0 +1,4 @@
+16:20:22.587 [http-nio-8090-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - GET "/item/list", parameters={}
+16:20:22.593 [http-nio-8090-exec-8] DEBUG o.s.s.w.h.S.SESSION_LOGGER - No session found by id: Caching result for getSession(false) for this HttpServletRequest.
+16:20:22.593 [http-nio-8090-exec-8] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.miaoshaproject.controller.ItemController#listItem()
+16:20:22.594 [http-nio-8090-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession

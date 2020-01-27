@@ -1,0 +1,32 @@
+20:59:24.277 [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\Lijian\Desktop\miaosha\target\classes\com\miaoshaproject\service\Impl\ItemServiceImpl.class]
+20:59:24.285 [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\Lijian\Desktop\miaosha\target\classes\com\miaoshaproject\service\Impl\OrderServiceImpl.class]
+20:59:24.285 [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\Lijian\Desktop\miaosha\target\classes\com\miaoshaproject\service\Impl\PromoServiceImpl.class]
+20:59:24.286 [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\Lijian\Desktop\miaosha\target\classes\com\miaoshaproject\service\Impl\UserServiceImpl.class]
+20:59:24.290 [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\Lijian\Desktop\miaosha\target\classes\com\miaoshaproject\validator\ValidatorImpl.class]
+20:59:24.554 [main] DEBUG o.s.c.e.PropertySourcesPropertyResolver - Found key 'spring.datasource.type' in PropertySource 'configurationProperties' with value of type String
+20:59:24.557 [main] DEBUG o.s.c.e.PropertySourcesPropertyResolver - Found key 'spring.datasource.type' in PropertySource 'configurationProperties' with value of type String
+20:59:24.559 [main] DEBUG o.s.c.e.PropertySourcesPropertyResolver - Found key 'spring.datasource.type' in PropertySource 'configurationProperties' with value of type String
+20:59:24.560 [main] DEBUG o.s.c.e.PropertySourcesPropertyResolver - Found key 'spring.jmx.enabled' in PropertySource 'configurationProperties' with value of type String
+20:59:24.566 [main] DEBUG o.s.c.e.PropertySourcesPropertyResolver - Found key 'spring.datasource.type' in PropertySource 'configurationProperties' with value of type String
+20:59:24.579 [main] DEBUG o.s.c.e.PropertySourcesPropertyResolver - Found key 'spring.jmx.enabled' in PropertySource 'configurationProperties' with value of type String
+20:59:24.581 [main] DEBUG o.s.c.e.PropertySourcesPropertyResolver - Found key 'spring.application.admin.enabled' in PropertySource 'configurationProperties' with value of type String
+20:59:24.731 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [C:\Users\Lijian\Desktop\miaosha\target\classes\com\miaoshaproject\dao\ItemDOMapper.class]
+20:59:24.731 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [C:\Users\Lijian\Desktop\miaosha\target\classes\com\miaoshaproject\dao\ItemStockDOMapper.class]
+20:59:24.731 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [C:\Users\Lijian\Desktop\miaosha\target\classes\com\miaoshaproject\dao\OrderInfoDOMapper.class]
+20:59:24.731 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [C:\Users\Lijian\Desktop\miaosha\target\classes\com\miaoshaproject\dao\PromoDOMapper.class]
+20:59:24.731 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [C:\Users\Lijian\Desktop\miaosha\target\classes\com\miaoshaproject\dao\SequenceDoMapper.class]
+20:59:24.731 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [C:\Users\Lijian\Desktop\miaosha\target\classes\com\miaoshaproject\dao\StockLogDOMapper.class]
+20:59:24.731 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [C:\Users\Lijian\Desktop\miaosha\target\classes\com\miaoshaproject\dao\UserDOMapper.class]
+20:59:24.732 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [C:\Users\Lijian\Desktop\miaosha\target\classes\com\miaoshaproject\dao\UserPasswordDOMapper.class]
+20:59:24.732 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'itemDOMapper' and 'com.miaoshaproject.dao.ItemDOMapper' mapperInterface
+20:59:24.732 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'itemDOMapper'.
+20:59:24.732 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'itemStockDOMapper' and 'com.miaoshaproject.dao.ItemStockDOMapper' mapperInterface
+20:59:24.733 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'itemStockDOMapper'.
+20:59:24.733 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'orderInfoDOMapper' and 'com.miaoshaproject.dao.OrderInfoDOMapper' mapperInterface
+20:59:24.733 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'orderInfoDOMapper'.
+20:59:24.733 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'promoDOMapper' and 'com.miaoshaproject.dao.PromoDOMapper' mapperInterface
+20:59:24.733 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'promoDOMapper'.
+20:59:24.733 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'sequenceDoMapper' and 'com.miaoshaproject.dao.SequenceDoMapper' mapperInterface
+20:59:24.733 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'sequenceDoMapper'.
+20:59:24.733 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'stockLogDOMapper' and 'com.miaoshaproject.dao.StockLogDOMapper' mapperInterface
+20:59:24.733 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'stockLogDOMapper'.

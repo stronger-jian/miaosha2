@@ -1,0 +1,8 @@
+15:18:26.669 [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Ignored because not a concrete top-level class: file [C:\Users\Lijian\Desktop\miaosha\target\classes\com\miaoshaproject\dao\SequenceDoMapper.class]
+15:18:26.682 [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Ignored because not a concrete top-level class: file [C:\Users\Lijian\Desktop\miaosha\target\classes\com\miaoshaproject\dao\UserDOMapper.class]
+15:18:26.690 [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Ignored because not a concrete top-level class: file [C:\Users\Lijian\Desktop\miaosha\target\classes\com\miaoshaproject\dao\UserPasswordDOMapper.class]
+15:18:26.983 [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\Lijian\Desktop\miaosha\target\classes\com\miaoshaproject\mq\MqConsumer.class]
+15:18:26.985 [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\Lijian\Desktop\miaosha\target\classes\com\miaoshaproject\mq\MqProducer.class]
+15:18:27.012 [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\Lijian\Desktop\miaosha\target\classes\com\miaoshaproject\service\Impl\CacheServiceImpl.class]
+15:18:27.025 [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\Lijian\Desktop\miaosha\target\classes\com\miaoshaproject\service\Impl\ItemServiceImpl.class]
+15:18:27.026 [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\Lijian\Desktop\miaosha\target\classes\com\miaoshaproject\service\Impl\OrderServiceImpl.class]

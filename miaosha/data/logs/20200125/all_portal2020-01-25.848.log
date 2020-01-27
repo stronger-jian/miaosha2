@@ -1,0 +1,4 @@
+11:49:43.802 [http-nio-8090-exec-9] DEBUG c.m.d.S.insertSelective - ==> Parameters: 6d852d1b3db14346bd447ee883dfb2bb(String), 2(Integer), 1(Integer), 1(Integer)
+11:49:43.809 [http-nio-8090-exec-9] DEBUG c.m.d.S.insertSelective - <==    Updates: 1
+11:49:43.809 [http-nio-8090-exec-9] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5e90523]
+11:49:43.810 [http-nio-8090-exec-9] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5e90523]

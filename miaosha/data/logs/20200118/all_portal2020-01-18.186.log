@@ -1,0 +1,4 @@
+16:06:43.382 [http-nio-8090-exec-1] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@789fc5f] will not be managed by Spring
+16:06:43.385 [http-nio-8090-exec-1] DEBUG c.m.dao.ItemDOMapper.listItem - ==>  Preparing: select id, title, price, description, sales, img_url from item order by sales desc 
+16:06:43.385 [http-nio-8090-exec-1] DEBUG c.m.dao.ItemDOMapper.listItem - ==> Parameters: 
+16:06:43.437 [http-nio-8090-exec-1] DEBUG c.m.dao.ItemDOMapper.listItem - <==      Total: 2

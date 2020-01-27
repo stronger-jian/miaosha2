@@ -1,0 +1,1 @@
+11:31:42.827 [http-nio-8090-exec-6] DEBUG o.s.d.r.core.RedisConnectionUtils - Closing Redis Connection.

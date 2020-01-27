@@ -1,0 +1,1 @@
+15:49:00.001 [pool-2-thread-1] DEBUG o.s.s.d.r.RedisSessionExpirationPolicy - Cleaning up sessions expiring at Sun Dec 29 15:49:00 CST 2019

@@ -1,0 +1,8 @@
+16:23:57.318 [http-nio-8090-exec-6] DEBUG c.m.d.UserDOMapper.selectByTelphone - <==      Total: 1
+16:23:57.321 [http-nio-8090-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@683746ee]
+16:23:57.322 [http-nio-8090-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+16:23:57.322 [http-nio-8090-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1ab18fbf] was not registered for synchronization because synchronization is not active
+16:23:57.322 [http-nio-8090-exec-6] DEBUG o.s.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+16:23:57.322 [http-nio-8090-exec-6] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@463bf978] will not be managed by Spring
+16:23:57.322 [http-nio-8090-exec-6] DEBUG c.m.d.U.selectByUserId - ==>  Preparing: select id, encrpt_password, user_id from user_password where user_id = ? 
+16:23:57.322 [http-nio-8090-exec-6] DEBUG c.m.d.U.selectByUserId - ==> Parameters: 8(Integer)

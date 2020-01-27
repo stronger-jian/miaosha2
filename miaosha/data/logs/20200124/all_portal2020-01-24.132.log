@@ -1,0 +1,8 @@
+20:51:37.094 [http-nio-8090-exec-10] DEBUG o.s.j.d.DataSourceTransactionManager - Creating new transaction with name [com.miaoshaproject.service.Impl.OrderServiceImpl.createOrder]: PROPAGATION_REQUIRES_NEW,ISOLATION_DEFAULT
+20:51:37.100 [http-nio-8090-exec-10] DEBUG o.s.j.d.DataSourceTransactionManager - Acquired Connection [com.mysql.jdbc.JDBC4Connection@433d7483] for JDBC transaction
+20:51:37.101 [http-nio-8090-exec-10] DEBUG o.s.j.d.DataSourceTransactionManager - Switching JDBC Connection [com.mysql.jdbc.JDBC4Connection@433d7483] to manual commit
+20:51:37.102 [http-nio-8090-exec-10] DEBUG o.s.d.r.core.RedisConnectionUtils - Opening RedisConnection
+20:51:37.152 [http-nio-8090-exec-10] DEBUG o.s.d.r.core.RedisConnectionUtils - Closing Redis Connection.
+20:51:37.153 [http-nio-8090-exec-10] DEBUG o.s.j.d.DataSourceTransactionManager - Initiating transaction rollback
+20:51:37.154 [http-nio-8090-exec-10] DEBUG o.s.j.d.DataSourceTransactionManager - Rolling back JDBC transaction on Connection [com.mysql.jdbc.JDBC4Connection@433d7483]
+20:51:37.155 [http-nio-8090-exec-10] DEBUG o.s.j.d.DataSourceTransactionManager - Releasing JDBC Connection [com.mysql.jdbc.JDBC4Connection@433d7483] after transaction

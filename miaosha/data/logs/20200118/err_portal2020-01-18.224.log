@@ -1,0 +1,8 @@
+16:09:57.695 [http-nio-8090-exec-3] DEBUG c.m.d.I.selectByPrimaryKey - ==> Parameters: 2(Integer)
+16:09:57.700 [http-nio-8090-exec-3] DEBUG c.m.d.I.selectByPrimaryKey - <==      Total: 1
+16:09:57.700 [http-nio-8090-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4d2455d]
+16:09:57.700 [http-nio-8090-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4d2455d] from current transaction
+16:09:57.700 [http-nio-8090-exec-3] DEBUG c.m.d.I.selectByItemId - ==>  Preparing: select id, stock, item_id from item_stock where item_id = ? 
+16:09:57.701 [http-nio-8090-exec-3] DEBUG c.m.d.I.selectByItemId - ==> Parameters: 2(Integer)
+16:09:57.701 [http-nio-8090-exec-3] DEBUG c.m.d.I.selectByItemId - <==      Total: 1
+16:09:57.701 [http-nio-8090-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4d2455d]

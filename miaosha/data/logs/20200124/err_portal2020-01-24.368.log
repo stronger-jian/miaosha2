@@ -1,0 +1,2 @@
+22:26:20.682 [http-nio-8090-exec-1] DEBUG o.s.j.d.DataSourceTransactionManager - Creating new transaction with name [com.miaoshaproject.service.Impl.ItemServiceImpl.initStockLog]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+22:26:20.687 [http-nio-8090-exec-1] DEBUG o.s.j.d.DataSourceTransactionManager - Acquired Connection [com.mysql.jdbc.JDBC4Connection@66fb1ed3] for JDBC transaction

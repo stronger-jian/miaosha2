@@ -1,0 +1,8 @@
+11:49:51.522 [http-nio-8090-exec-9] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7bc0aa5e]
+11:49:51.527 [http-nio-8090-exec-9] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7bc0aa5e] from current transaction
+11:49:51.527 [http-nio-8090-exec-9] DEBUG c.m.d.S.updateByPrimaryKeySelective - ==>  Preparing: update sequence_info SET current_value = ?, step = ? where name = ? 
+11:49:51.528 [http-nio-8090-exec-9] DEBUG c.m.d.S.updateByPrimaryKeySelective - ==> Parameters: 30(Integer), 1(Integer), order_info(String)
+11:49:51.531 [http-nio-8090-exec-9] DEBUG c.m.d.S.updateByPrimaryKeySelective - <==    Updates: 1
+11:49:51.531 [http-nio-8090-exec-9] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7bc0aa5e]
+11:49:51.535 [http-nio-8090-exec-9] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7bc0aa5e] from current transaction
+11:49:51.536 [http-nio-8090-exec-9] DEBUG c.m.d.O.insertSelective - ==>  Preparing: insert into order_info ( id, user_id, item_id, promo_id, item_price, amount, order_price ) values ( ?, ?, ?, ?, ?, ?, ? ) 

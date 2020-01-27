@@ -1,0 +1,16 @@
+16:03:52.352 [http-nio-8090-exec-4] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@64afc200]
+16:03:52.357 [http-nio-8090-exec-4] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+16:03:52.357 [http-nio-8090-exec-4] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@35e7e996] was not registered for synchronization because synchronization is not active
+16:03:52.358 [http-nio-8090-exec-4] DEBUG o.s.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+16:03:52.358 [http-nio-8090-exec-4] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@789fc5f] will not be managed by Spring
+16:03:52.358 [http-nio-8090-exec-4] DEBUG c.m.d.I.selectByItemId - ==>  Preparing: select id, stock, item_id from item_stock where item_id = ? 
+16:03:52.358 [http-nio-8090-exec-4] DEBUG c.m.d.I.selectByItemId - ==> Parameters: 1(Integer)
+16:03:52.359 [http-nio-8090-exec-4] DEBUG c.m.d.I.selectByItemId - <==      Total: 1
+16:03:52.359 [http-nio-8090-exec-4] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@35e7e996]
+16:03:52.360 [http-nio-8090-exec-4] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+16:03:52.360 [http-nio-8090-exec-4] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@50bb4872] was not registered for synchronization because synchronization is not active
+16:03:52.360 [http-nio-8090-exec-4] DEBUG o.s.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+16:03:52.360 [http-nio-8090-exec-4] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@789fc5f] will not be managed by Spring
+16:03:52.360 [http-nio-8090-exec-4] DEBUG c.m.dao.PromoDOMapper.selectByItemId - ==>  Preparing: select id, promo_name, start_time, end_time, item_id, promo_item_price from promo where item_id = ? 
+16:03:52.360 [http-nio-8090-exec-4] DEBUG c.m.dao.PromoDOMapper.selectByItemId - ==> Parameters: 1(Integer)
+16:03:52.360 [http-nio-8090-exec-4] DEBUG c.m.dao.PromoDOMapper.selectByItemId - <==      Total: 0

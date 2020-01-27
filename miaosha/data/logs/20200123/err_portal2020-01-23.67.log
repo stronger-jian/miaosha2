@@ -1,0 +1,30 @@
+15:22:46.210 [http-nio-8090-exec-8] DEBUG o.s.j.d.DataSourceTransactionManager - Participating in existing transaction
+15:22:46.223 [http-nio-8090-exec-8] DEBUG o.s.d.r.core.RedisConnectionUtils - Opening RedisConnection
+15:22:46.225 [http-nio-8090-exec-8] DEBUG o.s.d.r.core.RedisConnectionUtils - Closing Redis Connection.
+15:22:46.248 [http-nio-8090-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4ad28101] from current transaction
+15:22:46.249 [http-nio-8090-exec-8] DEBUG c.m.d.SequenceDoMapper.selectByName - ==>  Preparing: select name, current_value, step from sequence_info where name = ? for update 
+15:22:46.250 [http-nio-8090-exec-8] DEBUG c.m.d.SequenceDoMapper.selectByName - ==> Parameters: order_info(String)
+15:22:46.260 [http-nio-8090-exec-8] DEBUG c.m.d.SequenceDoMapper.selectByName - <==      Total: 1
+15:22:46.261 [http-nio-8090-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4ad28101]
+15:22:46.262 [http-nio-8090-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4ad28101] from current transaction
+15:22:46.346 [http-nio-8090-exec-8] DEBUG c.m.d.S.updateByPrimaryKeySelective - ==>  Preparing: update sequence_info SET current_value = ?, step = ? where name = ? 
+15:22:46.349 [http-nio-8090-exec-8] DEBUG c.m.d.S.updateByPrimaryKeySelective - ==> Parameters: 23(Integer), 1(Integer), order_info(String)
+15:22:46.358 [http-nio-8090-exec-8] DEBUG c.m.d.S.updateByPrimaryKeySelective - <==    Updates: 1
+15:22:46.359 [http-nio-8090-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4ad28101]
+15:22:46.387 [http-nio-8090-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4ad28101] from current transaction
+15:22:46.397 [http-nio-8090-exec-8] DEBUG c.m.d.O.insertSelective - ==>  Preparing: insert into order_info ( id, user_id, item_id, promo_id, item_price, amount, order_price ) values ( ?, ?, ?, ?, ?, ?, ? ) 
+15:22:46.407 [http-nio-8090-exec-8] DEBUG c.m.d.O.insertSelective - ==> Parameters: 202001232200(String), 8(Integer), 2(Integer), 1(Integer), 222.00(BigDecimal), 1(Integer), 222.00(BigDecimal)
+15:22:46.412 [http-nio-8090-exec-8] DEBUG c.m.d.O.insertSelective - <==    Updates: 1
+15:22:46.413 [http-nio-8090-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4ad28101]
+15:22:46.413 [http-nio-8090-exec-8] DEBUG o.s.j.d.DataSourceTransactionManager - Participating in existing transaction
+15:22:46.423 [http-nio-8090-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4ad28101] from current transaction
+15:22:46.424 [http-nio-8090-exec-8] DEBUG c.m.dao.ItemDOMapper.increaseSales - ==>  Preparing: update item set sales = sales+? where id = ? 
+15:22:46.425 [http-nio-8090-exec-8] DEBUG c.m.dao.ItemDOMapper.increaseSales - ==> Parameters: 1(Integer), 2(Integer)
+15:22:46.426 [http-nio-8090-exec-8] DEBUG c.m.dao.ItemDOMapper.increaseSales - <==    Updates: 1
+15:22:46.428 [http-nio-8090-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4ad28101]
+15:22:46.429 [http-nio-8090-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4ad28101]
+15:22:46.429 [http-nio-8090-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4ad28101]
+15:22:46.429 [http-nio-8090-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4ad28101]
+15:22:46.429 [http-nio-8090-exec-8] DEBUG o.s.j.d.DataSourceTransactionManager - Initiating transaction commit
+15:22:46.429 [http-nio-8090-exec-8] DEBUG o.s.j.d.DataSourceTransactionManager - Committing JDBC transaction on Connection [com.mysql.jdbc.JDBC4Connection@14fa1078]
+15:22:46.435 [http-nio-8090-exec-8] DEBUG o.s.j.d.DataSourceTransactionManager - Releasing JDBC Connection [com.mysql.jdbc.JDBC4Connection@14fa1078] after transaction

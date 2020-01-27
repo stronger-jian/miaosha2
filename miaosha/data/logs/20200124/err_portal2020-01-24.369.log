@@ -1,0 +1,4 @@
+22:26:20.690 [http-nio-8090-exec-1] DEBUG o.s.j.d.DataSourceTransactionManager - Switching JDBC Connection [com.mysql.jdbc.JDBC4Connection@66fb1ed3] to manual commit
+22:26:20.695 [http-nio-8090-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+22:26:20.695 [http-nio-8090-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@506aa906]
+22:26:20.716 [http-nio-8090-exec-1] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@66fb1ed3] will be managed by Spring

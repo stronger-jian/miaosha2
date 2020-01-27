@@ -1,0 +1,4 @@
+15:55:30.147 [http-nio-8090-exec-1] DEBUG o.s.w.s.m.m.a.ServletInvocableHandlerMethod - Could not resolve parameter [0] in public com.miaoshaproject.response.CommonReturnType com.miaoshaproject.controller.OrderController.createOrder(java.lang.Integer,java.lang.Integer,java.lang.Integer) throws com.miaoshaproject.error.BusinessException: Required Integer parameter 'itemId' is not present
+15:55:30.151 [http-nio-8090-exec-1] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Using @ExceptionHandler com.miaoshaproject.controller.OrderController#handlerException(HttpServletRequest, Exception)
+15:55:30.152 [http-nio-8090-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+15:55:30.152 [http-nio-8090-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [com.miaoshaproject.response.CommonReturnType@38f52f23]

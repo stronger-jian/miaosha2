@@ -1,0 +1,7 @@
+11:49:50.803 [http-nio-8090-exec-9] DEBUG o.s.j.d.DataSourceTransactionManager - Participating in existing transaction
+11:49:50.815 [http-nio-8090-exec-9] DEBUG o.s.d.r.core.RedisConnectionUtils - Opening RedisConnection
+11:49:50.817 [http-nio-8090-exec-9] DEBUG o.s.d.r.core.RedisConnectionUtils - Closing Redis Connection.
+11:49:51.518 [http-nio-8090-exec-9] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7bc0aa5e] from current transaction
+11:49:51.518 [http-nio-8090-exec-9] DEBUG c.m.d.SequenceDoMapper.selectByName - ==>  Preparing: select name, current_value, step from sequence_info where name = ? for update 
+11:49:51.519 [http-nio-8090-exec-9] DEBUG c.m.d.SequenceDoMapper.selectByName - ==> Parameters: order_info(String)
+11:49:51.522 [http-nio-8090-exec-9] DEBUG c.m.d.SequenceDoMapper.selectByName - <==      Total: 1

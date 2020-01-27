@@ -1,0 +1,10 @@
+22:26:22.585 [http-nio-8090-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+22:26:22.590 [http-nio-8090-exec-1] DEBUG o.s.s.w.h.S.SESSION_LOGGER - No session found by id: Caching result for getSession(false) for this HttpServletRequest.
+22:26:23.166 [ConsumeMessageThread_1] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+22:26:23.167 [ConsumeMessageThread_1] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2754494c] was not registered for synchronization because synchronization is not active
+22:26:23.167 [ConsumeMessageThread_1] DEBUG o.s.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+22:26:23.169 [ConsumeMessageThread_1] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@66fb1ed3] will not be managed by Spring
+22:26:23.169 [ConsumeMessageThread_1] DEBUG c.m.d.I.deacreaseStock - ==>  Preparing: update item_stock set stock = stock-? where item_id = ? and stock>=? 
+22:26:23.170 [ConsumeMessageThread_1] DEBUG c.m.d.I.deacreaseStock - ==> Parameters: 1(Integer), 2(Integer), 1(Integer)
+22:26:23.175 [ConsumeMessageThread_1] DEBUG c.m.d.I.deacreaseStock - <==    Updates: 1
+22:26:23.175 [ConsumeMessageThread_1] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2754494c]

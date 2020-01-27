@@ -1,0 +1,8 @@
+20:55:14.280 [ConsumeMessageThread_1] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+20:55:14.287 [ConsumeMessageThread_1] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@99773c9] was not registered for synchronization because synchronization is not active
+20:55:14.287 [ConsumeMessageThread_1] DEBUG o.s.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+20:55:14.287 [ConsumeMessageThread_1] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@277680ee] will not be managed by Spring
+20:55:14.287 [ConsumeMessageThread_1] DEBUG c.m.d.I.deacreaseStock - ==>  Preparing: update item_stock set stock = stock-? where item_id = ? and stock>=? 
+20:55:14.288 [ConsumeMessageThread_1] DEBUG c.m.d.I.deacreaseStock - ==> Parameters: 1(Integer), 2(Integer), 1(Integer)
+20:55:14.291 [ConsumeMessageThread_1] DEBUG c.m.d.I.deacreaseStock - <==    Updates: 1
+20:55:14.291 [ConsumeMessageThread_1] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@99773c9]

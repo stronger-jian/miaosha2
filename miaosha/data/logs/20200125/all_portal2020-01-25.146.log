@@ -1,0 +1,16 @@
+10:38:31.023 [http-nio-8090-exec-1] DEBUG o.s.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+10:38:31.029 [http-nio-8090-exec-1] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@35bc682f] will not be managed by Spring
+10:38:31.029 [http-nio-8090-exec-1] DEBUG c.m.dao.ItemDOMapper.listItem - ==>  Preparing: select id, title, price, description, sales, img_url from item order by sales desc 
+10:38:31.029 [http-nio-8090-exec-1] DEBUG c.m.dao.ItemDOMapper.listItem - ==> Parameters: 
+10:38:31.032 [http-nio-8090-exec-1] DEBUG c.m.dao.ItemDOMapper.listItem - <==      Total: 2
+10:38:31.033 [http-nio-8090-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@39e3c6a2]
+10:38:31.034 [http-nio-8090-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+10:38:31.034 [http-nio-8090-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5031656f] was not registered for synchronization because synchronization is not active
+10:38:31.034 [http-nio-8090-exec-1] DEBUG o.s.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+10:38:31.034 [http-nio-8090-exec-1] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@35bc682f] will not be managed by Spring
+10:38:31.034 [http-nio-8090-exec-1] DEBUG c.m.d.I.selectByItemId - ==>  Preparing: select id, stock, item_id from item_stock where item_id = ? 
+10:38:31.034 [http-nio-8090-exec-1] DEBUG c.m.d.I.selectByItemId - ==> Parameters: 2(Integer)
+10:38:31.035 [http-nio-8090-exec-1] DEBUG c.m.d.I.selectByItemId - <==      Total: 1
+10:38:31.035 [http-nio-8090-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5031656f]
+10:38:31.035 [http-nio-8090-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+10:38:31.035 [http-nio-8090-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@488b3592] was not registered for synchronization because synchronization is not active

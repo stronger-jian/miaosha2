@@ -1,0 +1,8 @@
+20:51:33.045 [http-nio-8090-exec-10] DEBUG o.s.j.d.DataSourceTransactionManager - Creating new transaction with name [com.miaoshaproject.service.Impl.ItemServiceImpl.initStockLog]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+20:51:33.050 [http-nio-8090-exec-10] DEBUG o.s.j.d.DataSourceTransactionManager - Acquired Connection [com.mysql.jdbc.JDBC4Connection@433d7483] for JDBC transaction
+20:51:33.050 [http-nio-8090-exec-10] DEBUG o.s.j.d.DataSourceTransactionManager - Switching JDBC Connection [com.mysql.jdbc.JDBC4Connection@433d7483] to manual commit
+20:51:33.051 [http-nio-8090-exec-10] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+20:51:33.051 [http-nio-8090-exec-10] DEBUG org.mybatis.spring.SqlSessionUtils - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5ba130f]
+20:51:33.051 [http-nio-8090-exec-10] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@433d7483] will be managed by Spring
+20:51:33.052 [http-nio-8090-exec-10] DEBUG c.m.d.S.insertSelective - ==>  Preparing: insert into stock_log ( stock_log_id, item_id, amount, status ) values ( ?, ?, ?, ? ) 
+20:51:33.052 [http-nio-8090-exec-10] DEBUG c.m.d.S.insertSelective - ==> Parameters: 0d935f520a794e01b841624cf709ccf6(String), 2(Integer), 1(Integer), 1(Integer)

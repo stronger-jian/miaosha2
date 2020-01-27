@@ -1,0 +1,8 @@
+11:44:12.310 [http-nio-8090-exec-6] DEBUG c.m.d.I.selectByPrimaryKey - <==      Total: 1
+11:44:12.317 [http-nio-8090-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@79b24f09]
+11:44:12.317 [http-nio-8090-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+11:44:12.317 [http-nio-8090-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3ba180d0] was not registered for synchronization because synchronization is not active
+11:44:12.325 [http-nio-8090-exec-6] DEBUG o.s.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+11:44:12.325 [http-nio-8090-exec-6] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@6ac8c624] will not be managed by Spring
+11:44:12.325 [http-nio-8090-exec-6] DEBUG c.m.d.I.selectByItemId - ==>  Preparing: select id, stock, item_id from item_stock where item_id = ? 
+11:44:12.326 [http-nio-8090-exec-6] DEBUG c.m.d.I.selectByItemId - ==> Parameters: 2(Integer)

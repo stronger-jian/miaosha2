@@ -1,0 +1,4 @@
+21:01:39.695 [pool-2-thread-1] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@8148667] was not registered for synchronization because synchronization is not active
+21:01:39.695 [http-nio-8090-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@38ee94a3]
+21:01:39.705 [pool-2-thread-1] DEBUG o.s.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+21:01:39.705 [http-nio-8090-exec-8] DEBUG o.s.j.d.DataSourceTransactionManager - Initiating transaction commit

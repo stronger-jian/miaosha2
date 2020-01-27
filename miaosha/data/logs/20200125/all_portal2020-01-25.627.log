@@ -1,0 +1,2 @@
+11:37:32.668 [http-nio-8090-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@227a3e7e] was not registered for synchronization because synchronization is not active
+11:37:32.674 [http-nio-8090-exec-1] DEBUG o.s.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource

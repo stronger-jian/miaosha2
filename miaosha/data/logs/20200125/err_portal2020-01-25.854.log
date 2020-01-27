@@ -1,0 +1,8 @@
+11:49:46.763 [http-nio-8090-exec-9] DEBUG c.m.d.I.selectByItemId - ==>  Preparing: select id, stock, item_id from item_stock where item_id = ? 
+11:49:46.769 [http-nio-8090-exec-9] DEBUG c.m.d.I.selectByItemId - ==> Parameters: 2(Integer)
+11:49:46.771 [http-nio-8090-exec-9] DEBUG c.m.d.I.selectByItemId - <==      Total: 1
+11:49:46.772 [http-nio-8090-exec-9] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7bc0aa5e]
+11:49:46.773 [http-nio-8090-exec-9] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7bc0aa5e] from current transaction
+11:49:46.775 [http-nio-8090-exec-9] DEBUG c.m.dao.PromoDOMapper.selectByItemId - ==>  Preparing: select id, promo_name, start_time, end_time, item_id, promo_item_price from promo where item_id = ? 
+11:49:46.775 [http-nio-8090-exec-9] DEBUG c.m.dao.PromoDOMapper.selectByItemId - ==> Parameters: 2(Integer)
+11:49:46.779 [http-nio-8090-exec-9] DEBUG c.m.dao.PromoDOMapper.selectByItemId - <==      Total: 1

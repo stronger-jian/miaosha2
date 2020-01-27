@@ -1,0 +1,8 @@
+22:09:23.071 [http-nio-8090-exec-9] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.miaoshaproject.controller.ItemController#listItem()
+22:09:23.076 [http-nio-8090-exec-9] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+22:09:23.076 [http-nio-8090-exec-9] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3addd4f7] was not registered for synchronization because synchronization is not active
+22:09:23.076 [http-nio-8090-exec-9] DEBUG o.s.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+22:09:23.077 [http-nio-8090-exec-9] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@5af47924] will not be managed by Spring
+22:09:23.077 [http-nio-8090-exec-9] DEBUG c.m.dao.ItemDOMapper.listItem - ==>  Preparing: select id, title, price, description, sales, img_url from item order by sales desc 
+22:09:23.077 [http-nio-8090-exec-9] DEBUG c.m.dao.ItemDOMapper.listItem - ==> Parameters: 
+22:09:23.082 [http-nio-8090-exec-9] DEBUG c.m.dao.ItemDOMapper.listItem - <==      Total: 2

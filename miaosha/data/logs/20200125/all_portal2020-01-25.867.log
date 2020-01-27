@@ -1,0 +1,2 @@
+11:50:25.957 [pool-2-thread-1] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7466011f] was not registered for synchronization because synchronization is not active
+11:50:25.972 [pool-2-thread-1] DEBUG o.s.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource

@@ -1,0 +1,2 @@
+22:43:54.970 [http-nio-8090-exec-3] DEBUG o.s.j.d.DataSourceTransactionManager - Rolling back JDBC transaction on Connection [com.mysql.jdbc.JDBC4Connection@73495b0c]
+22:43:54.974 [http-nio-8090-exec-3] DEBUG o.s.j.d.DataSourceTransactionManager - Releasing JDBC Connection [com.mysql.jdbc.JDBC4Connection@73495b0c] after transaction

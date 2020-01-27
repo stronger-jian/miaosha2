@@ -1,0 +1,16 @@
+22:09:25.202 [http-nio-8090-exec-2] DEBUG c.m.d.I.selectByItemId - <==      Total: 1
+22:09:25.209 [http-nio-8090-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1064b41]
+22:09:25.209 [http-nio-8090-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1064b41] from current transaction
+22:09:25.209 [http-nio-8090-exec-2] DEBUG c.m.dao.PromoDOMapper.selectByItemId - ==>  Preparing: select id, promo_name, start_time, end_time, item_id, promo_item_price from promo where item_id = ? 
+22:09:25.211 [http-nio-8090-exec-2] DEBUG c.m.dao.PromoDOMapper.selectByItemId - ==> Parameters: 2(Integer)
+22:09:25.212 [http-nio-8090-exec-2] DEBUG c.m.dao.PromoDOMapper.selectByItemId - <==      Total: 1
+22:09:25.213 [http-nio-8090-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1064b41]
+22:09:25.213 [http-nio-8090-exec-2] DEBUG o.s.d.r.core.RedisConnectionUtils - Opening RedisConnection
+22:09:25.215 [http-nio-8090-exec-2] DEBUG o.s.d.r.core.RedisConnectionUtils - Closing Redis Connection.
+22:09:25.215 [http-nio-8090-exec-2] DEBUG o.s.d.r.core.RedisConnectionUtils - Opening RedisConnection
+22:09:25.217 [http-nio-8090-exec-2] DEBUG o.s.d.r.core.RedisConnectionUtils - Closing Redis Connection.
+22:09:25.218 [http-nio-8090-exec-2] DEBUG o.s.d.r.core.RedisConnectionUtils - Opening RedisConnection
+22:09:25.219 [http-nio-8090-exec-2] DEBUG o.s.d.r.core.RedisConnectionUtils - Closing Redis Connection.
+22:09:25.219 [http-nio-8090-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1064b41] from current transaction
+22:09:25.220 [http-nio-8090-exec-2] DEBUG c.m.d.U.selectByPrimaryKey - ==>  Preparing: select id, name, gender, age, telphone, register_mode, third_party_id from user_info where id = ? 
+22:09:25.221 [http-nio-8090-exec-2] DEBUG c.m.d.U.selectByPrimaryKey - ==> Parameters: 8(Integer)

@@ -1,0 +1,5 @@
+22:35:49.525 [ConsumeMessageThread_1] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+22:35:49.525 [ConsumeMessageThread_2] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+22:35:49.546 [ConsumeMessageThread_2] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@64e54ff1] was not registered for synchronization because synchronization is not active
+22:35:49.546 [ConsumeMessageThread_1] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@291aae23] was not registered for synchronization because synchronization is not active
+22:35:49.556 [ConsumeMessageThread_2] DEBUG o.s.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource

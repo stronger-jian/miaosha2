@@ -1,0 +1,5 @@
+16:16:42.103 [http-nio-8090-exec-9] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@36bc3369] will not be managed by Spring
+16:16:42.108 [http-nio-8090-exec-9] DEBUG c.m.d.P.selectByPrimaryKey - ==>  Preparing: select id, promo_name, start_time, end_time, item_id, promo_item_price from promo where id = ? 
+16:16:42.110 [http-nio-8090-exec-9] DEBUG c.m.d.P.selectByPrimaryKey - ==> Parameters: 1(Integer)
+16:16:42.113 [http-nio-8090-exec-9] DEBUG c.m.d.P.selectByPrimaryKey - <==      Total: 1
+16:16:42.114 [http-nio-8090-exec-9] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3f82ed6b]

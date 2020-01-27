@@ -1,0 +1,16 @@
+16:24:00.270 [http-nio-8090-exec-7] DEBUG org.mybatis.spring.SqlSessionUtils - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4fc4f116]
+16:24:00.279 [http-nio-8090-exec-7] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@463bf978] will be managed by Spring
+16:24:00.279 [http-nio-8090-exec-7] DEBUG c.m.d.I.selectByPrimaryKey - ==>  Preparing: select id, title, price, description, sales, img_url from item where id = ? 
+16:24:00.279 [http-nio-8090-exec-7] DEBUG c.m.d.I.selectByPrimaryKey - ==> Parameters: 2(Integer)
+16:24:00.281 [http-nio-8090-exec-7] DEBUG c.m.d.I.selectByPrimaryKey - <==      Total: 1
+16:24:00.281 [http-nio-8090-exec-7] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4fc4f116]
+16:24:00.281 [http-nio-8090-exec-7] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4fc4f116] from current transaction
+16:24:00.281 [http-nio-8090-exec-7] DEBUG c.m.d.I.selectByItemId - ==>  Preparing: select id, stock, item_id from item_stock where item_id = ? 
+16:24:00.281 [http-nio-8090-exec-7] DEBUG c.m.d.I.selectByItemId - ==> Parameters: 2(Integer)
+16:24:00.282 [http-nio-8090-exec-7] DEBUG c.m.d.I.selectByItemId - <==      Total: 1
+16:24:00.282 [http-nio-8090-exec-7] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4fc4f116]
+16:24:00.282 [http-nio-8090-exec-7] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4fc4f116] from current transaction
+16:24:00.282 [http-nio-8090-exec-7] DEBUG c.m.dao.PromoDOMapper.selectByItemId - ==>  Preparing: select id, promo_name, start_time, end_time, item_id, promo_item_price from promo where item_id = ? 
+16:24:00.283 [http-nio-8090-exec-7] DEBUG c.m.dao.PromoDOMapper.selectByItemId - ==> Parameters: 2(Integer)
+16:24:00.284 [http-nio-8090-exec-7] DEBUG c.m.dao.PromoDOMapper.selectByItemId - <==      Total: 1
+16:24:00.284 [http-nio-8090-exec-7] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4fc4f116]

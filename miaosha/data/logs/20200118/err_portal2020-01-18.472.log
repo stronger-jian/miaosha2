@@ -1,0 +1,2 @@
+20:12:25.230 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[47.111.138.255:9876] result: true
+20:12:25.239 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[47.111.138.255:9876] result: true

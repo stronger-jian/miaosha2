@@ -1,0 +1,1 @@
+10:31:39.653 [SpringContextShutdownHook] DEBUG o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@736caf7a, started on Sat Jan 25 10:29:16 CST 2020

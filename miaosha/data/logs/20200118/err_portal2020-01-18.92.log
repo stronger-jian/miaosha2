@@ -1,0 +1,15 @@
+15:57:30.634 [http-nio-8090-exec-2] DEBUG o.s.d.r.core.RedisConnectionUtils - Closing Redis Connection.
+15:57:30.640 [http-nio-8090-exec-2] DEBUG o.s.j.d.DataSourceTransactionManager - Creating new transaction with name [com.miaoshaproject.service.Impl.OrderServiceImpl.createOrder]: PROPAGATION_REQUIRES_NEW,ISOLATION_DEFAULT
+15:57:30.640 [http-nio-8090-exec-2] DEBUG o.s.j.d.DataSourceTransactionManager - Acquired Connection [com.mysql.jdbc.JDBC4Connection@789fc5f] for JDBC transaction
+15:57:30.640 [http-nio-8090-exec-2] DEBUG o.s.j.d.DataSourceTransactionManager - Switching JDBC Connection [com.mysql.jdbc.JDBC4Connection@789fc5f] to manual commit
+15:57:30.641 [http-nio-8090-exec-2] DEBUG o.s.d.r.core.RedisConnectionUtils - Opening RedisConnection
+15:57:30.643 [http-nio-8090-exec-2] DEBUG o.s.d.r.core.RedisConnectionUtils - Closing Redis Connection.
+15:57:30.643 [http-nio-8090-exec-2] DEBUG o.s.j.d.DataSourceTransactionManager - Initiating transaction rollback
+15:57:30.643 [http-nio-8090-exec-2] DEBUG o.s.j.d.DataSourceTransactionManager - Rolling back JDBC transaction on Connection [com.mysql.jdbc.JDBC4Connection@789fc5f]
+15:57:30.643 [http-nio-8090-exec-2] DEBUG o.s.j.d.DataSourceTransactionManager - Releasing JDBC Connection [com.mysql.jdbc.JDBC4Connection@789fc5f] after transaction
+15:57:30.644 [http-nio-8090-exec-2] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Using @ExceptionHandler com.miaoshaproject.controller.OrderController#handlerException(HttpServletRequest, Exception)
+15:57:30.644 [http-nio-8090-exec-2] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+15:57:30.644 [http-nio-8090-exec-2] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [com.miaoshaproject.response.CommonReturnType@1e3621de]
+15:57:30.645 [http-nio-8090-exec-2] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.data.redis.serializer.SerializationException: Could not read JSON: Invalid format: "2019-12-07 13:14:27" is malformed at " 13:14:27" (through reference chain: com.miaoshaproject.service.model.ItemModel["promoModel"]->com.miaoshaproject.service.model.PromoModel["startTime"]); nested exception is com.fasterxml.jackson.databind.JsonMappingException: Invalid format: "2019-12-07 13:14:27" is malformed at " 13:14:27" (through reference chain: com.miaoshaproject.service.model.ItemModel["promoModel"]->com.miaoshaproject.service.model.PromoModel["startTime"])]
+15:57:30.645 [http-nio-8090-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+15:57:30.645 [http-nio-8090-exec-2] DEBUG o.s.s.w.h.S.SESSION_LOGGER - No session found by id: Caching result for getSession(false) for this HttpServletRequest.

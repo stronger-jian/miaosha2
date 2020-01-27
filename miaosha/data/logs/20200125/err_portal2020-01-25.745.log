@@ -1,0 +1,16 @@
+11:44:07.912 [http-nio-8090-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+11:44:07.916 [http-nio-8090-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@205887b5] was not registered for synchronization because synchronization is not active
+11:44:07.916 [http-nio-8090-exec-3] DEBUG o.s.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+11:44:07.916 [http-nio-8090-exec-3] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@6ac8c624] will not be managed by Spring
+11:44:07.917 [http-nio-8090-exec-3] DEBUG c.m.dao.ItemDOMapper.listItem - ==>  Preparing: select id, title, price, description, sales, img_url from item order by sales desc 
+11:44:07.917 [http-nio-8090-exec-3] DEBUG c.m.dao.ItemDOMapper.listItem - ==> Parameters: 
+11:44:07.918 [http-nio-8090-exec-3] DEBUG c.m.dao.ItemDOMapper.listItem - <==      Total: 2
+11:44:07.919 [http-nio-8090-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@205887b5]
+11:44:07.919 [http-nio-8090-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+11:44:07.919 [http-nio-8090-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@15a7e4cd] was not registered for synchronization because synchronization is not active
+11:44:07.919 [http-nio-8090-exec-3] DEBUG o.s.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+11:44:07.919 [http-nio-8090-exec-3] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@6ac8c624] will not be managed by Spring
+11:44:07.919 [http-nio-8090-exec-3] DEBUG c.m.d.I.selectByItemId - ==>  Preparing: select id, stock, item_id from item_stock where item_id = ? 
+11:44:07.920 [http-nio-8090-exec-3] DEBUG c.m.d.I.selectByItemId - ==> Parameters: 2(Integer)
+11:44:07.920 [http-nio-8090-exec-3] DEBUG c.m.d.I.selectByItemId - <==      Total: 1
+11:44:07.920 [http-nio-8090-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@15a7e4cd]

@@ -1,0 +1,4 @@
+21:01:39.705 [pool-2-thread-1] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@9c5e2f5] will not be managed by Spring
+21:01:39.705 [http-nio-8090-exec-8] DEBUG o.s.j.d.DataSourceTransactionManager - Committing JDBC transaction on Connection [com.mysql.jdbc.JDBC4Connection@324a6a12]
+21:01:39.709 [pool-2-thread-1] DEBUG c.m.d.S.selectByPrimaryKey - ==>  Preparing: select stock_log_id, item_id, amount, status from stock_log where stock_log_id = ? 
+21:01:39.710 [pool-2-thread-1] DEBUG c.m.d.S.selectByPrimaryKey - ==> Parameters: cded45119a774ee1af8c358f9ce33d24(String)

@@ -1,0 +1,12 @@
+16:18:37.668 [http-nio-8090-exec-4] DEBUG o.s.j.d.DataSourceTransactionManager - Switching JDBC Connection [com.mysql.jdbc.JDBC4Connection@36bc3369] to manual commit
+16:18:37.671 [http-nio-8090-exec-4] DEBUG o.s.d.r.core.RedisConnectionUtils - Opening RedisConnection
+16:18:37.672 [http-nio-8090-exec-4] DEBUG o.s.d.r.core.RedisConnectionUtils - Closing Redis Connection.
+16:18:37.672 [http-nio-8090-exec-4] DEBUG o.s.j.d.DataSourceTransactionManager - Initiating transaction rollback
+16:18:37.672 [http-nio-8090-exec-4] DEBUG o.s.j.d.DataSourceTransactionManager - Rolling back JDBC transaction on Connection [com.mysql.jdbc.JDBC4Connection@36bc3369]
+16:18:37.673 [http-nio-8090-exec-4] DEBUG o.s.j.d.DataSourceTransactionManager - Releasing JDBC Connection [com.mysql.jdbc.JDBC4Connection@36bc3369] after transaction
+16:18:37.673 [http-nio-8090-exec-4] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Using @ExceptionHandler com.miaoshaproject.controller.OrderController#handlerException(HttpServletRequest, Exception)
+16:18:37.673 [http-nio-8090-exec-4] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+16:18:37.673 [http-nio-8090-exec-4] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [com.miaoshaproject.response.CommonReturnType@51f220c2]
+16:18:37.673 [http-nio-8090-exec-4] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.data.redis.serializer.SerializationException: Could not read JSON: Invalid format: "2019-12-07 13:14:27" is malformed at " 13:14:27" (through reference chain: com.miaoshaproject.service.model.ItemModel["promoModel"]->com.miaoshaproject.service.model.PromoModel["startTime"]); nested exception is com.fasterxml.jackson.databind.JsonMappingException: Invalid format: "2019-12-07 13:14:27" is malformed at " 13:14:27" (through reference chain: com.miaoshaproject.service.model.ItemModel["promoModel"]->com.miaoshaproject.service.model.PromoModel["startTime"])]
+16:18:37.674 [http-nio-8090-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+16:18:37.674 [http-nio-8090-exec-4] DEBUG o.s.s.w.h.S.SESSION_LOGGER - No session found by id: Caching result for getSession(false) for this HttpServletRequest.

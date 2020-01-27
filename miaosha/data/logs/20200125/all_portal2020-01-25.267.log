@@ -1,0 +1,2 @@
+10:51:25.773 [pool-2-thread-1] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+10:51:25.790 [pool-2-thread-1] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@20e05ec5] was not registered for synchronization because synchronization is not active

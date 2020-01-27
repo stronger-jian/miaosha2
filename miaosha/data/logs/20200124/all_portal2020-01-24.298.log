@@ -1,0 +1,29 @@
+21:01:17.001 [http-nio-8090-exec-9] DEBUG o.s.j.d.DataSourceTransactionManager - Acquired Connection [com.mysql.jdbc.JDBC4Connection@9c5e2f5] for JDBC transaction
+21:01:17.004 [http-nio-8090-exec-9] DEBUG o.s.j.d.DataSourceTransactionManager - Switching JDBC Connection [com.mysql.jdbc.JDBC4Connection@9c5e2f5] to manual commit
+21:01:17.005 [http-nio-8090-exec-9] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+21:01:17.005 [http-nio-8090-exec-9] DEBUG org.mybatis.spring.SqlSessionUtils - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@38fe2a]
+21:01:17.006 [http-nio-8090-exec-9] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@9c5e2f5] will be managed by Spring
+21:01:17.006 [http-nio-8090-exec-9] DEBUG c.m.d.S.insertSelective - ==>  Preparing: insert into stock_log ( stock_log_id, item_id, amount, status ) values ( ?, ?, ?, ? ) 
+21:01:17.006 [http-nio-8090-exec-9] DEBUG c.m.d.S.insertSelective - ==> Parameters: 85cd843a5e9e4719b465736c11cf79bf(String), 2(Integer), 1(Integer), 1(Integer)
+21:01:17.007 [http-nio-8090-exec-9] DEBUG c.m.d.S.insertSelective - <==    Updates: 1
+21:01:17.007 [http-nio-8090-exec-9] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@38fe2a]
+21:01:17.007 [http-nio-8090-exec-9] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@38fe2a]
+21:01:17.007 [http-nio-8090-exec-9] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@38fe2a]
+21:01:17.007 [http-nio-8090-exec-9] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@38fe2a]
+21:01:17.007 [http-nio-8090-exec-9] DEBUG o.s.j.d.DataSourceTransactionManager - Initiating transaction commit
+21:01:17.007 [http-nio-8090-exec-9] DEBUG o.s.j.d.DataSourceTransactionManager - Committing JDBC transaction on Connection [com.mysql.jdbc.JDBC4Connection@9c5e2f5]
+21:01:17.009 [http-nio-8090-exec-9] DEBUG o.s.j.d.DataSourceTransactionManager - Releasing JDBC Connection [com.mysql.jdbc.JDBC4Connection@9c5e2f5] after transaction
+21:01:17.010 [http-nio-8090-exec-9] DEBUG o.s.j.d.DataSourceTransactionManager - Creating new transaction with name [com.miaoshaproject.service.Impl.OrderServiceImpl.createOrder]: PROPAGATION_REQUIRES_NEW,ISOLATION_DEFAULT
+21:01:17.010 [http-nio-8090-exec-9] DEBUG o.s.j.d.DataSourceTransactionManager - Acquired Connection [com.mysql.jdbc.JDBC4Connection@9c5e2f5] for JDBC transaction
+21:01:17.010 [http-nio-8090-exec-9] DEBUG o.s.j.d.DataSourceTransactionManager - Switching JDBC Connection [com.mysql.jdbc.JDBC4Connection@9c5e2f5] to manual commit
+21:01:17.010 [http-nio-8090-exec-9] DEBUG o.s.d.r.core.RedisConnectionUtils - Opening RedisConnection
+21:01:17.023 [http-nio-8090-exec-9] DEBUG o.s.d.r.core.RedisConnectionUtils - Closing Redis Connection.
+21:01:17.023 [http-nio-8090-exec-9] DEBUG o.s.j.d.DataSourceTransactionManager - Initiating transaction rollback
+21:01:17.023 [http-nio-8090-exec-9] DEBUG o.s.j.d.DataSourceTransactionManager - Rolling back JDBC transaction on Connection [com.mysql.jdbc.JDBC4Connection@9c5e2f5]
+21:01:17.023 [http-nio-8090-exec-9] DEBUG o.s.j.d.DataSourceTransactionManager - Releasing JDBC Connection [com.mysql.jdbc.JDBC4Connection@9c5e2f5] after transaction
+21:01:17.025 [http-nio-8090-exec-9] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Using @ExceptionHandler com.miaoshaproject.controller.OrderController#handlerException(HttpServletRequest, Exception)
+21:01:17.025 [http-nio-8090-exec-9] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+21:01:17.026 [http-nio-8090-exec-9] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [com.miaoshaproject.response.CommonReturnType@2080a405]
+21:01:17.026 [http-nio-8090-exec-9] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [com.miaoshaproject.error.BusinessException]
+21:01:17.026 [http-nio-8090-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+21:01:17.026 [http-nio-8090-exec-9] DEBUG o.s.s.w.h.S.SESSION_LOGGER - No session found by id: Caching result for getSession(false) for this HttpServletRequest.

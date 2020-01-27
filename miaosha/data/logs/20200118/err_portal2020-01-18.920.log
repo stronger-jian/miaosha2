@@ -1,0 +1,7 @@
+22:34:35.871 [http-nio-8090-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@12f12f80] from current transaction
+22:34:35.889 [http-nio-8090-exec-5] DEBUG c.m.d.SequenceDoMapper.selectByName - ==>  Preparing: select name, current_value, step from sequence_info where name = ? for update 
+22:34:35.890 [http-nio-8090-exec-5] DEBUG c.m.d.SequenceDoMapper.selectByName - ==> Parameters: order_info(String)
+22:34:35.892 [http-nio-8090-exec-5] DEBUG c.m.d.SequenceDoMapper.selectByName - <==      Total: 1
+22:34:35.892 [http-nio-8090-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@12f12f80]
+22:34:35.901 [http-nio-8090-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@12f12f80] from current transaction
+22:34:35.903 [http-nio-8090-exec-5] DEBUG c.m.d.S.updateByPrimaryKeySelective - ==>  Preparing: update sequence_info SET current_value = ?, step = ? where name = ? 

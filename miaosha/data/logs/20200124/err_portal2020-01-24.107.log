@@ -1,0 +1,8 @@
+20:48:45.242 [http-nio-8090-exec-5] DEBUG o.s.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+20:48:45.248 [http-nio-8090-exec-5] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@433d7483] will not be managed by Spring
+20:48:45.249 [http-nio-8090-exec-5] DEBUG c.m.dao.ItemDOMapper.listItem - ==>  Preparing: select id, title, price, description, sales, img_url from item order by sales desc 
+20:48:45.249 [http-nio-8090-exec-5] DEBUG c.m.dao.ItemDOMapper.listItem - ==> Parameters: 
+20:48:45.250 [http-nio-8090-exec-5] DEBUG c.m.dao.ItemDOMapper.listItem - <==      Total: 2
+20:48:45.251 [http-nio-8090-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6a3d0e44]
+20:48:45.251 [http-nio-8090-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+20:48:45.252 [http-nio-8090-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@71323ab2] was not registered for synchronization because synchronization is not active

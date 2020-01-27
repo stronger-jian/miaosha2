@@ -1,0 +1,16 @@
+20:48:50.074 [http-nio-8090-exec-7] DEBUG o.s.d.r.core.RedisConnectionUtils - Closing Redis Connection.
+20:48:50.080 [http-nio-8090-exec-7] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+20:48:50.080 [http-nio-8090-exec-7] DEBUG org.mybatis.spring.SqlSessionUtils - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4e7e5445]
+20:48:50.081 [http-nio-8090-exec-7] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@433d7483] will be managed by Spring
+20:48:50.082 [http-nio-8090-exec-7] DEBUG c.m.d.I.selectByPrimaryKey - ==>  Preparing: select id, title, price, description, sales, img_url from item where id = ? 
+20:48:50.083 [http-nio-8090-exec-7] DEBUG c.m.d.I.selectByPrimaryKey - ==> Parameters: 2(Integer)
+20:48:50.086 [http-nio-8090-exec-7] DEBUG c.m.d.I.selectByPrimaryKey - <==      Total: 1
+20:48:50.087 [http-nio-8090-exec-7] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4e7e5445]
+20:48:50.088 [http-nio-8090-exec-7] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4e7e5445] from current transaction
+20:48:50.089 [http-nio-8090-exec-7] DEBUG c.m.d.I.selectByItemId - ==>  Preparing: select id, stock, item_id from item_stock where item_id = ? 
+20:48:50.090 [http-nio-8090-exec-7] DEBUG c.m.d.I.selectByItemId - ==> Parameters: 2(Integer)
+20:48:50.092 [http-nio-8090-exec-7] DEBUG c.m.d.I.selectByItemId - <==      Total: 1
+20:48:50.093 [http-nio-8090-exec-7] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4e7e5445]
+20:48:50.094 [http-nio-8090-exec-7] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4e7e5445] from current transaction
+20:48:50.097 [http-nio-8090-exec-7] DEBUG c.m.dao.PromoDOMapper.selectByItemId - ==>  Preparing: select id, promo_name, start_time, end_time, item_id, promo_item_price from promo where item_id = ? 
+20:48:50.109 [http-nio-8090-exec-7] DEBUG c.m.dao.PromoDOMapper.selectByItemId - ==> Parameters: 2(Integer)

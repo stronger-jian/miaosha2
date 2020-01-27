@@ -1,0 +1,16 @@
+15:22:28.940 [http-nio-8090-exec-7] DEBUG o.s.d.r.core.RedisConnectionUtils - Closing Redis Connection.
+15:22:28.944 [http-nio-8090-exec-7] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+15:22:28.944 [http-nio-8090-exec-7] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7b4ada8b] was not registered for synchronization because synchronization is not active
+15:22:28.944 [http-nio-8090-exec-7] DEBUG o.s.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+15:22:28.944 [http-nio-8090-exec-7] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@14fa1078] will not be managed by Spring
+15:22:28.945 [http-nio-8090-exec-7] DEBUG c.m.d.I.selectByPrimaryKey - ==>  Preparing: select id, title, price, description, sales, img_url from item where id = ? 
+15:22:28.946 [http-nio-8090-exec-7] DEBUG c.m.d.I.selectByPrimaryKey - ==> Parameters: 2(Integer)
+15:22:28.949 [http-nio-8090-exec-7] DEBUG c.m.d.I.selectByPrimaryKey - <==      Total: 1
+15:22:28.950 [http-nio-8090-exec-7] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7b4ada8b]
+15:22:28.950 [http-nio-8090-exec-7] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+15:22:28.950 [http-nio-8090-exec-7] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6845951c] was not registered for synchronization because synchronization is not active
+15:22:28.950 [http-nio-8090-exec-7] DEBUG o.s.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+15:22:28.950 [http-nio-8090-exec-7] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@14fa1078] will not be managed by Spring
+15:22:28.950 [http-nio-8090-exec-7] DEBUG c.m.d.I.selectByItemId - ==>  Preparing: select id, stock, item_id from item_stock where item_id = ? 
+15:22:28.950 [http-nio-8090-exec-7] DEBUG c.m.d.I.selectByItemId - ==> Parameters: 2(Integer)
+15:22:28.951 [http-nio-8090-exec-7] DEBUG c.m.d.I.selectByItemId - <==      Total: 1

@@ -1,0 +1,2 @@
+11:20:54.457 [pool-2-thread-1] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+11:20:54.453 [http-nio-8090-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - POST "/order/generatetoken?token=a06add4111264e1084637a996cc47fc5", parameters={masked}

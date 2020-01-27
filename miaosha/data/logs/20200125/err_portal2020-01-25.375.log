@@ -1,0 +1,4 @@
+11:18:57.421 [http-nio-8090-exec-9] DEBUG c.m.d.I.selectByPrimaryKey - ==>  Preparing: select id, title, price, description, sales, img_url from item where id = ? 
+11:18:57.425 [http-nio-8090-exec-9] DEBUG c.m.d.I.selectByPrimaryKey - ==> Parameters: 2(Integer)
+11:18:57.426 [http-nio-8090-exec-9] DEBUG c.m.d.I.selectByPrimaryKey - <==      Total: 1
+11:18:57.426 [http-nio-8090-exec-9] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@742ca7b2]

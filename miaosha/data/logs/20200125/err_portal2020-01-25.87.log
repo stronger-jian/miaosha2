@@ -1,0 +1,1 @@
+10:29:22.511 [RMI TCP Connection(3)-192.168.1.3] DEBUG o.s.c.e.PropertySourcesPropertyResolver - Found key 'local.server.port' in PropertySource 'server.ports' with value of type Integer
